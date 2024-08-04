@@ -1,0 +1,205 @@
+{
+  "bug_prediction_metrics": [
+    {
+      "name": "Halstead complexity",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "McCabe complexity",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "ACTION",
+      "category": "requirement metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "CONDITIONAL",
+      "category": "requirement metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "CONTINUANCE",
+      "category": "requirement metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "IMPERATIVE",
+      "category": "requirement metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "INCOMPLETE",
+      "category": "requirement metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "OPTION",
+      "category": "requirement metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "RISK_LEVEL",
+      "category": "requirement metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "WEAK_PHRASE",
+      "category": "requirement metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "SOURCE",
+      "category": "requirement metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "LOC_BLANK",
+      "category": "code metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "BRANCH_COUNT",
+      "category": "code metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "LOC_CODE_AND_COMMENT",
+      "category": "code metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "LOC_COMMENTS",
+      "category": "code metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "CYCLOMATIC_COMPLEXITY",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "DESIGN_COMPLEXITY",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "ESSENTIAL_COMPLEXITY",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "LOC_EXECUTABLE",
+      "category": "code metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "HALSTEAD_CONTENT",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "HALSTEAD_DIFFICULTY",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "HALSTEAD_EFFORT",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "HALSTEAD_ERROR_EST",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "HALSTEAD_LENGTH",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "HALSTEAD_LEVEL",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "HALSTEAD_PROG_TIME",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "HALSTEAD_VOLUME",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "NUM_OPERANDS",
+      "category": "code metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "NUM_OPERATORS",
+      "category": "code metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "NUM_UNIQUE_OPERANDS",
+      "category": "code metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "NUM_UNIQUE_OPERATORS",
+      "category": "code metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "NUMBER_OF_LINES",
+      "category": "code metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "LOC_TOTAL",
+      "category": "code metric",
+      "is_novel": false,
+      "description": "N/A"
+    }
+  ],
+  "source_locations": {
+    "bug_prediction_metrics": "Pages 281-284"
+  }
+}

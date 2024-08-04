@@ -1,0 +1,23 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "AUC",
+      "H-measure"
+    ],
+    "baseline_models": [
+      "Naive Bayes",
+      "Random Forests",
+      "Logistic Regression"
+    ],
+    "best_model": {
+      "name": "Random Forests",
+      "performance": {
+        "AUC": 0.85,
+        "H-measure": 0.75
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Pages 237-257"
+  }
+}

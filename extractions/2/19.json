@@ -1,0 +1,28 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Random Forest (RF)",
+      "Artificial Immune System (AIS)",
+      "Naive Bayes (NB)",
+      "J48",
+      "Tree-based methods",
+      "Case-based Reasoning (CBR)",
+      "Support Vector Machines (SVM)",
+      "Logistic Regression (LR)",
+      "Genetic Programming (GP)",
+      "Particle Swarm Optimization (PSO)",
+      "Ant Colony Optimization (ACO)",
+      "Artificial Neural Network (ANN)"
+    ],
+    "novel_approaches": "A hybrid model combining Artificial Neural Network (ANN) and Artificial Bee Colony (ABC) algorithm. The ABC algorithm is used to optimize the weights of the ANN, and a cost-sensitive feature is added to the ANN using a parametric fitness function.",
+    "preprocessing": [
+      "Shuffling the dataset",
+      "n-fold cross-validation",
+      "Correlation-based Feature Selection (CFS)",
+      "Min-max (0-1) normalization"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Section 2, Section 4, Section 5"
+  }
+}

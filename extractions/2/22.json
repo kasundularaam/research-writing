@@ -1,0 +1,33 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Naive Bayes",
+      "Bayesian Network",
+      "Support Vector Machine (SVM)",
+      "Neural Network",
+      "Swarm Intelligence",
+      "Genetic Programming",
+      "Decision Tree",
+      "Logistic Regression",
+      "Random Forest",
+      "K-Nearest Neighbor (KNN)",
+      "Transfer Naive Bayes"
+    ],
+    "novel_approaches": "The paper proposes the use of Augmented Naive Bayes classifiers, which involve adding arcs between variables to relax the assumption of conditional independence. This includes techniques like Selective Augmented Naive Bayes (SAN) and Selective Augmented Naive Bayes with Discarding (SAND).",
+    "preprocessing": [
+      "Rank sum",
+      "Chi-square",
+      "Symmetrical uncertainty",
+      "Clustering method",
+      "Wrapper method",
+      "Chi-squared attribute selection",
+      "Relief-F attribute selection",
+      "Significance attribute evaluation",
+      "Multidimensional scaling",
+      "Discretization of continuous features"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Pages 1412-1421"
+  }
+}

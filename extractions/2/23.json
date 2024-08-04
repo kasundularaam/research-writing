@@ -1,0 +1,28 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Random Forest",
+      "J48",
+      "KNN",
+      "Multilayer Perceptron (MLP)",
+      "Logistic Regression (LR)",
+      "Support Vector Machines (SVM)",
+      "Decision Tree (DT)",
+      "Adaptive Neuro Fuzzy Inference System (ANFIS)",
+      "Artificial Neural Network (ANN)",
+      "Bagging",
+      "Na\u00efve Bayes",
+      "GFS-Adaboost-c",
+      "GFS-logitboost-c"
+    ],
+    "novel_approaches": "Hybrid search based algorithms (HSBA) such as GFS-Adaboost-c and GFS-logitboost-c, which combine fuzzy rules with boosting techniques for improved defect prediction.",
+    "preprocessing": [
+      "Dimensional reduction",
+      "Handling skewed datasets",
+      "10-fold cross validation"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Sections 2, 3.2, 5, and Tables 1, 3, 4, 5"
+  }
+}

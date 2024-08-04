@@ -1,0 +1,30 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "ROC",
+      "AUC",
+      "H-measure"
+    ],
+    "baseline_models": [
+      "Support Vector Machine (SVM)",
+      "Neural Network",
+      "Swarm Intelligence",
+      "Genetic Programming",
+      "Decision Tree",
+      "Logistic Regression",
+      "Random Forest (RF)",
+      "K2"
+    ],
+    "best_model": {
+      "name": "Augmented Bayesian Network",
+      "performance": {
+        "ROC": "N/A",
+        "AUC": "N/A",
+        "H-measure": "N/A"
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Pages 1412-1421"
+  }
+}

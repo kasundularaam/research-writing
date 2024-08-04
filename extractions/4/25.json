@@ -1,0 +1,27 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "probability of detection (pd)",
+      "probability of false alarms (pf)",
+      "balance (bal)",
+      "precision (prec)"
+    ],
+    "baseline_models": [
+      "Na\u00efve Bayes",
+      "Artificial Neural Network (ANN)",
+      "Voting Feature Intervals (VFI)"
+    ],
+    "best_model": {
+      "name": "Ens2",
+      "performance": {
+        "pd": 0.78,
+        "pf": 0.16,
+        "prec": 0.56,
+        "bal": 0.78
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Sections 4.1, 4.2, 4.3; Tables 3, 4, 5, 6, 7, 8, 9, 10, 11"
+  }
+}

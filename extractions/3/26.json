@@ -1,0 +1,49 @@
+{
+  "bug_prediction_metrics": [
+    {
+      "name": "Coupling between Objects (CBO)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Lack of Cohesion (LCOM)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Number of Children (NOC)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Depth of Inheritance (DIT)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Weighted Methods per Class (WMC)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Response for a Class (RFC)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Source Lines Of Code (SLOC)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    }
+  ],
+  "source_locations": {
+    "bug_prediction_metrics": "Section 3.1, Table 1, Page 272"
+  }
+}

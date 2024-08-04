@@ -1,0 +1,61 @@
+{
+  "bug_prediction_metrics": [
+    {
+      "name": "Lines of Code (LOC)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Number of Defects",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Probability of Detection (pd)",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Probability of False Alarms (pf)",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Precision (prec)",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Balance (bal)",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Voting Feature Intervals (VFI)",
+      "category": "code complexity",
+      "is_novel": true,
+      "description": "Places minimum and maximum values of each attribute for each module and forms an interval for each attribute."
+    },
+    {
+      "name": "Naive Bayes",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Artificial Neural Network (ANN)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    }
+  ],
+  "source_locations": {
+    "bug_prediction_metrics": "Sections 3.2, 3.3, 3.4, 4.1, 4.2, 4.3"
+  }
+}

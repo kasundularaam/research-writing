@@ -1,0 +1,29 @@
+{
+  "paper_info": {
+    "title": "An Improved CNN Model for Within-Project Software Defect Prediction",
+    "year": 2019,
+    "doi": "10.3390/app9102138"
+  },
+  "dataset": {
+    "name": [
+      "Simpli\ufb01ed PROMISE Source Code (SPSC) dataset",
+      "PROMISE Source Code (PSC) dataset"
+    ],
+    "size": [
+      6538,
+      14066
+    ],
+    "source": [
+      "PROMISE repository",
+      "PROMISE repository"
+    ],
+    "language": [
+      "Java",
+      "Java"
+    ]
+  },
+  "source_locations": {
+    "paper_info": "Page 1",
+    "dataset": "Pages 12-13"
+  }
+}

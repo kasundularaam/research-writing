@@ -1,0 +1,38 @@
+{
+"question-1": "2019",
+"question-2": "RELINK and PROMISE",
+"question-3": {
+"PROMISE": "Ranges from 229 modules (Velocity-1.6) to 965 modules (Camel-1.6). See Table 1 in the paper.",
+"RELINK": "Ranges from 56 modules (Safe) to 399 modules (ZXing). See Table 2 in the paper."
+},
+"question-4": "J48 (Decision Tree), K Nearest Neighbor (KNN), Logistic Regression (LR), Naive Bayes (NB)",
+"question-5": "AUC-ROC, F1 score, Precision, Recall (not used)",
+"question-6": {
+"RELINK": "26 metrics based on code complexity, categorized as Complexity Metrics (CPM) and Count Metrics (CTM). See Table 3 in the paper.",
+"PROMISE": "20 metrics, including object-oriented metrics (OOM) and complexity metrics (CPM). OOM is further divided into 5 metric suites (CK, HS, HD, ECK, Martin). See Table 3 in the paper."
+},
+"question-7": "The paper doesn't explicitly report individual predictive power for each metric. The analysis focuses on the frequency of feature selection by MOFES, grouping metrics by categories. See Tables 11 and 12 in the paper. It infers that features in different categories might have varying performance impacts.",
+"question-8": "AUC-ROC, Hypervolume (HV), F1 score",
+"question-9": "The paper focuses on feature selection and doesn't mention using dimensionality reduction techniques like PCA.",
+"question-10": "No, the paper doesn't explicitly employ ensemble methods in its proposed approach.",
+"question-11": "Yes, 3-fold cross-validation is used during the training process of MOFES. 10-fold cross-validation is used to evaluate the performance of MOFES and baseline methods.",
+"question-12": "This ratio varies across the different projects within the RELINK and PROMISE datasets. The exact ratios are not explicitly mentioned, but you can derive them from the number of defective and total modules in Tables 1 and 2 of the paper.",
+"question-13": "Feature selection is the core preprocessing technique studied in the paper. Stratified sampling is used to split the data into training and testing sets.",
+"question-14": "MOFES (Multi-Objective FEature Selection): The paper's novel approach, which treats feature selection as a multi-objective optimization problem. It uses Pareto based multi-objective optimization algorithms (PMAs), specifically NSGA-II, based on their analysis in RQ1. The paper compares MOFES with 22 state-of-the-art filter and wrapper based feature selection methods.",
+"question-15": "Extensive comparisons are performed with 22 existing filter and wrapper based feature selection methods across the chosen datasets and classifiers. The comparison focuses on AUC-ROC, the number of features selected, and computational cost.",
+"question-16": "Java, Weka packages for machine learning implementations, JMetal packages for multi-objective optimization algorithms",
+"question-17": "The paper doesn't deeply analyze individual strengths and weaknesses of each classifier (J48, KNN, LR, NB). It focuses on the effectiveness of their feature selection method (MOFES) in improving performance and reducing the number of features compared to other feature selection methods.",
+"question-18": "Within-project",
+"question-19": "MOFES is the main novel technique proposed, using a multi-objective optimization approach for feature selection in defect prediction.",
+"question-20": "MOFES shows promising results, achieving better performance (AUC-ROC) while using fewer features compared to many baseline methods. This suggests that multi-objective feature selection is beneficial in this context.",
+"question-21": "The paper acknowledges that MOFES has a higher computational cost than filter-based feature selection methods, though lower than most wrapper based methods. The choice of hyperparameters for the classifiers is not extensively explored. The impact of MOFES on model interpretability is not investigated in this study.",
+"question-22": "Yes, the runtime performance of MOFES and other methods is analyzed (see Table 13 in the paper). MOFES has higher computational cost than filter-based methods but lower than many wrapper-based methods.",
+"question-23": "Explore the generalizability of findings to other projects and datasets. Optimize MOFES and incorporate more advanced PMAs. Consider combining MOFES with class imbalance learning techniques. Investigate the impact of MOFES on model interpretability.",
+"question-24": "Not considered in this study.",
+"question-25": "Yes, boxplots are used to visualize the performance distributions of different PMAs in terms of HV (see Figures 5-8). Line plots are used to compare MOFES and other methods in terms of AUC-ROC and the number of selected features (see Figures 9 and 10).",
+"question-26": "Not discussed in this particular study.",
+"question-27": "The paper focuses on open source projects and doesn't discuss specific industrial applications.",
+"question-28": "Not explicitly analyzed, though the reduction in the number of features suggests potential benefits in terms of data collection and model construction costs.",
+"question-29": "The paper doesn't delve into comparisons between traditional and more advanced metrics. It uses established metric suites.",
+"question-30": "The paper acknowledges the need for further research with more datasets and projects to confirm the generalizability of the findings."
+}

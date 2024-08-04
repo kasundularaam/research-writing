@@ -1,0 +1,61 @@
+{
+  "paper_info": {
+    "title": "A new weighted naive Bayes method based on information diffusion for software defect prediction",
+    "year": 2019,
+    "doi": "10.1007/s11219-018-9436-4"
+  },
+  "dataset": {
+    "name": [
+      "Ivy-1.1",
+      "Lucene-2.2",
+      "Lucene-2.4",
+      "Poi-1.5",
+      "Poi-2.5",
+      "Velocity-1.6",
+      "Xalan-2.6",
+      "CM1",
+      "MW1",
+      "PC4"
+    ],
+    "size": [
+      111,
+      247,
+      340,
+      237,
+      385,
+      214,
+      885,
+      498,
+      253,
+      1458
+    ],
+    "source": [
+      "PROMISE repository",
+      "PROMISE repository",
+      "PROMISE repository",
+      "PROMISE repository",
+      "PROMISE repository",
+      "PROMISE repository",
+      "PROMISE repository",
+      "PROMISE repository",
+      "PROMISE repository",
+      "PROMISE repository"
+    ],
+    "language": [
+      "Java",
+      "Java",
+      "Java",
+      "Java",
+      "Java",
+      "Java",
+      "Java",
+      "C++",
+      "C++",
+      "C"
+    ]
+  },
+  "source_locations": {
+    "paper_info": "Title page, Abstract, and DOI link",
+    "dataset": "Section 4.1, Table 4"
+  }
+}

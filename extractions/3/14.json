@@ -1,0 +1,79 @@
+{
+  "bug_prediction_metrics": [
+    {
+      "name": "Lines of Code (LOC)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Chidamber-Kemerer (CK) metrics suite",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "McCabe\u2019s metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Halstead\u2019s metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Size",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Coupling",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Cohesion",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Inheritance",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Complexity",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Pre-release defects",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Post-release defects",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Structure of abstract syntax tree(s)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    }
+  ],
+  "source_locations": {
+    "bug_prediction_metrics": "Section IV, Page 2-3"
+  }
+}

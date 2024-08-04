@@ -1,0 +1,19 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Logistic Regression",
+      "Na\u00efve Bayes",
+      "Random Tree",
+      "Support Vector Machine"
+    ],
+    "novel_approaches": "A new Bayes classifier, called Diffused Bayes (DB) classifier, which improves the traditional Na\u00efve Bayes classifier using a diffusion function based on the vibration of string (VSDF).",
+    "preprocessing": [
+      "Kolmogorov-Smirnov test for normality",
+      "Binary classification transformation of the dependent variable 'bug'",
+      "Selection of top-5 representative metric attributes (CE, LCOM, LOC, RFC, CBO)"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Pages 2-19"
+  }
+}

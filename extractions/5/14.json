@@ -1,0 +1,15 @@
+{
+  "additional_info": {
+    "software_domain": "software fault prediction",
+    "limitations": [
+      "The study did not seem to have problems of overfitting and losing generalization capabilities.",
+      "The results are based on specific datasets (Eclipse and NASA KC1), which may limit the generalizability of the findings."
+    ],
+    "future_directions": [
+      "Replicate the study to predict the models based on other machine learning algorithms such as ensemble using neural networks and genetic algorithms."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Section VI: Conclusions, Page 6"
+  }
+}

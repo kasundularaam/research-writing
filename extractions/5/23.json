@@ -1,0 +1,16 @@
+{
+  "additional_info": {
+    "software_domain": "Android software",
+    "limitations": [
+      "The study is limited to Android projects, which may not generalize to other programming languages like C or C++.",
+      "Software size may affect the probability of a class being faulty, which is not fully addressed.",
+      "The metrics used are well-established, but there is a potential threat to construct validity."
+    ],
+    "future_directions": [
+      "There is a need to perform experiments on different types of large datasets to generalize the results."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Sections 7 and 8"
+  }
+}

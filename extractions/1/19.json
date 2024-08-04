@@ -1,0 +1,41 @@
+{
+  "paper_info": {
+    "title": "Software defect prediction using cost-sensitive neural network",
+    "year": 2015,
+    "doi": "10.1016/j.asoc.2015.04.045"
+  },
+  "dataset": {
+    "name": [
+      "KC1",
+      "KC2",
+      "CM1",
+      "PC1",
+      "JM1"
+    ],
+    "size": [
+      2109,
+      522,
+      505,
+      1109,
+      10885
+    ],
+    "source": [
+      "NASA Metrics Data Program repository",
+      "NASA Metrics Data Program repository",
+      "NASA Metrics Data Program repository",
+      "NASA Metrics Data Program repository",
+      "NASA Metrics Data Program repository"
+    ],
+    "language": [
+      "C++",
+      "C++",
+      "C",
+      "C",
+      "C"
+    ]
+  },
+  "source_locations": {
+    "paper_info": "Page 263",
+    "dataset": "Page 265"
+  }
+}

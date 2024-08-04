@@ -1,0 +1,34 @@
+{
+  "paper_info": {
+    "title": "Comprehensive Study on Machine Learning Techniques for Software Bug Prediction",
+    "year": 2021,
+    "doi": "N/A"
+  },
+  "dataset": {
+    "name": [
+      "Promise Repository dataset"
+    ],
+    "size": [
+      10885,
+      1107,
+      2107,
+      523
+    ],
+    "source": [
+      "NASA",
+      "NASA",
+      "NASA",
+      "NASA"
+    ],
+    "language": [
+      "C",
+      "C",
+      "C++",
+      "C++"
+    ]
+  },
+  "source_locations": {
+    "paper_info": "Page 726",
+    "dataset": "Page 729"
+  }
+}

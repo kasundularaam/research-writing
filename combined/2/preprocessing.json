@@ -1,0 +1,213 @@
+[
+  {
+    "research": 1,
+    "preprocessing": [
+      "Subsampling",
+      "Cost-sensitive learning",
+      "Ensemble learning",
+      "Imbalanced ensemble learning",
+      "Special-purpose learning",
+      "Undersampling",
+      "Oversampling",
+      "SMOTE",
+      "Hybrid methods",
+      "Attribute selection"
+    ]
+  },
+  {
+    "research": 2,
+    "preprocessing": [
+      "Feature selection",
+      "Data normalization",
+      "Data partition"
+    ]
+  },
+  {
+    "research": 3,
+    "preprocessing": ["Metric collection", "Binary categorization"]
+  },
+  {
+    "research": 4,
+    "preprocessing": ["Feature weighting", "Distribution testing"]
+  },
+  {
+    "research": 6,
+    "preprocessing": [
+      "Feature extraction",
+      "AST parsing",
+      "Token mapping",
+      "Class imbalance handling"
+    ]
+  },
+  {
+    "research": 7,
+    "preprocessing": ["Feature selection", "Correlation analysis"]
+  },
+  {
+    "research": 8,
+    "preprocessing": [
+      "Normality testing",
+      "Binary classification",
+      "Metric selection"
+    ]
+  },
+  {
+    "research": 9,
+    "preprocessing": [
+      "Principal component analysis",
+      "Correlation-based feature selection"
+    ]
+  },
+  {
+    "research": 10,
+    "preprocessing": [
+      "Metric aggregation",
+      "Defect handling",
+      "Complexity metric computation"
+    ]
+  },
+  {
+    "research": 11,
+    "preprocessing": ["K-means clustering", "Data joining"]
+  },
+  {
+    "research": 12,
+    "preprocessing": [
+      "Discretization",
+      "Attribute filtering",
+      "Data cleaning",
+      "Stratified sampling"
+    ]
+  },
+  {
+    "research": 13,
+    "preprocessing": [
+      "Duplicate removal",
+      "Missing value handling",
+      "Data normalization",
+      "Oversampling"
+    ]
+  },
+  {
+    "research": 14,
+    "preprocessing": ["Cross-validation", "Bootstrap sampling"]
+  },
+  {
+    "research": 15,
+    "preprocessing": [
+      "Feature selection",
+      "Data cleaning",
+      "Missing value handling"
+    ]
+  },
+  {
+    "research": 16,
+    "preprocessing": [
+      "Feature selection",
+      "Principal component analysis",
+      "Dimensionality reduction",
+      "Missing value handling",
+      "Normalization"
+    ]
+  },
+  {
+    "research": 17,
+    "preprocessing": [
+      "Feature extraction",
+      "Missing value handling",
+      "Normalization"
+    ]
+  },
+  {
+    "research": 18,
+    "preprocessing": [
+      "Feature selection",
+      "Normalization",
+      "Missing value handling",
+      "Cross-validation"
+    ]
+  },
+  {
+    "research": 19,
+    "preprocessing": [
+      "Data shuffling",
+      "Cross-validation",
+      "Feature selection",
+      "Normalization"
+    ]
+  },
+  {
+    "research": 21,
+    "preprocessing": [
+      "Feature selection",
+      "Descriptive statistics",
+      "Correlation analysis",
+      "Principal component analysis"
+    ]
+  },
+  {
+    "research": 22,
+    "preprocessing": [
+      "Feature selection",
+      "Clustering",
+      "Wrapper method",
+      "Multidimensional scaling",
+      "Discretization"
+    ]
+  },
+  {
+    "research": 23,
+    "preprocessing": [
+      "Dimensionality reduction",
+      "Imbalance handling",
+      "Cross-validation"
+    ]
+  },
+  {
+    "research": 24,
+    "preprocessing": ["Duplicate removal", "Feature selection"]
+  },
+  {
+    "research": 25,
+    "preprocessing": [
+      "Log filtering",
+      "Feature selection",
+      "Principal component analysis",
+      "Normalization"
+    ]
+  },
+  {
+    "research": 26,
+    "preprocessing": [
+      "Outlier analysis",
+      "Data normalization",
+      "Missing value handling",
+      "Fault categorization"
+    ]
+  },
+  {
+    "research": 27,
+    "preprocessing": ["Oversampling", "Undersampling", "SMOTE", "Normalization"]
+  },
+  {
+    "research": 28,
+    "preprocessing": [
+      "Discretization",
+      "Missing value handling",
+      "Laplace correction"
+    ]
+  },
+  {
+    "research": 29,
+    "preprocessing": ["Normalization", "Outlier analysis"]
+  },
+  {
+    "research": 30,
+    "preprocessing": [
+      "Stratified sampling",
+      "Cross-validation",
+      "Feature selection",
+      "Normalization"
+    ]
+  }
+]

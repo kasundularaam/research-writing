@@ -1,0 +1,25 @@
+{
+  "paper_info": {
+    "title": "Analysis of CK Metrics to predict Software Fault-Proneness using Bayesian Inference",
+    "year": 2013,
+    "doi": "N/A"
+  },
+  "dataset": {
+    "name": [
+      "Eclipse 3.4"
+    ],
+    "size": [
+      null
+    ],
+    "source": [
+      "open-source project"
+    ],
+    "language": [
+      "Java"
+    ]
+  },
+  "source_locations": {
+    "paper_info": "Title Page",
+    "dataset": "Page 1, Section 1; Page 2, Section 3"
+  }
+}

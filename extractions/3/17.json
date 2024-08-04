@@ -1,0 +1,139 @@
+{
+  "bug_prediction_metrics": [
+    {
+      "name": "Lines of Code (LOC)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Cyclomatic Complexity Number (CCN)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Depth of Inheritance Tree (DIT)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Coupling Between Objects (CBO)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Number of Children (NOC)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Response for Class (RFC)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Halstead Volume (V)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Halstead Program Length (L)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Halstead Difficulty (D)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Halstead Intelligence (I)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Halstead Effort (E)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Halstead Effort Estimate (B)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Halstead Time Estimator (T)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Number of Lines of Code (Locoed)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Number of Comments (Locomment)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Number of Blank Lines (Loblank)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Number of Codes and Comments (Locodeandcomment)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Unique Operators (uniq_op)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Unique Operands (uniq_opnd)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Total Operators (total_op)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Total Operands (total_opnd)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Branch Count",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    }
+  ],
+  "source_locations": {
+    "bug_prediction_metrics": "Section VI, Pages 728-730"
+  }
+}

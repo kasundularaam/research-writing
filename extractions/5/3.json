@@ -1,0 +1,17 @@
+{
+  "additional_info": {
+    "software_domain": "object-oriented software systems",
+    "limitations": [
+      "The study only presents Bayesian Inference graphs for two out of six metrics (CBO and NOC).",
+      "The likelihood function may contain small information if it is largely distributed.",
+      "The process requires familiarity with statistical models or machine learning methods."
+    ],
+    "future_directions": [
+      "Identify threshold values of software metrics using receiver operating characteristic curves.",
+      "Conduct more studies on open-source systems to find out threshold values in identifying the faulty classes."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Sections 6 and 7"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "additional_info": {
+    "software_domain": "real-time systems and spacecraft software",
+    "limitations": [
+      "Limited fault-proneness data available for analysis",
+      "Only three projects in the NASA MDP data repository include requirement metrics",
+      "The study is based on a single dataset (CM1) for empirical validation"
+    ],
+    "future_directions": [
+      "Explore the use of other clustering techniques for fault prediction",
+      "Investigate the applicability of the proposed model to other datasets and software domains",
+      "Enhance the model by incorporating additional metrics and data sources"
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Introduction, Methodology, Conclusion"
+  }
+}

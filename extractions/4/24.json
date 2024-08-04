@@ -1,0 +1,29 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "accuracy",
+      "F-measure",
+      "G-measure",
+      "Matthews Correlation Coefficient (MCC)"
+    ],
+    "baseline_models": [
+      "ANN",
+      "KNN",
+      "Naive Bayes (NB)",
+      "Random Forest (RF)",
+      "Support Vector Machine (SVM)"
+    ],
+    "best_model": {
+      "name": "Adaptive Artificial Jelly Optimization (A2JO) with Long Short-Term Memory (LSTM)",
+      "performance": {
+        "accuracy": 93.41,
+        "F-measure": 0.883,
+        "G-measure": 0.852,
+        "MCC": 0.68
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Section 4, Pages 1986-1994"
+  }
+}

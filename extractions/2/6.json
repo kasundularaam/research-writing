@@ -1,0 +1,24 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "decision tree",
+      "random forest",
+      "logistic regression",
+      "naive Bayes",
+      "dictionary learning",
+      "deep belief network (DBN)",
+      "convolutional neural network (CNN)",
+      "RBF network"
+    ],
+    "novel_approaches": "We proposed an improved CNN model for better generalization and capability of capturing global bug patterns. The model learned semantic features extracted from a program\u2019s AST for defect prediction.",
+    "preprocessing": [
+      "extracting features from software artifacts such as source code",
+      "parsing source code into ASTs",
+      "mapping tokens from strings to integers",
+      "handling class imbalance using random over-sampling"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Sections 1, 2.1, 2.2, 3, 4.2, 5.2"
+  }
+}

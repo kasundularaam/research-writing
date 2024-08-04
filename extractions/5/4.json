@@ -1,0 +1,18 @@
+{
+  "additional_info": {
+    "software_domain": "software defect prediction",
+    "limitations": [
+      "The proposed method may not perform well if the distributions of feature values follow a normal distribution.",
+      "The method may be less effective for data sets with a large quantity of software modules.",
+      "The construction of a more complex SDP model may cause overfitting, affecting the effectiveness of the new method."
+    ],
+    "future_directions": [
+      "Examine more feature-weighting techniques to further improve the potential of NB in SDP.",
+      "Optimize information diffusion models to enhance the performance of NB in SDP.",
+      "Apply the proposed method to cross-project defect prediction, which is a current research hotspot in the field of SDP."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Section 6 (Threats to validity), Section 7 (Discussion), Section 8 (Conclusion)"
+  }
+}

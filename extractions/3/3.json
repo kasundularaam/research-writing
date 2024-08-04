@@ -1,0 +1,43 @@
+{
+  "bug_prediction_metrics": [
+    {
+      "name": "CBO (Coupling Between Object classes)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "WMC (Weighted Methods per Class)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "RFC (Response For a Class)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "NOC (Number Of Children)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "LCOM (Lack of Cohesion on Methods)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "DIT (Depth of Inheritance Tree)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    }
+  ],
+  "source_locations": {
+    "bug_prediction_metrics": "Section 3 (Data Collection), Page 2"
+  }
+}

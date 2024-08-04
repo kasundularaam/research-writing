@@ -1,0 +1,73 @@
+{
+  "paper_info": {
+    "title": "Balancing the trade-off between accuracy and interpretability in software defect prediction",
+    "year": 2018,
+    "doi": "10.1007/s10664-018-9638-1"
+  },
+  "dataset": {
+    "name": [
+      "MC2",
+      "KC3",
+      "MW1",
+      "CM1",
+      "PC1",
+      "PC2",
+      "PC3",
+      "PC4",
+      "PC5",
+      "MC1",
+      "JM1",
+      "Bugzilla",
+      "Columba"
+    ],
+    "size": [
+      125,
+      194,
+      253,
+      327,
+      705,
+      745,
+      1077,
+      1287,
+      1711,
+      1988,
+      7782,
+      4620,
+      4455
+    ],
+    "source": [
+      "NASA MDP datasets (cleaned version)",
+      "NASA MDP datasets (cleaned version)",
+      "NASA MDP datasets (cleaned version)",
+      "NASA MDP datasets (cleaned version)",
+      "NASA MDP datasets (cleaned version)",
+      "NASA MDP datasets (cleaned version)",
+      "NASA MDP datasets (cleaned version)",
+      "NASA MDP datasets (cleaned version)",
+      "NASA MDP datasets (cleaned version)",
+      "NASA MDP datasets (cleaned version)",
+      "NASA MDP datasets (cleaned version)",
+      "JIT datasets",
+      "JIT datasets"
+    ],
+    "language": [
+      "N/A",
+      "N/A",
+      "N/A",
+      "N/A",
+      "N/A",
+      "N/A",
+      "N/A",
+      "N/A",
+      "N/A",
+      "N/A",
+      "N/A",
+      "N/A",
+      "N/A"
+    ]
+  },
+  "source_locations": {
+    "paper_info": "Title page, Abstract, https://doi.org/10.1007/s10664-018-9638-1",
+    "dataset": "Section 4.1, Tables 2 and 3"
+  }
+}

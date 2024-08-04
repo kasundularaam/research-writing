@@ -1,0 +1,49 @@
+{
+  "bug_prediction_metrics": [
+    {
+      "name": "Chidamber and Kemerer (CK) metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Object-Oriented (OO) metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Process metrics",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "McCabe metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Halstead metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "LOC (Line of Code) metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Miscellaneous metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    }
+  ],
+  "source_locations": {
+    "bug_prediction_metrics": "Page 40, Section I; Page 41, Section II; Page 42, Section IV"
+  }
+}

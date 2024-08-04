@@ -1,0 +1,28 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "accuracy",
+      "precision",
+      "recall",
+      "F1-score",
+      "AUC-ROC"
+    ],
+    "baseline_models": [
+      "Logistic Regression",
+      "Bayesian Inference"
+    ],
+    "best_model": {
+      "name": "Bayesian Inference",
+      "performance": {
+        "accuracy": 0.9,
+        "precision": 0.88,
+        "recall": 0.85,
+        "F1-score": 0.86,
+        "AUC-ROC": 0.92
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Page 3, Section 6"
+  }
+}

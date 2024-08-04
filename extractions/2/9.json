@@ -1,0 +1,28 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Random Forest",
+      "Decision Tree",
+      "K-Nearest Neighbour",
+      "Na\u00efve Bayes",
+      "Support Vector Machine (SVM)",
+      "Logistic Regression",
+      "Artificial Neural Network (ANN)",
+      "Cascade Correlation Network (CCN)",
+      "GMDH (Group Method of Data Handling) polynomial network",
+      "C4.5",
+      "Regression Tree",
+      "Adaboost"
+    ],
+    "novel_approaches": "N/A",
+    "preprocessing": [
+      "Principal Component Analysis (PCA)",
+      "Correlation-based Feature Selection (CFS)",
+      "Ranker",
+      "GreedyStepwise"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Section II, Section III, Section IV, Page 40-45"
+  }
+}

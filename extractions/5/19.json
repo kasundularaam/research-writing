@@ -1,0 +1,17 @@
+{
+  "additional_info": {
+    "software_domain": "software defect prediction",
+    "limitations": [
+      "The performance difference between the proposed classifier and other algorithms is not significant.",
+      "The proposed model performs better when using the CFS technique instead of all 21 metrics as input.",
+      "The effect of MCN on performance is very little after a specific value.",
+      "The performance is degraded when applying the same approach to software defect prediction datasets as used for UCI Machine Learning datasets."
+    ],
+    "future_directions": [
+      "There should be more focus on data preprocessing, feature selection, or other data mining techniques instead of finding a better classifier."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Sections 5.3.1, 5.3.2, and 6"
+  }
+}

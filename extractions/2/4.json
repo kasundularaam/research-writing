@@ -1,0 +1,24 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Naive Bayes (NB)",
+      "Support Vector Machine (SVM)",
+      "Logistic Regression (LR)",
+      "Random Tree (RT)",
+      "Random Forest",
+      "Decision Trees",
+      "Neural Networks",
+      "Ensemble Learning Techniques",
+      "Association Rules",
+      "Multi-objective Optimization"
+    ],
+    "novel_approaches": "The paper proposes a new weighted naive Bayes method based on information diffusion (WNB-ID) for software defect prediction. It combines feature-weighting techniques to assign weights to features and the information diffusion model (IDM) to compute the probability density of each feature, addressing the equal importance and normal distribution assumptions of NB.",
+    "preprocessing": [
+      "Feature-weighting techniques: Chi square (CS), Information Gain (IG), Gain Ratio (GR), Symmetrical Uncertainty (SU), ReliefF (RF), Information Flow (IF)",
+      "Kolmogorov-Smirnov (KS) test for normal distribution assumption"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Sections 1, 2.1, 2.2, 2.3, 3, 3.2, 3.3, 4, 5"
+  }
+}

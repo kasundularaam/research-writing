@@ -1,0 +1,296 @@
+[
+  {
+    "research": 1,
+    "algorithms": [
+      "C4.5",
+      "Random Forest",
+      "Support Vector Machine",
+      "K-Nearest Neighbors",
+      "Logistic Regression",
+      "Naive Bayes"
+    ]
+  },
+  {
+    "research": 2,
+    "algorithms": [
+      "Linear Regression",
+      "Bayesian Network",
+      "K-means Clustering",
+      "Support Vector Machine",
+      "C4.5",
+      "K-Nearest Neighbors",
+      "Random Forest",
+      "Neural Network"
+    ]
+  },
+  {
+    "research": 3,
+    "algorithms": ["Logistic Regression", "Bayesian Inference"]
+  },
+  {
+    "research": 4,
+    "algorithms": [
+      "Naive Bayes",
+      "Support Vector Machine",
+      "Logistic Regression",
+      "Random Forest",
+      "Decision Tree",
+      "Neural Network"
+    ]
+  },
+  {
+    "research": 6,
+    "algorithms": [
+      "Decision Tree",
+      "Random Forest",
+      "Logistic Regression",
+      "Naive Bayes",
+      "Deep Belief Network",
+      "Convolutional Neural Network"
+    ]
+  },
+  {
+    "research": 7,
+    "algorithms": [
+      "Decision Tree",
+      "Bayesian Methods",
+      "Neural Network",
+      "Support Vector Machine",
+      "Random Forest",
+      "Gradient Boosting",
+      "Logistic Regression",
+      "Naive Bayes"
+    ]
+  },
+  {
+    "research": 8,
+    "algorithms": [
+      "Logistic Regression",
+      "Naive Bayes",
+      "Random Tree",
+      "Support Vector Machine"
+    ]
+  },
+  {
+    "research": 9,
+    "algorithms": [
+      "Random Forest",
+      "Decision Tree",
+      "K-Nearest Neighbors",
+      "Naive Bayes",
+      "Support Vector Machine",
+      "Logistic Regression",
+      "Neural Network",
+      "C4.5",
+      "AdaBoost"
+    ]
+  },
+  {
+    "research": 10,
+    "algorithms": ["Logistic Regression", "Linear Regression"]
+  },
+  {
+    "research": 11,
+    "algorithms": ["C4.5", "K-means Clustering"]
+  },
+  {
+    "research": 12,
+    "algorithms": [
+      "Naive Bayes",
+      "Bayesian Network",
+      "Logistic Regression",
+      "Random Forest"
+    ]
+  },
+  {
+    "research": 13,
+    "algorithms": [
+      "Neural Network",
+      "Long Short-Term Memory",
+      "Deep Belief Network",
+      "Logistic Regression",
+      "Naive Bayes"
+    ]
+  },
+  {
+    "research": 14,
+    "algorithms": [
+      "Support Vector Machine",
+      "Logistic Model Trees",
+      "Naive Bayes",
+      "Neural Network"
+    ]
+  },
+  {
+    "research": 15,
+    "algorithms": [
+      "Bayesian Network",
+      "Logistic Regression",
+      "Neural Network",
+      "J48",
+      "K-Nearest Neighbors",
+      "Support Vector Machine",
+      "Random Forest",
+      "Decision Tree"
+    ]
+  },
+  {
+    "research": 16,
+    "algorithms": [
+      "Random Forest",
+      "Naive Bayes",
+      "Support Vector Machine",
+      "Neural Network",
+      "Logistic Regression",
+      "J48",
+      "C4.5",
+      "Bayesian Network",
+      "K-Nearest Neighbors",
+      "Decision Tree"
+    ]
+  },
+  {
+    "research": 17,
+    "algorithms": [
+      "Decision Tree",
+      "Naive Bayes",
+      "Random Forest",
+      "Logistic Regression",
+      "Neural Network",
+      "Support Vector Machine",
+      "K-Nearest Neighbors"
+    ]
+  },
+  {
+    "research": 18,
+    "algorithms": [
+      "Neural Network",
+      "Support Vector Machine",
+      "Naive Bayes",
+      "Random Forest",
+      "Logistic Regression",
+      "Decision Tree",
+      "Bayesian Network"
+    ]
+  },
+  {
+    "research": 19,
+    "algorithms": [
+      "Random Forest",
+      "Naive Bayes",
+      "Support Vector Machine",
+      "Logistic Regression",
+      "Neural Network"
+    ]
+  },
+  {
+    "research": 21,
+    "algorithms": [
+      "Naive Bayes",
+      "Bayesian Network",
+      "Neural Network",
+      "AdaBoost"
+    ]
+  },
+  {
+    "research": 22,
+    "algorithms": [
+      "Naive Bayes",
+      "Bayesian Network",
+      "Support Vector Machine",
+      "Neural Network",
+      "Decision Tree",
+      "Logistic Regression",
+      "Random Forest",
+      "K-Nearest Neighbors"
+    ]
+  },
+  {
+    "research": 23,
+    "algorithms": [
+      "Random Forest",
+      "J48",
+      "K-Nearest Neighbors",
+      "Neural Network",
+      "Logistic Regression",
+      "Support Vector Machine",
+      "Decision Tree",
+      "Naive Bayes"
+    ]
+  },
+  {
+    "research": 24,
+    "algorithms": [
+      "Support Vector Machine",
+      "Neural Network",
+      "Naive Bayes",
+      "K-Nearest Neighbors",
+      "Long Short-Term Memory",
+      "Random Forest",
+      "Convolutional Neural Network"
+    ]
+  },
+  {
+    "research": 25,
+    "algorithms": [
+      "Naive Bayes",
+      "Neural Network",
+      "Decision Tree",
+      "Bayesian Network"
+    ]
+  },
+  {
+    "research": 26,
+    "algorithms": [
+      "Support Vector Machine",
+      "Linear Discriminant Analysis",
+      "Logistic Regression",
+      "Decision Tree",
+      "Neural Network",
+      "Random Forest",
+      "Naive Bayes"
+    ]
+  },
+  {
+    "research": 27,
+    "algorithms": [
+      "K-Nearest Neighbors",
+      "Support Vector Machine",
+      "C4.5",
+      "Random Forest",
+      "Neural Network",
+      "Linear Discriminant Analysis",
+      "Logistic Regression",
+      "Decision Tree",
+      "Naive Bayes"
+    ]
+  },
+  {
+    "research": 28,
+    "algorithms": [
+      "J48",
+      "Logistic Regression",
+      "Support Vector Machine",
+      "Neural Network",
+      "Naive Bayes",
+      "Bayesian Network",
+      "AdaBoost",
+      "Random Forest"
+    ]
+  },
+  {
+    "research": 29,
+    "algorithms": ["Decision Tree", "Neural Network", "Logistic Regression"]
+  },
+  {
+    "research": 30,
+    "algorithms": [
+      "C4.5",
+      "Neural Network",
+      "Linear Discriminant Analysis",
+      "K-Nearest Neighbors",
+      "Bayesian Network",
+      "Support Vector Machine"
+    ]
+  }
+]

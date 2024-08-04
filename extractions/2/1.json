@@ -1,0 +1,29 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "C4.5",
+      "Random Forest (RF)",
+      "Support Vector Machine (SVM)",
+      "Ripper",
+      "Instance-based kNN (IBk)",
+      "Logistic Regression (LR)",
+      "Naive Bayes (NB)"
+    ],
+    "novel_approaches": "A comprehensive experiment evaluating 16 imbalanced learning methods combined with 7 traditional classifiers using 7 types of input metrics.",
+    "preprocessing": [
+      "Sub-Sampling",
+      "Cost-Sensitive Learning",
+      "Ensemble Learning",
+      "Imbalanced Ensemble Learning",
+      "Special-purpose Learning",
+      "Under-Sampling",
+      "Over-Sampling",
+      "SMOTE",
+      "Hybrid methods",
+      "Attribute selection"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Sections 2.1, 2.2, 3.2, 3.4, 3.5, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7"
+  }
+}

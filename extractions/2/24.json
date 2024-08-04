@@ -1,0 +1,24 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Support Vector Machine (SVM)",
+      "Neural Network (NN)",
+      "Na\u00efve Bayes (NB)",
+      "k-nearest neighbor (K-NN)",
+      "Long Short-Term Memory (LSTM)",
+      "Random Forest (RF)",
+      "Artificial Immune Networks (AIN)",
+      "Convolutional Neural Network (CNN)",
+      "Deep Reinforcement Learning",
+      "Graph Convolutional Neural Networks (GCN)"
+    ],
+    "novel_approaches": "The proposed A2JO algorithm is a combination of the traditional Artificial Jelly Optimization (AJO) algorithm and chaotic opposition-based learning (COBL) to increase the searching ability and convergence speed.",
+    "preprocessing": [
+      "Elimination of identical data",
+      "Feature selection using adaptive artificial jelly optimization algorithm (A2JO)"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Pages 1975-1998, Sections 1, 2, 3, 4"
+  }
+}

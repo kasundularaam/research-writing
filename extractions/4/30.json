@@ -1,0 +1,22 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "AUC",
+      "non defectiveness probability"
+    ],
+    "baseline_models": [
+      "CFS (CfsSubsetEval attribute evaluator with BestFirst search method)",
+      "Relief (ReliefFAttributeEval with Ranker search method)"
+    ],
+    "best_model": {
+      "name": "Bayesian Network",
+      "performance": {
+        "AUC": 0.846,
+        "non defectiveness probability": 0.997
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Pages 166-177"
+  }
+}

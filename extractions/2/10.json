@@ -1,0 +1,17 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Logistic Regression",
+      "Linear Regression"
+    ],
+    "novel_approaches": "N/A",
+    "preprocessing": [
+      "Aggregation of metrics (average, total, maximum)",
+      "Handling of pre-release and post-release defects",
+      "Computation of complexity metrics using Java parser"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Sections 4.2, 4.3, Tables 4, 5, 6, 7"
+  }
+}

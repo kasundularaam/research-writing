@@ -1,0 +1,31 @@
+{
+  "bug_prediction_metrics": [
+    {
+      "name": "McCabe number of code line (loc)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Cyclomatic complexity (v(g))",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Essential complexity (ev(g))",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Design complexity (iv(g))",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    }
+  ],
+  "source_locations": {
+    "bug_prediction_metrics": "Section 3, Metrics and data"
+  }
+}

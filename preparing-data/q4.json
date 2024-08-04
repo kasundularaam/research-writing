@@ -1,0 +1,355 @@
+[
+  {
+    "research": 1,
+    "techniques": [
+      {
+        "category": "Traditional Learners",
+        "methods": [
+          "C4.5 (Decision Tree)",
+          "Random Forest (RF)",
+          "Support Vector Machine (SVM)",
+          "Ripper (Rule-based)",
+          "IBk (Instance-based k-Nearest Neighbor)",
+          "Logistic Regression (LR)",
+          "Naïve Bayes (NB)"
+        ]
+      },
+      {
+        "category": "Imbalanced Learning Methods",
+        "methods": [
+          "Bagging (Bag)",
+          "Boosting (Bst)",
+          "Under-Sampling (US)",
+          "Over-Sampling (OS)",
+          "UnderOver-Sampling (UOS)",
+          "Synthetic Minority Oversampling Technique (SMOTE)",
+          "Cost-Sensitive Learning (COS)",
+          "Ensemble method with splitting and coding techniques (EM1v1)",
+          "UnderBagging (UBag)",
+          "OverBagging (OBag)",
+          "UnderOverBagging (UOBag)",
+          "SMOTEBagging (SBag)",
+          "UnderBoosting (UBst)",
+          "OverBoosting (OBst)",
+          "UnderoverBoosting (UOBst)",
+          "SMOTEBoosting (SBst)",
+          "Null (benchmark)"
+        ]
+      }
+    ]
+  },
+  {
+    "research": 2,
+    "techniques": [
+      "Logistic Regression (LogR)",
+      "k-Nearest Neighbor (KNN)",
+      "C4.5 Decision Tree",
+      "Support Vector Machine (SVM)",
+      "Least Squares Support Vector Machine (LSSVM)",
+      "Asymmetric Weighted LSSVM (AW-LSSVM)",
+      {
+        "category": "Ensemble methods",
+        "methods": [
+          "Majority Voting",
+          "Total Accuracy (TA)-based Weighted Averaging",
+          "Evolutionary Programming (EP) based ensemble (proposed)"
+        ]
+      }
+    ]
+  },
+  {
+    "research": 3,
+    "techniques": [
+      "Logistic Regression",
+      "Bayesian Inference"
+    ]
+  },
+  {
+    "research": 4,
+    "techniques": [
+      "Naive Bayes (NB)",
+      {
+        "name": "Weighted Naive Bayes (WNB)",
+        "variants": [
+          "Chi-square (CS)",
+          "Information Gain (IG)",
+          "Gain Ratio (GR)",
+          "Symmetrical Uncertainty (SU)",
+          "ReliefF (RF)",
+          "Information Flow (IF)"
+        ]
+      },
+      "Naive Bayes with Information Diffusion (NB-ID)",
+      "Weighted Naive Bayes with Information Diffusion (WNB-ID) (proposed)",
+      "Support Vector Machine (SVM)",
+      "Logistic Regression (LR)",
+      "Random Tree (RT)",
+      "State-of-the-art ensemble method (STSE)"
+    ]
+  },
+  {
+    "research": 5,
+    "techniques": [
+      {
+        "name": "Least Squares Support Vector Machine (LSSVM)",
+        "kernels": [
+          "Linear kernel",
+          "Polynomial kernel",
+          "Radial Basis Function (RBF) kernel"
+        ]
+      }
+    ]
+  },
+  {
+    "research": 6,
+    "techniques": [
+      "Convolutional Neural Network (CNN) - proposed improved model",
+      "Deep Belief Network (DBN)",
+      "CNN - Li's model",
+      "Decision Tree (DT)",
+      "Logistic Regression (LR)",
+      "Naïve Bayes (NB)",
+      "Random Forest (RF)",
+      "RBF Network (NET)",
+      "RANDOM model",
+      "FIX model"
+    ]
+  },
+  {
+    "research": 7,
+    "techniques": [
+      "Average Probability Ensemble (APE)",
+      "Weighted Support Vector Machines (W-SVMs)",
+      "Random Forests"
+    ]
+  },
+  {
+    "research": 8,
+    "techniques": [
+      "Naïve Bayes (NB)",
+      "Support Vector Machine (SVM)",
+      "Logistic Regression (LR)",
+      "Random Tree (RT)",
+      "Diffused Bayes (DB) - Proposed novel technique"
+    ]
+  },
+  {
+    "research": 9,
+    "techniques": [
+      "Support Vector Machine (SVM)",
+      "Bagged Ensemble of Support Vector Machines (Bagged SVM)"
+    ]
+  },
+  {
+    "research": 10,
+    "techniques": [
+      "Decision Tree (DT)",
+      "Random Forest (RF)",
+      "Naïve Bayes (NB)",
+      "Support Vector Machine (SVM)",
+      "Artificial Neural Network (ANN)",
+      "Adaboost"
+    ]
+  },
+  {
+    "research": 11,
+    "techniques": [
+      "K-means clustering",
+      "Decision Tree (C4.5 algorithm)"
+    ]
+  },
+  {
+    "research": 12,
+    "techniques": [
+      "Siamese Dense Neural Network (SDNN)",
+      "SDNN without cosine-proximity in the metering function (SDNN¯)",
+      "Deep Neural Network (DNN)",
+      "Long Short-Term Memory network (LSTM)",
+      "Deep Belief Network (DBN)",
+      "Logistic Regression (LR)",
+      "Bagging (BAG)",
+      "Naive Bayes (NB)",
+      "Transfer Naive Bayes (TNB)",
+      "Double Transfer Boosting (DTB)"
+    ]
+  },
+  {
+    "research": 13,
+    "techniques": [
+      {
+        "category": "Bayesian Network Classifiers",
+        "methods": [
+          "Naive Bayes (with kernel density estimate and with variable discretization)",
+          "Tree Augmented Naive Bayes (TAN)",
+          "Forest Augmented Naive Bayes (FAN)",
+          "Selective Tree Augmented Naive Bayes (STAN)",
+          "Selective Tree Augmented Naive Bayes with Discarding (STAND)",
+          "Selective Forest Augmented Naive Bayes (SFAN)",
+          "Selective Forest Augmented Naive Bayes with Discarding (SFAND)",
+          "K2",
+          "Max-Min Hill-Climbing (MMHC)"
+        ]
+      },
+      {
+        "category": "Benchmark Classifiers",
+        "methods": [
+          "Random Forests (RndFor)",
+          "Logistic Regression (Log. Reg.)"
+        ]
+      }
+    ]
+  },
+  {
+    "research": 14,
+    "techniques": [
+      "Logistic Regression",
+      "Linear Regression"
+    ]
+  },
+  {
+    "research": 15,
+    "techniques": [
+      "Bayesian Net",
+      "Logistic Regression",
+      "Multilayer Perceptron",
+      "Ruler Zero-R (or Rule ZeroR)",
+      "J48 (Decision Tree)",
+      "Lazy IBK (k-nearest neighbors)",
+      "Support Vector Machine (SVM)",
+      "Neural Networks",
+      "Random Forest",
+      "Decision Stump"
+    ]
+  },
+  {
+    "research": 16,
+    "techniques": [
+      "Decision Tree (DT)",
+      "Naive Bayes (NB)",
+      "Random Forest (RF)",
+      "Logistic Regression (LR)"
+    ]
+  },
+  {
+    "research": 17,
+    "techniques": [
+      "k-Nearest Neighbors (KNN)",
+      "Decision Tree (DT)",
+      "Naive Bayes (NB)",
+      "Support Vector Machine (SVM)",
+      "Artificial Neural Network (ANN)"
+    ]
+  },
+  {
+    "research": 18,
+    "techniques": [
+      "Naïve Bayes (NB)",
+      "BayesNet (BN) with K2 search algorithm",
+      "Logitboost (LB)",
+      "Adaboost (AB)"
+    ]
+  },
+  {
+    "research": 19,
+    "techniques": [
+      "J48 (Decision Tree)",
+      "K Nearest Neighbor (KNN)",
+      "Logistic Regression (LR)",
+      "Naive Bayes (NB)"
+    ]
+  },
+  {
+    "research": 20,
+    "techniques": [
+      "Adaptive Neuro Fuzzy Inference System (ANFIS)",
+      "Artificial Neural Network (ANN)",
+      "Support Vector Machine (SVM)"
+    ]
+  },
+  {
+    "research": 21,
+    "techniques": [
+      "Artificial Neural Network (ANN)",
+      "Artificial Bee Colony (ABC) algorithm"
+    ]
+  },
+  {
+    "research": 22,
+    "techniques": [
+      {
+        "category": "Bayesian Network (BN) classifiers",
+        "methods": [
+          "Naive Bayes (NB) classifier",
+          "Augmented Naive Bayes classifiers (SAN, SAND with Tree and Forest augmenting operators)"
+        ]
+      }
+    ]
+  },
+  {
+    "research": 23,
+    "techniques": [
+      "Random Forest (RF)",
+      "Multilayer Perceptron (MLP)",
+      "J48 (Decision Tree)",
+      "GFS-Adaboost-c (hybrid algorithm)",
+      "GFS-logitboost-c (hybrid algorithm)"
+    ]
+  },
+  {
+    "research": 24,
+    "techniques": [
+      "Artificial Neural Networks (ANN)",
+      "Naive Bayes (NB)",
+      "Voting Feature Intervals (VFI)",
+      "Ensemble of classifiers (Ens1 and Ens2)"
+    ]
+  },
+  {
+    "research": 25,
+    "techniques": [
+      "Random Forest (RF)",
+      "C4.5 Decision Tree",
+      "Support Vector Machines (SVM)",
+      "Neural Networks (NNET) - 3-layer model",
+      "K-Nearest Neighbor (KNN)"
+    ]
+  },
+  {
+    "research": 26,
+    "techniques": [
+      "OneR", "RIPPER (JRip)", "C4.5 (J48)", "NBTree", "Ridge Logistic Regression (RLR)",
+      "Support Vector Machines (SVM)", "Multilayer Perceptron (MLP)", "Gaussian Naive Bayes (NBc)",
+      "Discrete Naive Bayes (NBd)", "Tree-augmented Naive Bayes (TAN)",
+      "Averaged One-Dependence Estimators (AODE)", "Hidden Naive Bayes (HNB)", "AdaBoost (AdaBst)",
+      "Random Forest (RF)", "Discrete Naive Bayes (NBd2)", "Naive Bayes Ensemble (NBE)",
+      "Superposed Naive Bayes (SNB)", "Tree-augmented Naive Bayes (TAN2)",
+      "Naive Bayes Ensemble + TAN (NBE2)", "Superposed Naive Bayes + TAN (SNB2)"
+    ]
+  },
+  {
+    "research": 27,
+    "techniques": [
+      "Bayesian Networks"
+    ]
+  },
+  {
+    "research": 28,
+    "techniques": [
+      "Support Vector Machine (SVM)"
+    ]
+  },
+  {
+    "research": 29,
+    "techniques": [
+      "Adaptive Artificial Jelly Optimization (A2JO)",
+      "Long Short-Term Memory (LSTM)"
+    ]
+  },
+  {
+    "research": 30,
+    "techniques": [
+      "Decision Tree (DT)",
+      "Artificial Neural Network (ANN)"
+    ]
+  }
+]

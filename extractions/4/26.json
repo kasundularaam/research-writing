@@ -1,0 +1,33 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "sensitivity",
+      "specificity",
+      "precision",
+      "completeness",
+      "ROC analysis",
+      "AUC"
+    ],
+    "baseline_models": [
+      "logistic regression",
+      "random forest",
+      "NNage",
+      "Na\u00efve Bayes",
+      "artificial neural network",
+      "decision tree"
+    ],
+    "best_model": {
+      "name": "SVM model for medium severity faults (MSF)",
+      "performance": {
+        "sensitivity": 81.03,
+        "specificity": 88.5,
+        "precision": 82.75,
+        "completeness": 85.96,
+        "AUC": 0.88
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Sections 4.3, 5, 6, 7; Pages 273-281"
+  }
+}

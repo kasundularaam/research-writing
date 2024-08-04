@@ -1,0 +1,16 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Logistic Regression",
+      "Bayesian Inference"
+    ],
+    "novel_approaches": "The study proposes a hybrid approach combining Logistic Regression and Bayesian Inference to predict software faults.",
+    "preprocessing": [
+      "Collection of CK metrics using Analyst4j tool",
+      "Binary categorization of classes based on the presence of bad smells"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Sections 1, 2, 3, 4, 5"
+  }
+}

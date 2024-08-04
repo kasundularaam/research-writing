@@ -1,0 +1,29 @@
+{
+  "paper_info": {
+    "title": "Automatic Software Bug Prediction Using Adaptive Artificial Jelly Optimization With Long Short\u2011Term Memory",
+    "year": 2023,
+    "doi": "10.1007/s11277-023-10694-9"
+  },
+  "dataset": {
+    "name": [
+      "Promise",
+      "NASA"
+    ],
+    "size": [
+      2775,
+      11262
+    ],
+    "source": [
+      "open-source project",
+      "open-source project"
+    ],
+    "language": [
+      "N/A",
+      "N/A"
+    ]
+  },
+  "source_locations": {
+    "paper_info": "First page",
+    "dataset": "Section 4.3, Page 1986"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "additional_info": {
+    "software_domain": "software defect prediction",
+    "limitations": [
+      "Insufficient historical data available for within- or cross-project prediction",
+      "Software metrics are not normally distributed",
+      "Heterogeneous distribution of software metric values between training and target projects",
+      "Data could be too sparse to meet the requirements for sample size using traditional methods"
+    ],
+    "future_directions": [
+      "Evolve the diffusion function to improve generality",
+      "Simplify the metric attribute sets to further enhance the predictive performance of the approach"
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Abstract, Introduction (pages 2-4), Discussion and Conclusion (pages 18-19)"
+  }
+}

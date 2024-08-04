@@ -1,0 +1,23 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "RMSE",
+      "AUC-ROC"
+    ],
+    "baseline_models": [
+      "SVM"
+    ],
+    "best_model": {
+      "name": "Bagged SVM ensemble",
+      "performance": {
+        "RMSE_Package_level_metrics": 0.43,
+        "RMSE_Class_level_metrics": 0.41,
+        "AUC-ROC_Package_level_metrics": 0.78,
+        "AUC-ROC_Class_level_metrics": 0.832
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Section V, Page 5"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "additional_info": {
+    "software_domain": "general software systems",
+    "limitations": [
+      "The study does not address the impact of different software domains on the fault prediction models.",
+      "The dataset used is limited to projects available in the PROMISE repository, which may not represent all types of software projects.",
+      "The study does not consider the effect of external libraries and dependencies on software fault prediction.",
+      "The models may lose performance dramatically when the data changes, such as changes in project size, domain, or software architecture."
+    ],
+    "future_directions": [
+      "Conduct more experiments on different datasets to generalize the results.",
+      "Investigate the impact of external libraries and dependencies on software fault prediction.",
+      "Develop models that can be used in the early stages of the software development lifecycle.",
+      "Explore the use of other software metrics and their combinations for fault prediction."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Sections 1, 2, 5, and 6"
+  }
+}

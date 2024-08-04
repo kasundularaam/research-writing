@@ -1,0 +1,35 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "accuracy",
+      "probability of detection",
+      "probability of false alarm",
+      "balance",
+      "Area Under Curve (AUC)",
+      "Normalized Expected Cost of Misclassification (NECM)"
+    ],
+    "baseline_models": [
+      "Random Forest (RF)",
+      "Naive Bayes (NB)",
+      "C4.5",
+      "Immunos",
+      "Artificial Immune Recognition System (AIRS)",
+      "Cost-Sensitive Boosting Neural Networks with Threshold-Moving (CSBNN-TM)",
+      "Cost-Sensitive Boosting Neural Networks with Weight-Updating (CSBNN-WU1)",
+      "Cost-Sensitive Boosting Neural Networks with Weight-Updating (CSBNN-WU2)"
+    ],
+    "best_model": {
+      "name": "Proposed Classifier (CSANN-ABC)",
+      "performance": {
+        "AUC": 0.79,
+        "pd": 78.6,
+        "pf": 33.0,
+        "bal": 71.8,
+        "acc": 68.4
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Section 5, Pages 268-277"
+  }
+}

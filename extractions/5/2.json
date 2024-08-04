@@ -1,0 +1,16 @@
+{
+  "additional_info": {
+    "software_domain": "software repository mining",
+    "limitations": [
+      "The AW-LSSVM classifier requires that the number of positive samples be equal to the number of negative samples in the training phase.",
+      "When the number of positive samples is seriously unequal to the number of negative samples, performance of the AW-LSSVM classifier is affected adversely."
+    ],
+    "future_directions": [
+      "Further improve the EP algorithm for ensemble weight determination.",
+      "Investigate the application of the proposed EP-based AW-LSSVM ensemble learning model to other classification problems."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Section 4.3, Page 43-44"
+  }
+}

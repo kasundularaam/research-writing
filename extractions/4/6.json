@@ -1,0 +1,32 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "F-measure",
+      "G-measure",
+      "Matthews correlation coefficient (MCC)"
+    ],
+    "baseline_models": [
+      "CNN",
+      "DBN",
+      "Traditional (LR)",
+      "Decision Tree (DT)",
+      "Logistic Regression (LR)",
+      "Naive Bayes (NB)",
+      "Random Forest (RF)",
+      "RBF Network (NET)",
+      "RANDOM",
+      "FIX"
+    ],
+    "best_model": {
+      "name": "Improved CNN",
+      "performance": {
+        "F-measure": 0.57,
+        "G-measure": 0.56,
+        "MCC": 0.38
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Pages 15-21"
+  }
+}

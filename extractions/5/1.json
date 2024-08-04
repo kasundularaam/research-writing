@@ -1,0 +1,20 @@
+{
+  "additional_info": {
+    "software_domain": "software defect prediction",
+    "limitations": [
+      "Inconsistent results due to varying levels of data imbalance",
+      "Negative impact of imbalanced learning on some datasets",
+      "High variability in performance improvement across different classifiers and imbalanced learning methods",
+      "Potential negative effects of imbalanced learning on challenging datasets with issues like class separability and within-class sub-concepts"
+    ],
+    "future_directions": [
+      "Investigate software defect data not drawn from the open software community",
+      "Explore other classi\ufb01er learning methods such as neural networks and evolutionary algorithms",
+      "Extend the study to include more diverse datasets with different characteristics",
+      "Further research on the impact of different performance measures on the evaluation of defect prediction models"
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Sections 1, 4, 5, 6"
+  }
+}

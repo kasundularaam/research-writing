@@ -1,0 +1,49 @@
+{
+  "bug_prediction_metrics": [
+    {
+      "name": "LCOM",
+      "category": "cohesion",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "CBO",
+      "category": "coupling",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "RFC",
+      "category": "coupling",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "DIT",
+      "category": "inheritance",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "NOC",
+      "category": "inheritance",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "WMC",
+      "category": "size",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "SLOC",
+      "category": "size",
+      "is_novel": false,
+      "description": "N/A"
+    }
+  ],
+  "source_locations": {
+    "bug_prediction_metrics": "Section 3.1, Table 1, Page 213"
+  }
+}

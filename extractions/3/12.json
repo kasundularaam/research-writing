@@ -1,0 +1,85 @@
+{
+  "bug_prediction_metrics": [
+    {
+      "name": "Lines of Code (LOC)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Halstead Metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "McCabe Complexity Metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Chidamber-Kemerer (CK) Metrics Suite",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Conceptual Cohesion of Classes (C3)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "File and Component-Based Metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Requirement Metrics",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Class Level Metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Method Level Attributes",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Normalized Cyclomatic Complexity",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Number of Commentary Lines (CLOC)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Halstead Content (I)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Number of Unique Operands",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    }
+  ],
+  "source_locations": {
+    "bug_prediction_metrics": "Section 2, pages 238-239; Section 4.1, pages 245-246; Section 5.1.2, page 253"
+  }
+}

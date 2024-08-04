@@ -1,0 +1,29 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "accuracy",
+      "recall",
+      "precision",
+      "F1-measure"
+    ],
+    "baseline_models": [
+      "KNN",
+      "Decision Tree",
+      "BayesNet",
+      "SVM",
+      "ANN"
+    ],
+    "best_model": {
+      "name": "Bagging + REPTree",
+      "performance": {
+        "accuracy": 95.1,
+        "recall": 0.95,
+        "precision": 0.952,
+        "F1-measure": 0.949
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Pages 187-191"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "bug_prediction_metrics": [
+    {
+      "name": "Method-level metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Change information metrics",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Package modularization metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Lines of comment metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Code size and complexity metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Deep representations metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Similarity feature learning",
+      "category": "novel metric",
+      "is_novel": true,
+      "description": "Captures the highest-level similarity features between sample pairs."
+    },
+    {
+      "name": "Distance metric learning",
+      "category": "novel metric",
+      "is_novel": true,
+      "description": "Learns the distance metrics between the highest-level similarity features."
+    }
+  ],
+  "source_locations": {
+    "bug_prediction_metrics": "Section II.A, Page 7663; Section III.C.1, Page 7665; Section III.C.2, Page 7666"
+  }
+}

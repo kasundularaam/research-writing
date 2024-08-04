@@ -1,0 +1,28 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "accuracy"
+    ],
+    "baseline_models": [
+      "Bayesian Net",
+      "Logistic Regression",
+      "Multilayer Perceptron",
+      "Ruler Zero-R",
+      "J48",
+      "Lazy IBK",
+      "Support Vector Machine",
+      "Neural Networks",
+      "Random Forest",
+      "Decision Stump"
+    ],
+    "best_model": {
+      "name": "Logistic Regression",
+      "performance": {
+        "accuracy": 93.32
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Pages 55-61"
+  }
+}

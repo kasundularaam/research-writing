@@ -1,0 +1,20 @@
+{
+  "additional_info": {
+    "software_domain": "embedded systems",
+    "limitations": [
+      "Mis-classifying a safe code as defective increases the cost of projects.",
+      "High false alarm rates can lead to wasted inspection costs.",
+      "The quality of data and noise are always issues in software datasets.",
+      "The proposed model may not be generalizable to all software systems."
+    ],
+    "future_directions": [
+      "Conduct a replication study to investigate the relationship between the size and defect-proneness of software modules in the embedded systems domain.",
+      "Combine the ensemble with multiple algorithms other than NB, ANN, and VFI.",
+      "Change the voting strategy of the ensemble to a weighted voting mechanism.",
+      "Collect requirement metrics and construct a defect prediction model for both implementation and requirement defects."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Abstract, Introduction, Section 2, Section 3.3, Section 4.1, Section 5, Section 6"
+  }
+}

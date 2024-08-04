@@ -1,0 +1,20 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "ROC-AUC"
+    ],
+    "baseline_models": [
+      "Support Vector Machine (SVM)",
+      "Artificial Neural Network (ANN)"
+    ],
+    "best_model": {
+      "name": "Artificial Neural Network (ANN)",
+      "performance": {
+        "ROC-AUC": 0.8685
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Page 1876-1879"
+  }
+}

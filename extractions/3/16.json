@@ -1,0 +1,49 @@
+{
+  "bug_prediction_metrics": [
+    {
+      "name": "McCabe",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Halstead",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Line Count",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Operator",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Branch Count",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Bagging",
+      "category": "ensemble learning",
+      "is_novel": true,
+      "description": "Combines multiple classifiers to improve accuracy, achieving 95.1% accuracy with Mozilla dataset."
+    },
+    {
+      "name": "Voting",
+      "category": "ensemble learning",
+      "is_novel": true,
+      "description": "Combines multiple classifiers to improve accuracy, achieving 93.79% accuracy with kc1 dataset."
+    }
+  ],
+  "source_locations": {
+    "bug_prediction_metrics": "Pages 185-191"
+  }
+}

@@ -1,0 +1,41 @@
+{
+"question-1": "2015",
+"question-2": "* KC1\n* KC2\n* CM1\n* PC1\n* JM1",
+"question-3": "* KC1: 2109\n* KC2: 522\n* CM1: 505\n* PC1: 1109\n* JM1: 10,885",
+"question-4": "* Artificial Neural Network (ANN)\n* Artificial Bee Colony (ABC) algorithm (for optimizing ANN weights)",
+"question-5": {
+"a": "68.4%",
+"b": "Not directly reported. Can be calculated from the confusion matrix using Precision = TP / (TP + FP).",
+"c": "78.6%",
+"d": "Not directly reported.",
+"e": "0.79"
+},
+"question-6": "* loc (lines of code)\n* v(g) (cyclomatic complexity)\n* ev(g) (essential complexity)\n* iv(g) (design complexity)\n* lOCode (count of statement lines)\n* lOComment (count of comment lines)\n* lOBlank (count of blank lines)\n* lOCodeAndComment (count of code and comment lines)\n* uniqOp (number of unique operators)\n* uniqOpnd (number of unique operands)\n* branchCount (total number of branch count)\n* v (Halstead Volume)\n* l (Halstead Program length)\n* d (Halstead Difficulty)\n* i (Halstead Intelligence)\n* b (Halstead Effort estimate)",
+"question-7": {
+"a": "Not explicitly reported.",
+"b": "Metrics were not explicitly ranked. CFS was used for feature selection, implicitly giving higher importance to selected features."
+},
+"question-8": "* Accuracy (acc)\n* Probability of detection (pd), which is equivalent to recall\n* Probability of false alarms (pf)\n* Balance (bal)\n* Area Under the ROC Curve (AUC)\n* Normalized Expected Cost of Misclassification (NECM)",
+"question-9": "Yes, Principal Component Analysis (PCA) was experimented with, but Correlation-based Feature Selection (CFS) yielded better results.",
+"question-10": "No, the study focuses on a single ANN optimized by the ABC algorithm.",
+"question-11": "Yes, N-fold cross-validation was used.\n* 5 folds for datasets with defect rate < 10%\n* 7 folds for datasets with defect rate between 10% and 15%\n* 10 folds for datasets with defect rate ≥ 15%",
+"question-12": "* KC1: 15.45%\n* KC2: 20.49%\n* CM1: 9.83%\n* PC1: 6.94%\n* JM1: 19.35%",
+"question-13": "Yes, min-max normalization (scaling values between 0 and 1) was applied.",
+"question-14": "Yes, Correlation-based Feature Selection (CFS) was used.",
+"question-15": "Yes, the proposed approach was compared with:\n* Naive Bayes (NB)\n* Random Forest (RF)\n* J48 decision tree (C4.5)\n* Immunos\n* Artificial Immune Recognition System (AIRS)\n* Cost-Sensitive Boosting Neural Networks with Threshold-Moving (CSBNN-TM)\n* Cost-Sensitive Boosting Neural Networks with Weight-Updating (CSBNN-WU1 and CSBNN-WU2)",
+"question-16": "The paper doesn't explicitly specify the programming language, but it mentions using the WEKA tool for feature selection.",
+"question-17": "The paper mainly highlights the strengths of the proposed hybrid approach (ANN + ABC), including its ability to handle class imbalance and cost-sensitivity.",
+"question-18": "The study seems to focus on within-project defect prediction, as it uses datasets related to specific NASA software projects.",
+"question-19": "Yes, the main novelty is the hybrid approach of combining ANN with the ABC algorithm for weight optimization and introducing a cost-sensitive error function for the ANN.",
+"question-20": "The study concluded that the proposed cost-sensitive ANN optimized by ABC performs comparably to other techniques, but the performance differences weren't significant.",
+"question-21": "Yes, the paper mentions the challenge of class imbalance in software defect datasets and the importance of considering cost-sensitivity. It also emphasizes the need for more focus on data preprocessing and feature selection.",
+"question-22": "No, the paper doesn't explicitly analyze computational complexity or runtime performance.",
+"question-23": "The paper suggests exploring more advanced data preprocessing, feature selection, and other data mining techniques to potentially improve defect prediction performance.",
+"question-24": "No, transfer learning or domain adaptation is not discussed in this study.",
+"question-25": "Yes, the paper includes:\n* ROC curves for each dataset (Fig. 11)\n* Bar charts showing pd, pf, and acc for different cost values (Fig. 12)\n* Line graphs comparing NECM values for different cost-sensitive algorithms (Fig. 13)",
+"question-26": "No, the interpretability of the models is not a focus of this study.",
+"question-27": "The study uses NASA datasets and discusses the implications of cost-sensitive prediction for different types of software projects, but it doesn't describe specific real-world applications.",
+"question-28": "The paper discusses cost-sensitivity in terms of misclassification costs, but it doesn't provide a detailed cost-effectiveness analysis.",
+"question-29": "No, the study focuses on traditional McCabe and Halstead metrics.",
+"question-30": "While the study uses datasets from different NASA projects, it doesn't explicitly discuss the generalizability of the results to other domains."
+}

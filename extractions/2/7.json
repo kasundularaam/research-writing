@@ -1,0 +1,27 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Decision Trees",
+      "Bayesian Methods",
+      "Artificial Neural Networks (ANN-MLPs)",
+      "Support Vector Machines (SVMs)",
+      "Random Forests",
+      "Gradient Boosting",
+      "Stochastic Gradient Descent (SGD)",
+      "Weighted SVMs (W-SVMs)",
+      "Logistic Regression",
+      "Multinomial Naive Bayes",
+      "Bernoulli Naive Bayes"
+    ],
+    "novel_approaches": "A new two-variant ensemble learning algorithm called Average Probability Ensemble (APE) is proposed, which combines seven classifiers: random forests, gradient boosting, stochastic gradient descent, weighted SVMs, logistic regression, multinomial naive Bayes, and Bernoulli naive Bayes. The APE model is designed to be robust to both data imbalance and feature redundancy.",
+    "preprocessing": [
+      "Feature Selection",
+      "Greedy Forward Selection (GFS)",
+      "Pearson\u2019s Correlation",
+      "Fisher\u2019s Criterion"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Sections 1, 2.1, 2.4, 2.5, 3.3, 3.4, 5.1, 5.2, 5.4"
+  }
+}

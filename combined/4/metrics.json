@@ -1,0 +1,163 @@
+[
+  {
+    "research": 1,
+    "metrics": ["Matthews correlation coefficient (MCC)"]
+  },
+  {
+    "research": 2,
+    "metrics": ["Type I Accuracy", "Type II Accuracy", "Total Accuracy", "AUC"]
+  },
+  {
+    "research": 3,
+    "metrics": ["Accuracy", "Precision", "Recall", "F1-score", "AUC-ROC"]
+  },
+  {
+    "research": 4,
+    "metrics": ["Recall", "Precision", "F-measure"]
+  },
+  {
+    "research": 6,
+    "metrics": [
+      "F-measure",
+      "G-measure",
+      "Matthews correlation coefficient (MCC)"
+    ]
+  },
+  {
+    "research": 7,
+    "metrics": ["AUC", "G-mean", "Sensitivity", "Specificity"]
+  },
+  {
+    "research": 8,
+    "metrics": ["Recall", "Precision", "F-measure"]
+  },
+  {
+    "research": 9,
+    "metrics": ["Accuracy", "F-measure", "Precision", "Recall", "AUC"]
+  },
+  {
+    "research": 10,
+    "metrics": [
+      "Precision",
+      "Recall",
+      "Accuracy",
+      "Spearman correlation",
+      "R2 value",
+      "Pearson correlation"
+    ]
+  },
+  {
+    "research": 11,
+    "metrics": [
+      "Probability of Detection (PD)",
+      "Probability of False Alarms (PF)",
+      "Precision",
+      "Recall"
+    ]
+  },
+  {
+    "research": 12,
+    "metrics": ["AUC", "H-measure"]
+  },
+  {
+    "research": 14,
+    "metrics": ["RMSE", "AUC-ROC"]
+  },
+  {
+    "research": 15,
+    "metrics": ["Accuracy"]
+  },
+  {
+    "research": 16,
+    "metrics": ["Accuracy", "Recall", "Precision", "F1-measure"]
+  },
+  {
+    "research": 17,
+    "metrics": ["Accuracy", "Precision", "Recall", "F1-score", "ROC curves"]
+  },
+  {
+    "research": 18,
+    "metrics": ["AUC"]
+  },
+  {
+    "research": 19,
+    "metrics": [
+      "Accuracy",
+      "Probability of Detection",
+      "Probability of False Alarm",
+      "Balance",
+      "AUC",
+      "Normalized Expected Cost of Misclassification (NECM)"
+    ]
+  },
+  {
+    "research": 21,
+    "metrics": ["G-mean", "Accuracy"]
+  },
+  {
+    "research": 22,
+    "metrics": ["ROC", "AUC", "H-measure"]
+  },
+  {
+    "research": 23,
+    "metrics": ["Precision", "Recall"]
+  },
+  {
+    "research": 24,
+    "metrics": [
+      "Accuracy",
+      "F-measure",
+      "G-measure",
+      "Matthews Correlation Coefficient (MCC)"
+    ]
+  },
+  {
+    "research": 25,
+    "metrics": [
+      "Probability of Detection (PD)",
+      "Probability of False Alarms (PF)",
+      "Balance",
+      "Precision"
+    ]
+  },
+  {
+    "research": 26,
+    "metrics": [
+      "Sensitivity",
+      "Specificity",
+      "Precision",
+      "Completeness",
+      "ROC",
+      "AUC"
+    ]
+  },
+  {
+    "research": 27,
+    "metrics": [
+      "AUC",
+      "G-mean",
+      "Balance",
+      "Recall",
+      "Probability of False Alarms"
+    ]
+  },
+  {
+    "research": 28,
+    "metrics": ["AUC"]
+  },
+  {
+    "research": 29,
+    "metrics": [
+      "Sensitivity",
+      "Specificity",
+      "Precision",
+      "Completeness",
+      "ROC",
+      "AUC"
+    ]
+  },
+  {
+    "research": 30,
+    "metrics": ["AUC", "Non-defectiveness Probability"]
+  }
+]

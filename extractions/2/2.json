@@ -1,0 +1,41 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Linear Regression",
+      "Nonlinear Regression",
+      "Bayesian Belief Networks",
+      "Clustering",
+      "Artificial Intelligence Techniques",
+      "k-means Clustering",
+      "Association Analysis",
+      "Statistical Analysis Models",
+      "Gray Relational Analysis",
+      "Ant Colony Optimization (ACO)",
+      "Support Vector Machines (SVM)",
+      "C4.5 Algorithm",
+      "k-nearest-neighbor (KNN) Algorithm",
+      "Artificial Immune System",
+      "Random Forests",
+      "Multi-Criteria Decision-Making (MCDM)",
+      "Polynomial Function-Based Neural Network",
+      "Case-Based Reasoning (CBR)",
+      "Majority Voting",
+      "Data Clustering Techniques",
+      "Fuzzy Clustering",
+      "Principal Components Analysis (PCA)",
+      "Rule Induction Techniques",
+      "Neural Network",
+      "Genetic Algorithm (GA)",
+      "AHP-Based Ensemble Evaluation Method"
+    ],
+    "novel_approaches": "An evolutionary programming (EP) based asymmetric weighted least squares support vector machine (LSSVM) ensemble learning methodology is proposed. This methodology integrates EP with AW-LSSVM to improve classification accuracy in software repository mining.",
+    "preprocessing": [
+      "Input Feature Selection",
+      "Data Normalization",
+      "Data Partition"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Sections 1, 2, 3, 4"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "additional_info": {
+    "software_domain": "software defect prediction",
+    "limitations": [
+      "Resampling methods could not improve the AUC values across all prediction models.",
+      "Resampling methods can help in defect classification but not defect prioritization.",
+      "Performance of resampling methods are dependent on the imbalance ratio, evaluation measure, and to some extent the prediction model.",
+      "High false alarm rates (pf) when using resampling methods."
+    ],
+    "future_directions": [
+      "Newer oversampling methods should aim at generating relevant and informative data samples and not just increasing the minority samples.",
+      "Consider noise detection and elimination techniques to ensure only relevant and important minority instances remain or are added to the training data."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Abstract, Section 1, Section 5, Section 6"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "NaiveBayes (NB)",
+      "BayesNet (BN)",
+      "Logitboost (LB)",
+      "Adaboost (AB)",
+      "Fuzzy Adaboost (GFS-AB)",
+      "Fuzzy Logitboost (GFS-LB)",
+      "Logitboost with Single Winner Inference (GFS-MaxLB)",
+      "Neural net evolutionary programming (NNEP)",
+      "Hierarchical decision rules (HIDER)",
+      "Particle Swarm Optimization - Linear Discriminant Analysis (PSOLDA)",
+      "Fuzzy Learning based on Genetic Programming (GFS-GP)",
+      "Fuzzy Learning based on Genetic Programming Grammar Operators and Simulated Annealing (GFS-SP)",
+      "Structural Learning Algorithm in a Vague Environment with Feature Selection (SLAVE)"
+    ],
+    "novel_approaches": "Hybridized search based algorithms combining advantages of SBAs and non-SBAs, such as PSOLDA, GFS-AB, GFS-LB, GFS-MaxLB, NNEP, HIDER, GFS-GP, GFS-SP, and SLAVE.",
+    "preprocessing": [
+      "Correlation based feature selection (CFS)",
+      "Descriptive statistics",
+      "Spearman\u2019s correlation",
+      "Principal Component (PC) method"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Sections 4, 5, 6, and Tables 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17"
+  }
+}

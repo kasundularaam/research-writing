@@ -1,0 +1,805 @@
+[
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "Matthews correlation coefficient (MCC)"
+      ],
+      "baseline_models": [
+        "Traditional learning methods without imbalanced learning"
+      ],
+      "best_model": {
+        "name": "UBag (UnderBagging)",
+        "performance": {
+          "MCC": 0.096
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Section 4, pages 1253-1269"
+    },
+    "research": 1
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "Type I Accuracy",
+        "Type II Accuracy",
+        "Total Accuracy",
+        "AUC"
+      ],
+      "baseline_models": [
+        "Logistic Regression (LogR)",
+        "k-Nearest Neighbor (KNN)",
+        "C4.5",
+        "Standard Support Vector Machine (SVM)",
+        "Standard Least Squares SVM (LSSVM)",
+        "Asymmetric Weighted LSSVM (AW-LSSVM)",
+        "Majority Voting",
+        "TA-based Weighted Averaging"
+      ],
+      "best_model": {
+        "name": "EP-based AW-LSSVM Ensemble Learning",
+        "performance": {
+          "Type I Accuracy": 54.72,
+          "Type II Accuracy": 96.87,
+          "Total Accuracy": 91.34,
+          "AUC": 0.9101
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Section 4, Pages 39-46"
+    },
+    "research": 2
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "accuracy",
+        "precision",
+        "recall",
+        "F1-score",
+        "AUC-ROC"
+      ],
+      "baseline_models": [
+        "Logistic Regression",
+        "Bayesian Inference"
+      ],
+      "best_model": {
+        "name": "Bayesian Inference",
+        "performance": {
+          "accuracy": 0.9,
+          "precision": 0.88,
+          "recall": 0.85,
+          "F1-score": 0.86,
+          "AUC-ROC": 0.92
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Page 3, Section 6"
+    },
+    "research": 3
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "Recall",
+        "Precision",
+        "F-measure"
+      ],
+      "baseline_models": [
+        "NB",
+        "SVM",
+        "LR",
+        "RT",
+        "STSE"
+      ],
+      "best_model": {
+        "name": "WNB-ID",
+        "performance": {
+          "Ivy-1.1": 0.7907,
+          "Lucene-2.2": 0.7412,
+          "Lucene-2.4": 0.7872,
+          "Poi-1.5": 0.8406,
+          "Poi-2.5": 0.8669,
+          "Velocity-1.6": 0.8684,
+          "Xalan-2.6": 0.7651,
+          "CM1": 0.3901,
+          "MW1": 0.4641,
+          "PC4": 0.5243
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Pages 24-33"
+    },
+    "research": 4
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "F-measure",
+        "G-measure",
+        "Matthews correlation coefficient (MCC)"
+      ],
+      "baseline_models": [
+        "CNN",
+        "DBN",
+        "Traditional (LR)",
+        "Decision Tree (DT)",
+        "Logistic Regression (LR)",
+        "Naive Bayes (NB)",
+        "Random Forest (RF)",
+        "RBF Network (NET)",
+        "RANDOM",
+        "FIX"
+      ],
+      "best_model": {
+        "name": "Improved CNN",
+        "performance": {
+          "F-measure": 0.57,
+          "G-measure": 0.56,
+          "MCC": 0.38
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Pages 15-21"
+    },
+    "research": 6
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "AUC",
+        "G-mean",
+        "sensitivity",
+        "specificity"
+      ],
+      "baseline_models": [
+        "W-SVMs",
+        "random forests"
+      ],
+      "best_model": {
+        "name": "Enhanced APE",
+        "performance": {
+          "ant-1.7": 0.86,
+          "camel-1.6": 0.8,
+          "KC3": 0.86,
+          "MC1": 0.98,
+          "PC2": 0.95,
+          "PC4": 0.96
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Sections 5.1, 5.2, 5.4, Tables 3, 4, 5, 6"
+    },
+    "research": 7
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "Recall",
+        "Precision",
+        "F-measure"
+      ],
+      "baseline_models": [
+        "Logistic Regression",
+        "Na\u00efve Bayes",
+        "Random Tree",
+        "Support Vector Machine"
+      ],
+      "best_model": {
+        "name": "Diffused Bayes (DB) classifier",
+        "performance": {
+          "Recall": 0.7145,
+          "Precision": 0.4443,
+          "F-measure": 0.5021
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Pages 13-18"
+    },
+    "research": 8
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "accuracy",
+        "f-measure",
+        "precision",
+        "recall",
+        "Area Under ROC Curve (AUC)"
+      ],
+      "baseline_models": [
+        "Decision Tree",
+        "K-Nearest Neighbour",
+        "Na\u00efve Bayes",
+        "Support Vector Machine (SVM)",
+        "Artificial Neural Network (ANN)",
+        "Cascade Correlation Network (CCN)",
+        "GMDH (Group Method of Data Handling) polynomial network",
+        "Adaboost"
+      ],
+      "best_model": {
+        "name": "Random Forest",
+        "performance": {
+          "accuracy": 93.71,
+          "f-measure": 0.97,
+          "precision": 0.95,
+          "recall": 0.99,
+          "AUC": 0.93
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Section IV, Pages 40-45"
+    },
+    "research": 9
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "precision",
+        "recall",
+        "accuracy",
+        "Spearman correlation",
+        "R2 value",
+        "Pearson correlation"
+      ],
+      "baseline_models": [
+        "logistic regression",
+        "linear regression"
+      ],
+      "best_model": {
+        "name": "logistic regression (package level)",
+        "performance": {
+          "precision": 0.785,
+          "recall": 0.789,
+          "accuracy": 0.757
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Pages 6-8"
+    },
+    "research": 10
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "Probability of Detection (PD)",
+        "Probability of False Alarms (PF)",
+        "Class Precision",
+        "Class Recall"
+      ],
+      "baseline_models": [
+        "N/A"
+      ],
+      "best_model": {
+        "name": "Hybrid Model (K-means Clustering + Decision Tree C4.5)",
+        "performance": {
+          "Probability of Detection (PD)": 1.0,
+          "Probability of False Alarms (PF)": 0.0,
+          "Class Precision": 100.0,
+          "Class Recall": 100.0
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Pages 282-285"
+    },
+    "research": 11
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "AUC",
+        "H-measure"
+      ],
+      "baseline_models": [
+        "Naive Bayes",
+        "Random Forests",
+        "Logistic Regression"
+      ],
+      "best_model": {
+        "name": "Random Forests",
+        "performance": {
+          "AUC": 0.85,
+          "H-measure": 0.75
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Pages 237-257"
+    },
+    "research": 12
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "RMSE",
+        "AUC-ROC"
+      ],
+      "baseline_models": [
+        "SVM"
+      ],
+      "best_model": {
+        "name": "Bagged SVM ensemble",
+        "performance": {
+          "RMSE_Package_level_metrics": 0.43,
+          "RMSE_Class_level_metrics": 0.41,
+          "AUC-ROC_Package_level_metrics": 0.78,
+          "AUC-ROC_Class_level_metrics": 0.832
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Section V, Page 5"
+    },
+    "research": 14
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "accuracy"
+      ],
+      "baseline_models": [
+        "Bayesian Net",
+        "Logistic Regression",
+        "Multilayer Perceptron",
+        "Ruler Zero-R",
+        "J48",
+        "Lazy IBK",
+        "Support Vector Machine",
+        "Neural Networks",
+        "Random Forest",
+        "Decision Stump"
+      ],
+      "best_model": {
+        "name": "Logistic Regression",
+        "performance": {
+          "accuracy": 93.32
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Pages 55-61"
+    },
+    "research": 15
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "accuracy",
+        "recall",
+        "precision",
+        "F1-measure"
+      ],
+      "baseline_models": [
+        "KNN",
+        "Decision Tree",
+        "BayesNet",
+        "SVM",
+        "ANN"
+      ],
+      "best_model": {
+        "name": "Bagging + REPTree",
+        "performance": {
+          "accuracy": 95.1,
+          "recall": 0.95,
+          "precision": 0.952,
+          "F1-measure": 0.949
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Pages 187-191"
+    },
+    "research": 16
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "accuracy",
+        "precision",
+        "recall",
+        "F1-score",
+        "ROC curves"
+      ],
+      "baseline_models": [
+        "Decision Tree (DT)",
+        "Na\u00efve Bayes (NB)",
+        "Random Forest (RF)",
+        "Logistic Regression (LR)"
+      ],
+      "best_model": {
+        "name": "Decision Tree (DT) and Random Forest (RF)",
+        "performance": {
+          "accuracy": 0.99,
+          "precision": 0.99,
+          "recall": 1.0,
+          "F1-score": 0.99
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Sections 8 and 9, Pages 730-733"
+    },
+    "research": 17
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "ROC-AUC"
+      ],
+      "baseline_models": [
+        "Support Vector Machine (SVM)",
+        "Artificial Neural Network (ANN)"
+      ],
+      "best_model": {
+        "name": "Artificial Neural Network (ANN)",
+        "performance": {
+          "ROC-AUC": 0.8685
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Page 1876-1879"
+    },
+    "research": 18
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "accuracy",
+        "probability of detection",
+        "probability of false alarm",
+        "balance",
+        "Area Under Curve (AUC)",
+        "Normalized Expected Cost of Misclassification (NECM)"
+      ],
+      "baseline_models": [
+        "Random Forest (RF)",
+        "Naive Bayes (NB)",
+        "C4.5",
+        "Immunos",
+        "Artificial Immune Recognition System (AIRS)",
+        "Cost-Sensitive Boosting Neural Networks with Threshold-Moving (CSBNN-TM)",
+        "Cost-Sensitive Boosting Neural Networks with Weight-Updating (CSBNN-WU1)",
+        "Cost-Sensitive Boosting Neural Networks with Weight-Updating (CSBNN-WU2)"
+      ],
+      "best_model": {
+        "name": "Proposed Classifier (CSANN-ABC)",
+        "performance": {
+          "AUC": 0.79,
+          "pd": 78.6,
+          "pf": 33.0,
+          "bal": 71.8,
+          "acc": 68.4
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Section 5, Pages 268-277"
+    },
+    "research": 19
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "g-mean",
+        "accuracy",
+        "CPU time"
+      ],
+      "baseline_models": [
+        "NaiveBayes (NB)",
+        "BayesNet (BN)",
+        "Logitboost (LB)",
+        "Adaboost (AB)"
+      ],
+      "best_model": {
+        "name": "PSOLDA",
+        "performance": {
+          "g-mean": 0.69,
+          "accuracy": 0.78,
+          "CPU time": 300.0
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Sections 6.1, 6.2, Tables 11, 12, 15, 16"
+    },
+    "research": 21
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "ROC",
+        "AUC",
+        "H-measure"
+      ],
+      "baseline_models": [
+        "Support Vector Machine (SVM)",
+        "Neural Network",
+        "Swarm Intelligence",
+        "Genetic Programming",
+        "Decision Tree",
+        "Logistic Regression",
+        "Random Forest (RF)",
+        "K2"
+      ],
+      "best_model": {
+        "name": "Augmented Bayesian Network",
+        "performance": {
+          "ROC": "N/A",
+          "AUC": "N/A",
+          "H-measure": "N/A"
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Pages 1412-1421"
+    },
+    "research": 22
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "Precision",
+        "Recall"
+      ],
+      "baseline_models": [
+        "Random Forest",
+        "Multilayer Perceptron",
+        "J48"
+      ],
+      "best_model": {
+        "name": "GFS-logitboost-c",
+        "performance": {
+          "Precision": 0.822,
+          "Recall": 0.992
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Section 4, Section 5, Table 3, Table 5, Fig. 2"
+    },
+    "research": 23
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "accuracy",
+        "F-measure",
+        "G-measure",
+        "Matthews Correlation Coefficient (MCC)"
+      ],
+      "baseline_models": [
+        "ANN",
+        "KNN",
+        "Naive Bayes (NB)",
+        "Random Forest (RF)",
+        "Support Vector Machine (SVM)"
+      ],
+      "best_model": {
+        "name": "Adaptive Artificial Jelly Optimization (A2JO) with Long Short-Term Memory (LSTM)",
+        "performance": {
+          "accuracy": 93.41,
+          "F-measure": 0.883,
+          "G-measure": 0.852,
+          "MCC": 0.68
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Section 4, Pages 1986-1994"
+    },
+    "research": 24
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "probability of detection (pd)",
+        "probability of false alarms (pf)",
+        "balance (bal)",
+        "precision (prec)"
+      ],
+      "baseline_models": [
+        "Na\u00efve Bayes",
+        "Artificial Neural Network (ANN)",
+        "Voting Feature Intervals (VFI)"
+      ],
+      "best_model": {
+        "name": "Ens2",
+        "performance": {
+          "pd": 0.78,
+          "pf": 0.16,
+          "prec": 0.56,
+          "bal": 0.78
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Sections 4.1, 4.2, 4.3; Tables 3, 4, 5, 6, 7, 8, 9, 10, 11"
+    },
+    "research": 25
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "sensitivity",
+        "specificity",
+        "precision",
+        "completeness",
+        "ROC analysis",
+        "AUC"
+      ],
+      "baseline_models": [
+        "logistic regression",
+        "random forest",
+        "NNage",
+        "Na\u00efve Bayes",
+        "artificial neural network",
+        "decision tree"
+      ],
+      "best_model": {
+        "name": "SVM model for medium severity faults (MSF)",
+        "performance": {
+          "sensitivity": 81.03,
+          "specificity": 88.5,
+          "precision": 82.75,
+          "completeness": 85.96,
+          "AUC": 0.88
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Sections 4.3, 5, 6, 7; Pages 273-281"
+    },
+    "research": 26
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "AUC",
+        "g-mean",
+        "balance",
+        "pd (recall)",
+        "pf (probability of false alarms)"
+      ],
+      "baseline_models": [
+        "NONE (no sampling)"
+      ],
+      "best_model": {
+        "name": "RUS (Random Under Sampling)",
+        "performance": {
+          "AUC": 0.63,
+          "g-mean": 0.61,
+          "balance": 0.63,
+          "pd (recall)": 0.143,
+          "pf (probability of false alarms)": 0.1
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Section 5, Pages 20-30"
+    },
+    "research": 27
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "AUC",
+        "mean",
+        "standard deviation"
+      ],
+      "baseline_models": [
+        "OneR",
+        "JRip",
+        "J48",
+        "NBTree",
+        "RLR",
+        "SVM",
+        "MLP",
+        "NBc",
+        "NBd",
+        "TAN",
+        "AODE",
+        "HNB",
+        "AdaBst",
+        "RF",
+        "NBd2",
+        "NBE",
+        "SNB",
+        "TAN2",
+        "NBE2",
+        "SNB2"
+      ],
+      "best_model": {
+        "name": "RF",
+        "performance": {
+          "AUC": 0.788,
+          "mean": 0.788,
+          "standard deviation": 0.013
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Section 5.1, Table 6, Table 7, Figure 7"
+    },
+    "research": 28
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "sensitivity",
+        "specificity",
+        "precision",
+        "completeness",
+        "Receiver Operating Characteristic (ROC) analysis",
+        "Area Under the Curve (AUC)"
+      ],
+      "baseline_models": [
+        "Logistic Regression (LR)",
+        "Decision Tree (DT)",
+        "Artificial Neural Network (ANN)"
+      ],
+      "best_model": {
+        "name": "Decision Tree (DT)",
+        "performance": {
+          "HSF_sensitivity": 69.5,
+          "HSF_specificity": 90.0,
+          "HSF_precision": 84.68,
+          "HSF_completeness": 70.8,
+          "HSF_AUC": 0.766,
+          "MSF_sensitivity": 89.7,
+          "MSF_specificity": 71.3,
+          "MSF_precision": 78.64,
+          "MSF_completeness": 97.5,
+          "MSF_AUC": 0.888,
+          "LSF_sensitivity": 90.3,
+          "LSF_specificity": 81.1,
+          "LSF_precision": 83.4,
+          "LSF_completeness": 94.3,
+          "LSF_AUC": 0.875,
+          "USF_sensitivity": 91.5,
+          "USF_specificity": 87.2,
+          "USF_precision": 88.9,
+          "USF_completeness": 94.0,
+          "USF_AUC": 0.835
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Sections 5, 6, and 7"
+    },
+    "research": 29
+  },
+  {
+    "performance_evaluation": {
+      "metrics": [
+        "AUC",
+        "non defectiveness probability"
+      ],
+      "baseline_models": [
+        "CFS (CfsSubsetEval attribute evaluator with BestFirst search method)",
+        "Relief (ReliefFAttributeEval with Ranker search method)"
+      ],
+      "best_model": {
+        "name": "Bayesian Network",
+        "performance": {
+          "AUC": 0.846,
+          "non defectiveness probability": 0.997
+        }
+      }
+    },
+    "source_locations": {
+      "performance_evaluation": "Pages 166-177"
+    },
+    "research": 30
+  }
+]

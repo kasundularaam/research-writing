@@ -1,0 +1,26 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "Recall",
+      "Precision",
+      "F-measure"
+    ],
+    "baseline_models": [
+      "Logistic Regression",
+      "Na\u00efve Bayes",
+      "Random Tree",
+      "Support Vector Machine"
+    ],
+    "best_model": {
+      "name": "Diffused Bayes (DB) classifier",
+      "performance": {
+        "Recall": 0.7145,
+        "Precision": 0.4443,
+        "F-measure": 0.5021
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Pages 13-18"
+  }
+}

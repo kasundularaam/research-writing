@@ -1,0 +1,19 @@
+{
+  "additional_info": {
+    "software_domain": "software defect prediction",
+    "limitations": [
+      "The results are based on a limited number of datasets from the Promise data repository.",
+      "The study's findings may not generalize to all types of software projects.",
+      "The number of developers (NOD) metric could not be extracted for all datasets due to lack of developer information in some source code repositories.",
+      "The study assumes that the extracted metrics are accurate and representative of the software's defectiveness."
+    ],
+    "future_directions": [
+      "Refine the research to include other software and process metrics in the model to reveal the relationships among them and to determine the most useful ones in defect prediction.",
+      "Conduct more experiments on additional datasets to justify the findings.",
+      "Explore the cost-benefit curve of the number of developers (NOD) versus defectiveness level to provide more detailed recommendations for project managers."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Pages 154-181"
+  }
+}

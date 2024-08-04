@@ -1,0 +1,26 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Siamese Dense Neural Networks (SDNN)",
+      "Double Transfer Boosting (DTB)",
+      "Feature Matching Algorithm",
+      "Deep Neural Network (DNN)",
+      "Long Short-Term Memory (LSTM)",
+      "Deep Belief Network (DBN)",
+      "Logistic Regression (LR)",
+      "Bagging (BAG)",
+      "Naive Bayes (NB)",
+      "Transfer Naive Bayes (TNB)"
+    ],
+    "novel_approaches": "A novel SDP model called Siamese Dense Neural Networks (SDNN) is proposed, which integrates similarity feature learning and distance metric learning into a unified approach. The designed contrastive loss function with cosine-proximity is used to train the network in an end-to-end manner.",
+    "preprocessing": [
+      "Deletion of repeated entities",
+      "Replacement of missing values",
+      "Data normalization",
+      "Data oversampling using SMOTETomek"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Sections II, III, IV; Pages 7663-7677"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "bug_prediction_metrics": [
+    {
+      "name": "Logistic Regression",
+      "category": "Machine Learning Algorithm",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Random Forest",
+      "category": "Machine Learning Algorithm",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Decision Stump",
+      "category": "Machine Learning Algorithm",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Support Vector Machine",
+      "category": "Machine Learning Algorithm",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Bayes Net",
+      "category": "Machine Learning Algorithm",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Multilayer Perceptron (MLP)",
+      "category": "Machine Learning Algorithm",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "J48",
+      "category": "Machine Learning Algorithm",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Lazy IBK",
+      "category": "Machine Learning Algorithm",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Ruler Zero-R",
+      "category": "Machine Learning Algorithm",
+      "is_novel": false,
+      "description": "N/A"
+    }
+  ],
+  "source_locations": {
+    "bug_prediction_metrics": "Pages 48-53"
+  }
+}

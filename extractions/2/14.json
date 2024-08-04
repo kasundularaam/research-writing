@@ -1,0 +1,22 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Support Vector Machine (SVM)",
+      "Logistic Model Trees (LMT)",
+      "Complementary Na\u00efve Bayes (CNB)",
+      "Naive Bayes",
+      "Artificial Immune Recognition System (AIRS)",
+      "Neural Networks (NN)",
+      "Probabilistic Neural Network (PNN)",
+      "Back Propagation Neural Network (BPN)"
+    ],
+    "novel_approaches": "The paper proposes an ensemble approach using Bagged Support Vector Machine (SVM) for fault prediction, which combines multiple SVM classifiers to improve performance.",
+    "preprocessing": [
+      "10-fold cross validation",
+      "Bootstrap sampling for bagging"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Sections IV, V, and VI"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "additional_info": {
+    "software_domain": "general software development, including both procedural and object-oriented programming",
+    "limitations": [
+      "The Naive Bayes classifier, while simple and often effective, assumes conditional independence between attributes, which is often not met in practice.",
+      "General Bayesian Network classifiers can result in overly complex network structures, making them less comprehensible.",
+      "The Markov blanket feature selection procedure, while reducing the number of features, did not always improve performance and sometimes resulted in worse performance.",
+      "The study found that the best attributes for defect prediction vary from dataset to dataset, indicating that a single best set of features does not exist."
+    ],
+    "future_directions": [
+      "Investigate the inclusion of information other than static code features into fault prediction models, such as information on intermodule relations and requirement metrics.",
+      "Explore how other techniques such as support vector machines or neural networks perform under different development contexts.",
+      "Further research on feature selection techniques that can select a smaller set of highly predictive features without negatively impacting performance."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Sections 1, 2, 3, 4, 5, and 6; Pages 237-257"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Naive Bayes",
+      "Artificial Neural Network",
+      "Voting Feature Intervals",
+      "Classification and Regression Tree",
+      "Bayesian Belief Network",
+      "Multi-strategy Classifier"
+    ],
+    "novel_approaches": "An ensemble of classifiers combining Naive Bayes and Voting Feature Intervals with a novel voting scheme to reduce false alarms and improve precision.",
+    "preprocessing": [
+      "Log filtering",
+      "InfoGain attribute selection",
+      "Principal Component Analysis (PCA)",
+      "Normalization"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Sections 3.4, 4.1, 4.2, 4.3"
+  }
+}

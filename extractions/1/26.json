@@ -1,0 +1,25 @@
+{
+  "paper_info": {
+    "title": "Empirical validation of object-oriented metrics for predicting fault proneness at different severity levels using support vector machines",
+    "year": 2010,
+    "doi": "10.1007/s13198-011-0048-7"
+  },
+  "dataset": {
+    "name": [
+      "KC1 NASA data set"
+    ],
+    "size": [
+      145
+    ],
+    "source": [
+      "NASA Metrics Data Program (NASA 2004)"
+    ],
+    "language": [
+      "C++"
+    ]
+  },
+  "source_locations": {
+    "paper_info": "Page 1",
+    "dataset": "Page 3, Section 3.3"
+  }
+}

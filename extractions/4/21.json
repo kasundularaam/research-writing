@@ -1,0 +1,26 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "g-mean",
+      "accuracy",
+      "CPU time"
+    ],
+    "baseline_models": [
+      "NaiveBayes (NB)",
+      "BayesNet (BN)",
+      "Logitboost (LB)",
+      "Adaboost (AB)"
+    ],
+    "best_model": {
+      "name": "PSOLDA",
+      "performance": {
+        "g-mean": 0.69,
+        "accuracy": 0.78,
+        "CPU time": 300.0
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Sections 6.1, 6.2, Tables 11, 12, 15, 16"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "paper_info": {
+    "title": "Empirical validation of object-oriented metrics for predicting fault proneness models",
+    "year": 2010,
+    "doi": "10.1007/s11219-009-9079-6"
+  },
+  "dataset": {
+    "name": [
+      "KC1 NASA data set"
+    ],
+    "size": [
+      145
+    ],
+    "source": [
+      "public domain NASA data set"
+    ],
+    "language": [
+      "C++"
+    ]
+  },
+  "source_locations": {
+    "paper_info": "Page 1",
+    "dataset": "Page 4, Page 9"
+  }
+}

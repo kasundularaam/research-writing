@@ -1,0 +1,15 @@
+{
+  "additional_info": {
+    "software_domain": "software bug prediction",
+    "limitations": [
+      "Numerous false positives and false negatives results in static code analysis tools",
+      "Small dataset size affecting the performance of Naive Bayes model"
+    ],
+    "future_directions": [
+      "Introduce other machine learning techniques with data balancing techniques to improve the accuracy for predicting software bugs"
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Section 10, Page 733"
+  }
+}

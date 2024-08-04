@@ -1,0 +1,26 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "regression",
+      "rule induction",
+      "decision tree (C4.5)",
+      "case-based reasoning (CBR)",
+      "artificial neural networks",
+      "linear discriminant analysis",
+      "k-nearest neighbour",
+      "k-star",
+      "Bayesian networks",
+      "support vector machine (SVM)"
+    ],
+    "novel_approaches": "We introduce a new metric called Lack of Coding Quality (LOCQ) that measures the quality of the source code. Additionally, we extract the Number of Developers (NOD) metric to measure the effect of the number of developers on defect proneness.",
+    "preprocessing": [
+      "stratified training and test sets",
+      "cross-validation",
+      "feature selection",
+      "normalization"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Pages 156-181"
+  }
+}

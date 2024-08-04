@@ -1,0 +1,596 @@
+[
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "C4.5",
+        "Random Forest",
+        "Support Vector Machine",
+        "K-Nearest Neighbors",
+        "Logistic Regression",
+        "Naive Bayes"
+      ],
+      "novel_approaches": "A comprehensive experiment evaluating 16 imbalanced learning methods combined with 7 traditional classifiers using 7 types of input metrics.",
+      "preprocessing": [
+        "Subsampling",
+        "Cost-sensitive learning",
+        "Ensemble learning",
+        "Imbalanced ensemble learning",
+        "Special-purpose learning",
+        "Undersampling",
+        "Oversampling",
+        "SMOTE",
+        "Hybrid methods",
+        "Attribute selection"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections 2.1, 2.2, 3.2, 3.4, 3.5, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7"
+    },
+    "research": 1
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Linear Regression",
+        "Bayesian Network",
+        "K-means Clustering",
+        "Support Vector Machine",
+        "C4.5",
+        "K-Nearest Neighbors",
+        "Random Forest",
+        "Neural Network"
+      ],
+      "novel_approaches": "An evolutionary programming (EP) based asymmetric weighted least squares support vector machine (LSSVM) ensemble learning methodology is proposed. This methodology integrates EP with AW-LSSVM to improve classification accuracy in software repository mining.",
+      "preprocessing": [
+        "Feature selection",
+        "Data normalization",
+        "Data partition"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections 1, 2, 3, 4"
+    },
+    "research": 2
+  },
+  {
+    "ml_techniques": {
+      "algorithms": ["Logistic Regression", "Bayesian Inference"],
+      "novel_approaches": "The study proposes a hybrid approach combining Logistic Regression and Bayesian Inference to predict software faults.",
+      "preprocessing": ["Metric collection", "Binary categorization"]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections 1, 2, 3, 4, 5"
+    },
+    "research": 3
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Naive Bayes",
+        "Support Vector Machine",
+        "Logistic Regression",
+        "Random Forest",
+        "Decision Tree",
+        "Neural Network"
+      ],
+      "novel_approaches": "The paper proposes a new weighted naive Bayes method based on information diffusion (WNB-ID) for software defect prediction. It combines feature-weighting techniques to assign weights to features and the information diffusion model (IDM) to compute the probability density of each feature, addressing the equal importance and normal distribution assumptions of NB.",
+      "preprocessing": ["Feature weighting", "Distribution testing"]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections 1, 2.1, 2.2, 2.3, 3, 3.2, 3.3, 4, 5"
+    },
+    "research": 4
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Decision Tree",
+        "Random Forest",
+        "Logistic Regression",
+        "Naive Bayes",
+        "Deep Belief Network",
+        "Convolutional Neural Network"
+      ],
+      "novel_approaches": "We proposed an improved CNN model for better generalization and capability of capturing global bug patterns. The model learned semantic features extracted from a program\u2019s AST for defect prediction.",
+      "preprocessing": [
+        "Feature extraction",
+        "AST parsing",
+        "Token mapping",
+        "Class imbalance handling"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections 1, 2.1, 2.2, 3, 4.2, 5.2"
+    },
+    "research": 6
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Decision Tree",
+        "Bayesian Methods",
+        "Neural Network",
+        "Support Vector Machine",
+        "Random Forest",
+        "Gradient Boosting",
+        "Logistic Regression",
+        "Naive Bayes"
+      ],
+      "novel_approaches": "A new two-variant ensemble learning algorithm called Average Probability Ensemble (APE) is proposed, which combines seven classifiers: random forests, gradient boosting, stochastic gradient descent, weighted SVMs, logistic regression, multinomial naive Bayes, and Bernoulli naive Bayes. The APE model is designed to be robust to both data imbalance and feature redundancy.",
+      "preprocessing": ["Feature selection", "Correlation analysis"]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections 1, 2.1, 2.4, 2.5, 3.3, 3.4, 5.1, 5.2, 5.4"
+    },
+    "research": 7
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Logistic Regression",
+        "Naive Bayes",
+        "Random Tree",
+        "Support Vector Machine"
+      ],
+      "novel_approaches": "A new Bayes classifier, called Diffused Bayes (DB) classifier, which improves the traditional Na\u00efve Bayes classifier using a diffusion function based on the vibration of string (VSDF).",
+      "preprocessing": [
+        "Normality testing",
+        "Binary classification",
+        "Metric selection"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Pages 2-19"
+    },
+    "research": 8
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Random Forest",
+        "Decision Tree",
+        "K-Nearest Neighbors",
+        "Naive Bayes",
+        "Support Vector Machine",
+        "Logistic Regression",
+        "Neural Network",
+        "C4.5",
+        "AdaBoost"
+      ],
+      "novel_approaches": "N/A",
+      "preprocessing": [
+        "Principal component analysis",
+        "Correlation-based feature selection"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Section II, Section III, Section IV, Page 40-45"
+    },
+    "research": 9
+  },
+  {
+    "ml_techniques": {
+      "algorithms": ["Logistic Regression", "Linear Regression"],
+      "novel_approaches": "N/A",
+      "preprocessing": [
+        "Metric aggregation",
+        "Defect handling",
+        "Complexity metric computation"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections 4.2, 4.3, Tables 4, 5, 6, 7"
+    },
+    "research": 10
+  },
+  {
+    "ml_techniques": {
+      "algorithms": ["C4.5", "K-means Clustering"],
+      "novel_approaches": "A hybrid model consisting of K-means Clustering Algorithm and C4.5 based Decision Tree is proposed.",
+      "preprocessing": ["K-means clustering", "Data joining"]
+    },
+    "source_locations": {
+      "ml_techniques": "Abstract, Introduction, Methodology, Implementation & Results"
+    },
+    "research": 11
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Naive Bayes",
+        "Bayesian Network",
+        "Logistic Regression",
+        "Random Forest"
+      ],
+      "novel_approaches": "The study proposes the use of 15 different Bayesian Network (BN) classifiers, including various Augmented Naive Bayes classifiers and General Bayesian Network classifiers, which are compared to other popular machine learning techniques. The Markov blanket principle for feature selection is also investigated.",
+      "preprocessing": [
+        "Discretization",
+        "Attribute filtering",
+        "Data cleaning",
+        "Stratified sampling"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections 3.1 to 3.6, Section 4.2, and Section 5.1"
+    },
+    "research": 12
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Neural Network",
+        "Long Short-Term Memory",
+        "Deep Belief Network",
+        "Logistic Regression",
+        "Naive Bayes"
+      ],
+      "novel_approaches": "A novel SDP model called Siamese Dense Neural Networks (SDNN) is proposed, which integrates similarity feature learning and distance metric learning into a unified approach. The designed contrastive loss function with cosine-proximity is used to train the network in an end-to-end manner.",
+      "preprocessing": [
+        "Duplicate removal",
+        "Missing value handling",
+        "Data normalization",
+        "Oversampling"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections II, III, IV; Pages 7663-7677"
+    },
+    "research": 13
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Support Vector Machine",
+        "Logistic Model Trees",
+        "Naive Bayes",
+        "Neural Network"
+      ],
+      "novel_approaches": "The paper proposes an ensemble approach using Bagged Support Vector Machine (SVM) for fault prediction, which combines multiple SVM classifiers to improve performance.",
+      "preprocessing": ["Cross-validation", "Bootstrap sampling"]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections IV, V, and VI"
+    },
+    "research": 14
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Bayesian Network",
+        "Logistic Regression",
+        "Neural Network",
+        "J48",
+        "K-Nearest Neighbors",
+        "Support Vector Machine",
+        "Random Forest",
+        "Decision Tree"
+      ],
+      "novel_approaches": "Hybrid method of ensemble classification based on an over-sampled approach for software defect prediction in various imbalanced NASA datasets.",
+      "preprocessing": [
+        "Feature selection",
+        "Data cleaning",
+        "Missing value handling"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Pages 41-62"
+    },
+    "research": 15
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Random Forest",
+        "Naive Bayes",
+        "Support Vector Machine",
+        "Neural Network",
+        "Logistic Regression",
+        "J48",
+        "C4.5",
+        "Bayesian Network",
+        "K-Nearest Neighbors",
+        "Decision Tree"
+      ],
+      "novel_approaches": "The paper proposes a new model based on using different preprocessing and feature selection algorithms to obtain a highly effective and efficient model. Additionally, an Ensemble Learning method combining classifiers such as Bagging with REPTree and Voting with REPTree and Ibk is proposed.",
+      "preprocessing": [
+        "Feature selection",
+        "Principal component analysis",
+        "Dimensionality reduction",
+        "Missing value handling",
+        "Normalization"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections 1, 2, 3, 4, and 5"
+    },
+    "research": 16
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Decision Tree",
+        "Naive Bayes",
+        "Random Forest",
+        "Logistic Regression",
+        "Neural Network",
+        "Support Vector Machine",
+        "K-Nearest Neighbors"
+      ],
+      "novel_approaches": "N/A",
+      "preprocessing": [
+        "Feature extraction",
+        "Missing value handling",
+        "Normalization"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Section III, Section IV, Section VII, Section IX, Pages 726-735"
+    },
+    "research": 17
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Neural Network",
+        "Support Vector Machine",
+        "Naive Bayes",
+        "Random Forest",
+        "Logistic Regression",
+        "Decision Tree",
+        "Bayesian Network"
+      ],
+      "novel_approaches": "This study presents the first application of the Adaptive Neuro Fuzzy Inference System (ANFIS) for the software fault prediction problem. ANFIS combines learning ability and expert knowledge, using data to optimize the model and expert knowledge to handle vagueness.",
+      "preprocessing": [
+        "Feature selection",
+        "Normalization",
+        "Missing value handling",
+        "Cross-validation"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections 1, 2, 3, 4, 5, 6; Pages 1872-1879"
+    },
+    "research": 18
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Random Forest",
+        "Naive Bayes",
+        "Support Vector Machine",
+        "Logistic Regression",
+        "Neural Network"
+      ],
+      "novel_approaches": "A hybrid model combining Artificial Neural Network (ANN) and Artificial Bee Colony (ABC) algorithm. The ABC algorithm is used to optimize the weights of the ANN, and a cost-sensitive feature is added to the ANN using a parametric fitness function.",
+      "preprocessing": [
+        "Data shuffling",
+        "Cross-validation",
+        "Feature selection",
+        "Normalization"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Section 2, Section 4, Section 5"
+    },
+    "research": 19
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Naive Bayes",
+        "Bayesian Network",
+        "Neural Network",
+        "AdaBoost"
+      ],
+      "novel_approaches": "Hybridized search based algorithms combining advantages of SBAs and non-SBAs, such as PSOLDA, GFS-AB, GFS-LB, GFS-MaxLB, NNEP, HIDER, GFS-GP, GFS-SP, and SLAVE.",
+      "preprocessing": [
+        "Feature selection",
+        "Descriptive statistics",
+        "Correlation analysis",
+        "Principal component analysis"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections 4, 5, 6, and Tables 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17"
+    },
+    "research": 21
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Naive Bayes",
+        "Bayesian Network",
+        "Support Vector Machine",
+        "Neural Network",
+        "Decision Tree",
+        "Logistic Regression",
+        "Random Forest",
+        "K-Nearest Neighbors"
+      ],
+      "novel_approaches": "The paper proposes the use of Augmented Naive Bayes classifiers, which involve adding arcs between variables to relax the assumption of conditional independence. This includes techniques like Selective Augmented Naive Bayes (SAN) and Selective Augmented Naive Bayes with Discarding (SAND).",
+      "preprocessing": [
+        "Feature selection",
+        "Clustering",
+        "Wrapper method",
+        "Multidimensional scaling",
+        "Discretization"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Pages 1412-1421"
+    },
+    "research": 22
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Random Forest",
+        "J48",
+        "K-Nearest Neighbors",
+        "Neural Network",
+        "Logistic Regression",
+        "Support Vector Machine",
+        "Decision Tree",
+        "Naive Bayes"
+      ],
+      "novel_approaches": "Hybrid search based algorithms (HSBA) such as GFS-Adaboost-c and GFS-logitboost-c, which combine fuzzy rules with boosting techniques for improved defect prediction.",
+      "preprocessing": [
+        "Dimensionality reduction",
+        "Imbalance handling",
+        "Cross-validation"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections 2, 3.2, 5, and Tables 1, 3, 4, 5"
+    },
+    "research": 23
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Support Vector Machine",
+        "Neural Network",
+        "Naive Bayes",
+        "K-Nearest Neighbors",
+        "Long Short-Term Memory",
+        "Random Forest",
+        "Convolutional Neural Network"
+      ],
+      "novel_approaches": "The proposed A2JO algorithm is a combination of the traditional Artificial Jelly Optimization (AJO) algorithm and chaotic opposition-based learning (COBL) to increase the searching ability and convergence speed.",
+      "preprocessing": ["Duplicate removal", "Feature selection"]
+    },
+    "source_locations": {
+      "ml_techniques": "Pages 1975-1998, Sections 1, 2, 3, 4"
+    },
+    "research": 24
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Naive Bayes",
+        "Neural Network",
+        "Decision Tree",
+        "Bayesian Network"
+      ],
+      "novel_approaches": "An ensemble of classifiers combining Naive Bayes and Voting Feature Intervals with a novel voting scheme to reduce false alarms and improve precision.",
+      "preprocessing": [
+        "Log filtering",
+        "Feature selection",
+        "Principal component analysis",
+        "Normalization"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections 3.4, 4.1, 4.2, 4.3"
+    },
+    "research": 25
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "Support Vector Machine",
+        "Linear Discriminant Analysis",
+        "Logistic Regression",
+        "Decision Tree",
+        "Neural Network",
+        "Random Forest",
+        "Naive Bayes"
+      ],
+      "novel_approaches": "N/A",
+      "preprocessing": [
+        "Outlier analysis",
+        "Data normalization",
+        "Missing value handling",
+        "Fault categorization"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections 1, 4, 5, 6"
+    },
+    "research": 26
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "K-Nearest Neighbors",
+        "Support Vector Machine",
+        "C4.5",
+        "Random Forest",
+        "Neural Network",
+        "Linear Discriminant Analysis",
+        "Logistic Regression",
+        "Decision Tree",
+        "Naive Bayes"
+      ],
+      "novel_approaches": "N/A",
+      "preprocessing": [
+        "Oversampling",
+        "Undersampling",
+        "SMOTE",
+        "Normalization"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections 1, 2, 3, 4.2.2, 4.2.3, 4.2.4"
+    },
+    "research": 27
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "J48",
+        "Logistic Regression",
+        "Support Vector Machine",
+        "Neural Network",
+        "Naive Bayes",
+        "Bayesian Network",
+        "AdaBoost",
+        "Random Forest"
+      ],
+      "novel_approaches": "The proposed method, called superposed naive Bayes (SNB), uses a two-step approach: firstly builds a naive Bayes ensemble via stochastic boosting, and then transforms it into a simple naive Bayes model by linear approximation.",
+      "preprocessing": [
+        "Discretization",
+        "Missing value handling",
+        "Laplace correction"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections 1, 2, 3, 4, 5"
+    },
+    "research": 28
+  },
+  {
+    "ml_techniques": {
+      "algorithms": ["Decision Tree", "Neural Network", "Logistic Regression"],
+      "novel_approaches": "N/A",
+      "preprocessing": ["Normalization", "Outlier analysis"]
+    },
+    "source_locations": {
+      "ml_techniques": "Sections 5.2, 5.3, 5.4, 6"
+    },
+    "research": 29
+  },
+  {
+    "ml_techniques": {
+      "algorithms": [
+        "C4.5",
+        "Neural Network",
+        "Linear Discriminant Analysis",
+        "K-Nearest Neighbors",
+        "Bayesian Network",
+        "Support Vector Machine"
+      ],
+      "novel_approaches": "We introduce a new metric called Lack of Coding Quality (LOCQ) that measures the quality of the source code. Additionally, we extract the Number of Developers (NOD) metric to measure the effect of the number of developers on defect proneness.",
+      "preprocessing": [
+        "Stratified sampling",
+        "Cross-validation",
+        "Feature selection",
+        "Normalization"
+      ]
+    },
+    "source_locations": {
+      "ml_techniques": "Pages 156-181"
+    },
+    "research": 30
+  }
+]

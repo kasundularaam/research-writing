@@ -1,0 +1,25 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Bayesian Net",
+      "Logistic Regression",
+      "Multilayer Perceptron",
+      "Ruler Zero-R",
+      "J48",
+      "Lazy IBK",
+      "Support Vector Machine",
+      "Neural Networks",
+      "Random Forest",
+      "Decision Stump"
+    ],
+    "novel_approaches": "Hybrid method of ensemble classification based on an over-sampled approach for software defect prediction in various imbalanced NASA datasets.",
+    "preprocessing": [
+      "Feature selection",
+      "Data cleaning",
+      "Handling missing values"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Pages 41-62"
+  }
+}

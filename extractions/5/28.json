@@ -1,0 +1,19 @@
+{
+  "additional_info": {
+    "software_domain": "software defect prediction",
+    "limitations": [
+      "The randomness involved in the experiments could introduce some bias.",
+      "The tuning of the configuration parameters of predictors may influence the results.",
+      "The study is based on only 13 real-world public datasets, which could be a potential threat to external validity.",
+      "The selection of classification techniques could be another source of threat."
+    ],
+    "future_directions": [
+      "Further studies are needed to clarify the mechanism of how SNB improves the performance of a simple naive Bayes model during iterations.",
+      "A more accurate and objective way to measure interpretability, such as a highly-controlled user-based experiment, will be required.",
+      "Additional studies are needed to further explore the potential of the proposed method in various domains where both predictive accuracy and interpretability are required."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Section 6 (Threats to Validity), Section 7 (Conclusion)"
+  }
+}

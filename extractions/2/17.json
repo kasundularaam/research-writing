@@ -1,0 +1,23 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Decision Tree (DT)",
+      "Na\u00efve Bayes (NB)",
+      "Random Forest (RF)",
+      "Logistic Regression (LR)",
+      "Artificial Neural Networks (ANNs)",
+      "Support Vector Machine (SVM)",
+      "Deep Learning (DL)",
+      "K-Nearest Neighbor (K-NN)"
+    ],
+    "novel_approaches": "N/A",
+    "preprocessing": [
+      "Feature extraction",
+      "Handling missing values",
+      "Normalization"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Section III, Section IV, Section VII, Section IX, Pages 726-735"
+  }
+}

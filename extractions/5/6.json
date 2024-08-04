@@ -1,0 +1,21 @@
+{
+  "additional_info": {
+    "software_domain": "within-project defect prediction (WPDP)",
+    "limitations": [
+      "Limited dataset size in the CNN study",
+      "Insufficiently repeated experiments in the CNN study",
+      "Outdated baseline selection in the CNN study",
+      "Hyperparameter instability in deep learning models",
+      "Deletion of files when parsing source code due to limited syntax support of the Java programming language"
+    ],
+    "future_directions": [
+      "Collect more C/C++ open source projects and build new datasets for deep-feature-based defect prediction",
+      "Use other kinds of deep models such as RNN to generate features for predicting defects automatically",
+      "Determine what types of defects could be predicted in deep learning-based defect prediction",
+      "Explore ensemble methods of deep learning models for defect prediction"
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Abstract, Introduction, Section 1, Section 5.4, Section 6, Section 8"
+  }
+}

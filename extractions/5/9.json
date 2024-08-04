@@ -1,0 +1,16 @@
+{
+  "additional_info": {
+    "software_domain": "software fault prediction using source code metrics",
+    "limitations": [
+      "The effect of feature selection techniques has increased the performance in few cases, however, in the maximum cases it is negligible or even the worse.",
+      "Na\u00efve Bayes performed the worst accuracy among the machine learning techniques.",
+      "SVM could not perform well with multidimensional reduction in this case."
+    ],
+    "future_directions": [
+      "Similar nature of studies with large scale software could be performed to generalize and validate the results that is obtained by this study."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Abstract, Section IV, Section V"
+  }
+}

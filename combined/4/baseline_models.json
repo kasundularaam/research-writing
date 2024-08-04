@@ -1,0 +1,203 @@
+[
+  {
+    "research": 1,
+    "baseline_models": ["Traditional Learning Methods"]
+  },
+  {
+    "research": 2,
+    "baseline_models": [
+      "Logistic Regression",
+      "K-Nearest Neighbor",
+      "C4.5",
+      "Support Vector Machine",
+      "Least Squares SVM",
+      "Majority Voting"
+    ]
+  },
+  {
+    "research": 3,
+    "baseline_models": ["Logistic Regression", "Bayesian Inference"]
+  },
+  {
+    "research": 4,
+    "baseline_models": [
+      "Naive Bayes",
+      "Support Vector Machine",
+      "Logistic Regression",
+      "Random Tree"
+    ]
+  },
+  {
+    "research": 6,
+    "baseline_models": [
+      "Convolutional Neural Network",
+      "Deep Belief Network",
+      "Decision Tree",
+      "Logistic Regression",
+      "Naive Bayes",
+      "Random Forest",
+      "RBF Network"
+    ]
+  },
+  {
+    "research": 7,
+    "baseline_models": ["Weighted Support Vector Machine", "Random Forest"]
+  },
+  {
+    "research": 8,
+    "baseline_models": [
+      "Logistic Regression",
+      "Naive Bayes",
+      "Random Tree",
+      "Support Vector Machine"
+    ]
+  },
+  {
+    "research": 9,
+    "baseline_models": [
+      "Decision Tree",
+      "K-Nearest Neighbor",
+      "Naive Bayes",
+      "Support Vector Machine",
+      "Artificial Neural Network",
+      "Cascade Correlation Network",
+      "GMDH Network",
+      "Adaboost"
+    ]
+  },
+  {
+    "research": 10,
+    "baseline_models": ["Logistic Regression", "Linear Regression"]
+  },
+  {
+    "research": 12,
+    "baseline_models": ["Naive Bayes", "Random Forest", "Logistic Regression"]
+  },
+  {
+    "research": 14,
+    "baseline_models": ["Support Vector Machine"]
+  },
+  {
+    "research": 15,
+    "baseline_models": [
+      "Bayesian Network",
+      "Logistic Regression",
+      "Multilayer Perceptron",
+      "J48",
+      "Support Vector Machine",
+      "Neural Network",
+      "Random Forest",
+      "Decision Stump"
+    ]
+  },
+  {
+    "research": 16,
+    "baseline_models": [
+      "K-Nearest Neighbor",
+      "Decision Tree",
+      "Bayesian Network",
+      "Support Vector Machine",
+      "Artificial Neural Network"
+    ]
+  },
+  {
+    "research": 17,
+    "baseline_models": [
+      "Decision Tree",
+      "Naive Bayes",
+      "Random Forest",
+      "Logistic Regression"
+    ]
+  },
+  {
+    "research": 18,
+    "baseline_models": ["Support Vector Machine", "Artificial Neural Network"]
+  },
+  {
+    "research": 19,
+    "baseline_models": [
+      "Random Forest",
+      "Naive Bayes",
+      "C4.5",
+      "Artificial Immune Recognition System",
+      "Cost-Sensitive Boosting Neural Networks"
+    ]
+  },
+  {
+    "research": 21,
+    "baseline_models": [
+      "Naive Bayes",
+      "Bayesian Network",
+      "Logitboost",
+      "Adaboost"
+    ]
+  },
+  {
+    "research": 22,
+    "baseline_models": [
+      "Support Vector Machine",
+      "Neural Network",
+      "Genetic Programming",
+      "Decision Tree",
+      "Logistic Regression",
+      "Random Forest"
+    ]
+  },
+  {
+    "research": 23,
+    "baseline_models": ["Random Forest", "Multilayer Perceptron", "J48"]
+  },
+  {
+    "research": 24,
+    "baseline_models": [
+      "Artificial Neural Network",
+      "K-Nearest Neighbor",
+      "Naive Bayes",
+      "Random Forest",
+      "Support Vector Machine"
+    ]
+  },
+  {
+    "research": 25,
+    "baseline_models": [
+      "Naive Bayes",
+      "Artificial Neural Network",
+      "Voting Feature Intervals"
+    ]
+  },
+  {
+    "research": 26,
+    "baseline_models": [
+      "Logistic Regression",
+      "Random Forest",
+      "Naive Bayes",
+      "Artificial Neural Network",
+      "Decision Tree"
+    ]
+  },
+  {
+    "research": 28,
+    "baseline_models": [
+      "OneR",
+      "JRip",
+      "J48",
+      "NBTree",
+      "Support Vector Machine",
+      "Multilayer Perceptron",
+      "Naive Bayes",
+      "Tree Augmented Naive Bayes",
+      "Averaged One-Dependence Estimators",
+      "Hidden Naive Bayes",
+      "Adaboost",
+      "Random Forest"
+    ]
+  },
+  {
+    "research": 29,
+    "baseline_models": [
+      "Logistic Regression",
+      "Decision Tree",
+      "Artificial Neural Network"
+    ]
+  }
+]

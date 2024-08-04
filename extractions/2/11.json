@@ -1,0 +1,16 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Decision Tree (C4.5)",
+      "K-means Clustering"
+    ],
+    "novel_approaches": "A hybrid model consisting of K-means Clustering Algorithm and C4.5 based Decision Tree is proposed.",
+    "preprocessing": [
+      "K-means Clustering",
+      "Inner join method to combine requirement and code metrics"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Abstract, Introduction, Methodology, Implementation & Results"
+  }
+}

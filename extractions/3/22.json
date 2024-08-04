@@ -1,0 +1,67 @@
+{
+  "bug_prediction_metrics": [
+    {
+      "name": "Chidamber-Kemerer metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Process metrics",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "McCabe metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Object-oriented metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Halstead metrics",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "LOC (Lines of Code)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Error density",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Self-organized map",
+      "category": "novel metric",
+      "is_novel": true,
+      "description": "A method that uses AR3, AR4, AR5 datasets from the promise repository for fault prediction."
+    },
+    {
+      "name": "Fuzzy inference system (FIS)",
+      "category": "novel metric",
+      "is_novel": true,
+      "description": "First used by Ertuk and Sezer applying promise dataset repository for software fault prediction."
+    },
+    {
+      "name": "Relational association rule",
+      "category": "novel metric",
+      "is_novel": true,
+      "description": "Proposed by Czibula et al. using promise dataset for software fault prediction."
+    }
+  ],
+  "source_locations": {
+    "bug_prediction_metrics": "Pages 1413-1414, 1416-1417"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "paper_info": {
+    "title": "A Model for Early Prediction of Faults in Software Systems",
+    "year": 2010,
+    "doi": "10.1109/ICSE.2010.123"
+  },
+  "dataset": {
+    "name": [
+      "CM1",
+      "JM1",
+      "PC1"
+    ],
+    "size": [
+      505,
+      10878,
+      1107
+    ],
+    "source": [
+      "NASA Metrics Data Program (MDP) data repository",
+      "NASA Metrics Data Program (MDP) data repository",
+      "NASA Metrics Data Program (MDP) data repository"
+    ],
+    "language": [
+      "C",
+      "C++",
+      "C"
+    ]
+  },
+  "source_locations": {
+    "paper_info": "Page 281",
+    "dataset": "Page 282"
+  }
+}

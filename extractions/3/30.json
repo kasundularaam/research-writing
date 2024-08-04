@@ -1,0 +1,61 @@
+{
+  "bug_prediction_metrics": [
+    {
+      "name": "Response for Class (RFC)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Lines of Code (LOC)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Lack of Coding Quality (LOCQ)",
+      "category": "code quality",
+      "is_novel": true,
+      "description": "Measures the quality of the source code by counting potential problems like bugs, dead code, suboptimal code, overcomplicated expressions, and duplicate code."
+    },
+    {
+      "name": "Coupling Between Objects (CBO)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Weighted Method per Class (WMC)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Lack of Cohesion of Methods (LCOM)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Number of Children (NOC)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Depth of Inheritance Tree (DIT)",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Number of Developers (NOD)",
+      "category": "developer metric",
+      "is_novel": true,
+      "description": "Shows the number of distinct developers per each class in the software system."
+    }
+  ],
+  "source_locations": {
+    "bug_prediction_metrics": "Pages 154-181"
+  }
+}

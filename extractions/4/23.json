@@ -1,0 +1,23 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "Precision",
+      "Recall"
+    ],
+    "baseline_models": [
+      "Random Forest",
+      "Multilayer Perceptron",
+      "J48"
+    ],
+    "best_model": {
+      "name": "GFS-logitboost-c",
+      "performance": {
+        "Precision": 0.822,
+        "Recall": 0.992
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Section 4, Section 5, Table 3, Table 5, Fig. 2"
+  }
+}

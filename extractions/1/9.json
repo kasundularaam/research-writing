@@ -1,0 +1,37 @@
+{
+  "paper_info": {
+    "title": "Machine learning based software fault prediction utilizing source code metrics",
+    "year": 2018,
+    "doi": "N/A"
+  },
+  "dataset": {
+    "name": [
+      "JM1",
+      "KC1",
+      "PC1",
+      "jEdit"
+    ],
+    "size": [
+      10885,
+      2109,
+      1109,
+      369
+    ],
+    "source": [
+      "PROMISE repository",
+      "PROMISE repository",
+      "PROMISE repository",
+      "PROMISE repository"
+    ],
+    "language": [
+      "C",
+      "C++",
+      "C",
+      "Java"
+    ]
+  },
+  "source_locations": {
+    "paper_info": "Page 1",
+    "dataset": "Page 41"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "paper_info": {
+    "title": "Analyzing the Effect of Bagged Ensemble Approach for Software Fault Prediction in Class Level and Package Level Metrics",
+    "year": 2014,
+    "doi": "N/A"
+  },
+  "dataset": {
+    "name": [
+      "NASA KC1 dataset",
+      "Eclipse Package level dataset"
+    ],
+    "size": [
+      10878,
+      null
+    ],
+    "source": [
+      "NASA IV & V Facility Metrics Data Program (MDP) data repository",
+      "Eclipse bug database"
+    ],
+    "language": [
+      "C++",
+      "N/A"
+    ]
+  },
+  "source_locations": {
+    "paper_info": "Title page",
+    "dataset": "Section III, page 2"
+  }
+}

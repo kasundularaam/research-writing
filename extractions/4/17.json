@@ -1,0 +1,29 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "accuracy",
+      "precision",
+      "recall",
+      "F1-score",
+      "ROC curves"
+    ],
+    "baseline_models": [
+      "Decision Tree (DT)",
+      "Na\u00efve Bayes (NB)",
+      "Random Forest (RF)",
+      "Logistic Regression (LR)"
+    ],
+    "best_model": {
+      "name": "Decision Tree (DT) and Random Forest (RF)",
+      "performance": {
+        "accuracy": 0.99,
+        "precision": 0.99,
+        "recall": 1.0,
+        "F1-score": 0.99
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Sections 8 and 9, Pages 730-733"
+  }
+}

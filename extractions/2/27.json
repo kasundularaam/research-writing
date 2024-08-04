@@ -1,0 +1,31 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "KNN",
+      "SVM",
+      "C4.5",
+      "RF",
+      "NNET",
+      "Linear Discriminant Analysis (LDA)",
+      "Logistic Regression Analysis (LRA)",
+      "Neural Network (NNET)",
+      "Classification Tree (CT)",
+      "Naive Bayes",
+      "Ripper",
+      "Random Forest"
+    ],
+    "novel_approaches": "N/A",
+    "preprocessing": [
+      "Random Over Sampling (ROS)",
+      "Random Under Sampling (RUS)",
+      "Synthetic Minority Over Sampling Technique (SMOTE)",
+      "Borderline-SMOTE",
+      "Safe-level SMOTE",
+      "ADASYN",
+      "Min-max normalization"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Sections 1, 2, 3, 4.2.2, 4.2.3, 4.2.4"
+  }
+}

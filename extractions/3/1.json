@@ -1,0 +1,265 @@
+{
+  "bug_prediction_metrics": [
+    {
+      "name": "WMC",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "DIT",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "NOC",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "CBO",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "RFC",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "LCOM",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "LOC",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Size",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Tie",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Pairs",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Density",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "WeakComp",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "nWeakComp",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "TwoStepReach",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "ReachEf\ufb01cency",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Brokerage",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "nBrokerage",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "EgoBetween",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "nEgoBetween",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "EffSize",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Ef\ufb01ciency",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Constraint",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Hierarchy",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Degree",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "nDegree",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Closeness",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Reachability",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Eigenvector",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "nEigenvector",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Information",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "Betweenness",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "nBetweenness",
+      "category": "network metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "REVISIONS",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "AUTHORS",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "LOC_ADDED",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "MAX_LOC_ADDED",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "AVE_LOC_ADDED",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "LOC_DELETED",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "MAX_LOC_DELETED",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "AVE_LOC_DELETED",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "CODECHURN",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "MAX_CODECHURN",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "AVE_CODECHURN",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    }
+  ],
+  "source_locations": {
+    "bug_prediction_metrics": "Appendix A"
+  }
+}

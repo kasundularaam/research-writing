@@ -1,0 +1,29 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Adaptive Neuro Fuzzy Inference System (ANFIS)",
+      "Artificial Neural Network (ANN)",
+      "Support Vector Machine (SVM)",
+      "Naive Bayes",
+      "Random Forest",
+      "Logistic Regression",
+      "Decision Tree (DT)",
+      "Bayesian Network (BN)",
+      "Cascade Correlation Network",
+      "Group Method of Data Handling Method",
+      "Gene Expression Programming",
+      "Case Based Learning (CBL)",
+      "AntMiner+"
+    ],
+    "novel_approaches": "This study presents the first application of the Adaptive Neuro Fuzzy Inference System (ANFIS) for the software fault prediction problem. ANFIS combines learning ability and expert knowledge, using data to optimize the model and expert knowledge to handle vagueness.",
+    "preprocessing": [
+      "Feature selection",
+      "Normalization",
+      "Handling missing values",
+      "N-fold cross validation"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Sections 1, 2, 3, 4, 5, 6; Pages 1872-1879"
+  }
+}

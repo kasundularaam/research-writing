@@ -1,0 +1,809 @@
+[
+  {
+    "paper_info": {
+      "title": "A Comprehensive Investigation of the Role of Imbalanced Learning for Software Defect Prediction",
+      "year": 2019,
+      "doi": "10.1109/TSE.2018.2836442"
+    },
+    "dataset": {
+      "name": [
+        "Ant",
+        "Camel",
+        "Ivy",
+        "Jedit",
+        "Poi",
+        "Synapse",
+        "Velocity",
+        "Xerces",
+        "Lucene"
+      ],
+      "size": [
+        125, 178, 293, 351, 339, 608, 872, 965, 352, 272, 306, 312, 367, 492,
+        135, 314, 157, 222, 256, 229, 440, 453, 997, 1497, 324, 691, 1862
+      ],
+      "source": [
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "PROMISE",
+        "AEEEM",
+        "AEEEM",
+        "AEEEM",
+        "AEEEM",
+        "AEEEM"
+      ],
+      "language": [
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java"
+      ]
+    },
+    "source_locations": {
+      "paper_info": "Page 1253",
+      "dataset": "Page 1260, Table 8"
+    },
+    "research": 1
+  },
+  {
+    "paper_info": {
+      "title": "An evolutionary programming based asymmetric weighted least squares support vector machine ensemble learning methodology for software repository mining",
+      "year": 2012,
+      "doi": "10.1016/j.ins.2011.09.034"
+    },
+    "dataset": {
+      "name": ["KC1", "PC4"],
+      "size": [1571, 1347],
+      "source": ["NASA MDP repository", "NASA MDP repository"],
+      "language": ["C++", "C"]
+    },
+    "source_locations": {
+      "paper_info": "Page 31",
+      "dataset": "Page 39, Page 42"
+    },
+    "research": 2
+  },
+  {
+    "paper_info": {
+      "title": "Analysis of CK Metrics to predict Software Fault-Proneness using Bayesian Inference",
+      "year": 2013,
+      "doi": "N/A"
+    },
+    "dataset": {
+      "name": ["Eclipse"],
+      "size": [null],
+      "source": ["open-source project"],
+      "language": ["Java"]
+    },
+    "source_locations": {
+      "paper_info": "Title Page",
+      "dataset": "Page 1, Section 1; Page 2, Section 3"
+    },
+    "research": 3
+  },
+  {
+    "paper_info": {
+      "title": "A new weighted naive Bayes method based on information diffusion for software defect prediction",
+      "year": 2019,
+      "doi": "10.1007/s11219-018-9436-4"
+    },
+    "dataset": {
+      "name": [
+        "Ivy",
+        "Lucene",
+        "Poi",
+        "Velocity",
+        "Xalan",
+        "CM1",
+        "MW1",
+        "PC4"
+      ],
+      "size": [111, 247, 340, 237, 385, 214, 885, 498, 253, 1458],
+      "source": [
+        "PROMISE repository",
+        "PROMISE repository",
+        "PROMISE repository",
+        "PROMISE repository",
+        "PROMISE repository",
+        "PROMISE repository",
+        "PROMISE repository",
+        "PROMISE repository",
+        "PROMISE repository",
+        "PROMISE repository"
+      ],
+      "language": [
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "C++",
+        "C++",
+        "C"
+      ]
+    },
+    "source_locations": {
+      "paper_info": "Title page, Abstract, and DOI link",
+      "dataset": "Section 4.1, Table 4"
+    },
+    "research": 4
+  },
+  {
+    "paper_info": {
+      "title": "An Improved CNN Model for Within-Project Software Defect Prediction",
+      "year": 2019,
+      "doi": "10.3390/app9102138"
+    },
+    "dataset": {
+      "name": ["PROMISE"],
+      "size": [6538, 14066],
+      "source": ["PROMISE repository", "PROMISE repository"],
+      "language": ["Java", "Java"]
+    },
+    "source_locations": {
+      "paper_info": "Page 1",
+      "dataset": "Pages 12-13"
+    },
+    "research": 6
+  },
+  {
+    "paper_info": {
+      "title": "Software defect prediction using ensemble learning on selected features",
+      "year": 2015,
+      "doi": "10.1016/j.infsof.2014.07.005"
+    },
+    "dataset": {
+      "name": ["Ant", "Camel", "KC3", "MC1", "PC2", "PC4"],
+      "size": [745, 965, 200, 1988, 1585, 1287],
+      "source": [
+        "open-source project",
+        "open-source project",
+        "open-source project",
+        "NASA",
+        "NASA",
+        "NASA"
+      ],
+      "language": ["Java", "Java", "Java", "C++", "C", "C"]
+    },
+    "source_locations": {
+      "paper_info": "Title: Page 1, DOI: Page 3, Year: Page 3",
+      "dataset": "Section 4.2: Page 10, Table 1: Page 10"
+    },
+    "research": 7
+  },
+  {
+    "paper_info": {
+      "title": "A Novel Bayes Defect Predictor Based on Information Diffusion Function",
+      "year": 2017,
+      "doi": "10.1016/j.knosys.2017.12.015"
+    },
+    "dataset": {
+      "name": ["PROMISE", "Eclipse"],
+      "size": [34, null, null],
+      "source": [
+        "open-source project",
+        "open-source project",
+        "open-source project"
+      ],
+      "language": ["N/A", "N/A", "N/A"]
+    },
+    "source_locations": {
+      "paper_info": "Page 1",
+      "dataset": "Page 3, Page 4, Page 10"
+    },
+    "research": 8
+  },
+  {
+    "paper_info": {
+      "title": "Machine learning based software fault prediction utilizing source code metrics",
+      "year": 2018,
+      "doi": "N/A"
+    },
+    "dataset": {
+      "name": ["JM1", "KC1", "PC1", "Jedit"],
+      "size": [10885, 2109, 1109, 369],
+      "source": [
+        "PROMISE repository",
+        "PROMISE repository",
+        "PROMISE repository",
+        "PROMISE repository"
+      ],
+      "language": ["C", "C++", "C", "Java"]
+    },
+    "source_locations": {
+      "paper_info": "Page 1",
+      "dataset": "Page 41"
+    },
+    "research": 9
+  },
+  {
+    "paper_info": {
+      "title": "Predicting Defects for Eclipse",
+      "year": 2007,
+      "doi": "10.1109/PROMISE.2007.10"
+    },
+    "dataset": {
+      "name": ["Eclipse"],
+      "size": [null],
+      "source": ["open-source project"],
+      "language": ["Java"]
+    },
+    "source_locations": {
+      "paper_info": "Title page, Abstract, and Footer",
+      "dataset": "Abstract, Figure 1, Section 3, and Table 2"
+    },
+    "research": 10
+  },
+  {
+    "paper_info": {
+      "title": "A Model for Early Prediction of Faults in Software Systems",
+      "year": 2010,
+      "doi": "10.1109/ICSE.2010.123"
+    },
+    "dataset": {
+      "name": ["CM1", "JM1", "PC1"],
+      "size": [505, 10878, 1107],
+      "source": [
+        "NASA Metrics Data Program (MDP) data repository",
+        "NASA Metrics Data Program (MDP) data repository",
+        "NASA Metrics Data Program (MDP) data repository"
+      ],
+      "language": ["C", "C++", "C"]
+    },
+    "source_locations": {
+      "paper_info": "Page 281",
+      "dataset": "Page 282"
+    },
+    "research": 11
+  },
+  {
+    "paper_info": {
+      "title": "Toward Comprehensible Software Fault Prediction Models Using Bayesian Network Classifiers",
+      "year": 2013,
+      "doi": "10.1109/TSE.2012.20"
+    },
+    "dataset": {
+      "name": ["NASA", "Eclipse"],
+      "size": [1059, 15414],
+      "source": [
+        "NASA Metrics Data Program (MDP) repository",
+        "University of Saarland"
+      ],
+      "language": ["N/A", "Java"]
+    },
+    "source_locations": {
+      "paper_info": "Page 237",
+      "dataset": "Pages 244-246"
+    },
+    "research": 12
+  },
+  {
+    "paper_info": {
+      "title": "Siamese Dense Neural Network for Software Defect Prediction With Small Data",
+      "year": 2018,
+      "doi": "10.1109/ACCESS.2018.2889061"
+    },
+    "dataset": {
+      "name": [
+        "AR1",
+        "AR4",
+        "AR6",
+        "CM1",
+        "KC1",
+        "KC2",
+        "MW1",
+        "PC1",
+        "PC3",
+        "PC4"
+      ],
+      "size": [null, null, null, null, null, null, null, null, null, null],
+      "source": [
+        "NASA repository",
+        "NASA repository",
+        "NASA repository",
+        "NASA repository",
+        "NASA repository",
+        "NASA repository",
+        "NASA repository",
+        "NASA repository",
+        "NASA repository",
+        "NASA repository"
+      ],
+      "language": [
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A"
+      ]
+    },
+    "source_locations": {
+      "paper_info": "Page 1",
+      "dataset": "Page 8"
+    },
+    "research": 13
+  },
+  {
+    "paper_info": {
+      "title": "Analyzing the Effect of Bagged Ensemble Approach for Software Fault Prediction in Class Level and Package Level Metrics",
+      "year": 2014,
+      "doi": "N/A"
+    },
+    "dataset": {
+      "name": ["KC1", "Eclipse"],
+      "size": [10878, null],
+      "source": [
+        "NASA IV & V Facility Metrics Data Program (MDP) data repository",
+        "Eclipse bug database"
+      ],
+      "language": ["C++", "N/A"]
+    },
+    "source_locations": {
+      "paper_info": "Title page",
+      "dataset": "Section III, page 2"
+    },
+    "research": 14
+  },
+  {
+    "paper_info": {
+      "title": "Comparative Analysis of Machine Learning Techniques to Improve Software Defect Prediction",
+      "year": 2022,
+      "doi": "10.51153/kjcis.v5i2"
+    },
+    "dataset": {
+      "name": ["JM1", "CM1", "KC1", "KC2", "PC1"],
+      "size": [10885, 498, 2109, 522, 1109],
+      "source": [
+        "NASA promise dataset repository",
+        "NASA promise dataset repository",
+        "NASA promise dataset repository",
+        "NASA promise dataset repository",
+        "NASA promise dataset repository"
+      ],
+      "language": ["C", "C", "C++", "C++", "N/A"]
+    },
+    "source_locations": {
+      "paper_info": "Page 1",
+      "dataset": "Pages 53-54"
+    },
+    "research": 15
+  },
+  {
+    "paper_info": {
+      "title": "Dynamic Detection of Software Defects Using Supervised Learning Techniques",
+      "year": 2019,
+      "doi": "N/A"
+    },
+    "dataset": {
+      "name": ["KC1", "AR1", "AR4", "PC1"],
+      "size": [15544, 2108, 121, 121, 1107],
+      "source": [
+        "NASA repository",
+        "NASA repository",
+        "NASA repository",
+        "NASA repository",
+        "NASA repository"
+      ],
+      "language": ["C++", "C++", "C", "C", "C"]
+    },
+    "source_locations": {
+      "paper_info": "Page 185, Page 186",
+      "dataset": "Page 187, Table 1"
+    },
+    "research": 16
+  },
+  {
+    "paper_info": {
+      "title": "Comprehensive Study on Machine Learning Techniques for Software Bug Prediction",
+      "year": 2021,
+      "doi": "N/A"
+    },
+    "dataset": {
+      "name": ["PROMISE"],
+      "size": [10885, 1107, 2107, 523],
+      "source": ["NASA", "NASA", "NASA", "NASA"],
+      "language": ["C", "C", "C++", "C++"]
+    },
+    "source_locations": {
+      "paper_info": "Page 726",
+      "dataset": "Page 729"
+    },
+    "research": 17
+  },
+  {
+    "paper_info": {
+      "title": "A comparison of some soft computing methods for software fault prediction",
+      "year": 2015,
+      "doi": "10.1016/j.eswa.2014.10.025"
+    },
+    "dataset": {
+      "name": ["PROMISE"],
+      "size": [15123],
+      "source": ["open-source project"],
+      "language": ["N/A"]
+    },
+    "source_locations": {
+      "paper_info": "Title: Page 1, Year: Page 1, DOI: Page 1",
+      "dataset": "Name: Page 1, Size: Page 5, Source: Page 5, Language: N/A"
+    },
+    "research": 18
+  },
+  {
+    "paper_info": {
+      "title": "Software defect prediction using cost-sensitive neural network",
+      "year": 2015,
+      "doi": "10.1016/j.asoc.2015.04.045"
+    },
+    "dataset": {
+      "name": ["KC1", "KC2", "CM1", "PC1", "JM1"],
+      "size": [2109, 522, 505, 1109, 10885],
+      "source": [
+        "NASA Metrics Data Program repository",
+        "NASA Metrics Data Program repository",
+        "NASA Metrics Data Program repository",
+        "NASA Metrics Data Program repository",
+        "NASA Metrics Data Program repository"
+      ],
+      "language": ["C++", "C++", "C", "C", "C"]
+    },
+    "source_locations": {
+      "paper_info": "Page 263",
+      "dataset": "Page 265"
+    },
+    "research": 19
+  },
+  {
+    "paper_info": {
+      "title": "Empirical analysis of search based algorithms to identify change prone classes of open source software",
+      "year": 2017,
+      "doi": "http://dx.doi.org/10.1016/j.cl.2016.10.001"
+    },
+    "dataset": {
+      "name": ["Apache Commons Math"],
+      "size": [685, 756],
+      "source": ["open-source project", "open-source project"],
+      "language": ["Java", "Java"]
+    },
+    "source_locations": {
+      "paper_info": "Page 211",
+      "dataset": "Page 213"
+    },
+    "research": 21
+  },
+  {
+    "paper_info": {
+      "title": "Software fault prediction based on change metrics using hybrid algorithms: An empirical study",
+      "year": 2020,
+      "doi": "https://doi.org/10.1016/j.jksuci.2019.03.006"
+    },
+    "dataset": {
+      "name": ["Android"],
+      "size": [170, 324],
+      "source": ["Git repository", "Git repository"],
+      "language": ["Java", "Java"]
+    },
+    "source_locations": {
+      "paper_info": "Page 419",
+      "dataset": "Page 421"
+    },
+    "research": 23
+  },
+  {
+    "paper_info": {
+      "title": "Automatic Software Bug Prediction Using Adaptive Artificial Jelly Optimization With Long Short\u2011Term Memory",
+      "year": 2023,
+      "doi": "10.1007/s11277-023-10694-9"
+    },
+    "dataset": {
+      "name": ["PROMISE", "NASA"],
+      "size": [2775, 11262],
+      "source": ["open-source project", "open-source project"],
+      "language": ["N/A", "N/A"]
+    },
+    "source_locations": {
+      "paper_info": "First page",
+      "dataset": "Section 4.3, Page 1986"
+    },
+    "research": 24
+  },
+  {
+    "paper_info": {
+      "title": "An industrial case study of classifier ensembles for locating software defects",
+      "year": 2011,
+      "doi": "10.1007/s11219-010-9128-1"
+    },
+    "dataset": {
+      "name": ["CM1", "PC1", "PC3", "PC4", "AR4", "AR6"],
+      "size": [498, 1109, 1563, 1458, 63, 107, 36, 101],
+      "source": [
+        "NASA",
+        "NASA",
+        "NASA",
+        "NASA",
+        "Industry Partner",
+        "Industry Partner",
+        "Industry Partner",
+        "Industry Partner"
+      ],
+      "language": ["N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A", "N/A"]
+    },
+    "source_locations": {
+      "paper_info": "Page 515",
+      "dataset": "Pages 523-524"
+    },
+    "research": 25
+  },
+  {
+    "paper_info": {
+      "title": "Empirical validation of object-oriented metrics for predicting fault proneness at different severity levels using support vector machines",
+      "year": 2010,
+      "doi": "10.1007/s13198-011-0048-7"
+    },
+    "dataset": {
+      "name": ["KC1"],
+      "size": [145],
+      "source": ["NASA Metrics Data Program (NASA 2004)"],
+      "language": ["C++"]
+    },
+    "source_locations": {
+      "paper_info": "Page 1",
+      "dataset": "Page 3, Section 3.3"
+    },
+    "research": 26
+  },
+  {
+    "paper_info": {
+      "title": "On the relative value of data resampling approaches for software defect prediction",
+      "year": 2018,
+      "doi": "10.1007/s10664-018-9633-6"
+    },
+    "dataset": {
+      "name": [
+        "Ant",
+        "Camel",
+        "Forrest",
+        "Ivy",
+        "Jedit",
+        "Synapse",
+        "Xalan",
+        "Xerces",
+        "Clam Antivirus",
+        "ECos",
+        "Helma",
+        "NetBSD",
+        "OpenBSD",
+        "OpenCMS",
+        "OpenNMS",
+        "Scilab",
+        "Spring Security",
+        "XORP"
+      ],
+      "size": [
+        125, 293, 339, 872, 29, 241, 367, 157, 723, 440, 1597, 630, 312, 6781,
+        1706, 1727, 1203, 2636, 926, 1696
+      ],
+      "source": [
+        "open-source project",
+        "open-source project",
+        "open-source project",
+        "open-source project",
+        "open-source project",
+        "open-source project",
+        "open-source project",
+        "open-source project",
+        "open-source project",
+        "open-source project",
+        "manually extracted",
+        "manually extracted",
+        "manually extracted",
+        "manually extracted",
+        "manually extracted",
+        "manually extracted",
+        "manually extracted",
+        "manually extracted",
+        "manually extracted",
+        "manually extracted"
+      ],
+      "language": [
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A"
+      ]
+    },
+    "source_locations": {
+      "paper_info": "Page 1",
+      "dataset": "Pages 4-5, Table 2"
+    },
+    "research": 27
+  },
+  {
+    "paper_info": {
+      "title": "Balancing the trade-off between accuracy and interpretability in software defect prediction",
+      "year": 2018,
+      "doi": "10.1007/s10664-018-9638-1"
+    },
+    "dataset": {
+      "name": [
+        "MC2",
+        "KC3",
+        "MW1",
+        "CM1",
+        "PC1",
+        "PC2",
+        "PC3",
+        "PC4",
+        "PC5",
+        "MC1",
+        "JM1"
+      ],
+      "size": [
+        125, 194, 253, 327, 705, 745, 1077, 1287, 1711, 1988, 7782, 4620, 4455
+      ],
+      "source": [
+        "NASA MDP datasets",
+        "NASA MDP datasets",
+        "NASA MDP datasets",
+        "NASA MDP datasets",
+        "NASA MDP datasets",
+        "NASA MDP datasets",
+        "NASA MDP datasets",
+        "NASA MDP datasets",
+        "NASA MDP datasets",
+        "NASA MDP datasets",
+        "NASA MDP datasets",
+        "JIT datasets",
+        "JIT datasets"
+      ],
+      "language": [
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A",
+        "N/A"
+      ]
+    },
+    "source_locations": {
+      "paper_info": "Title page, Abstract, https://doi.org/10.1007/s10664-018-9638-1",
+      "dataset": "Section 4.1, Tables 2 and 3"
+    },
+    "research": 28
+  },
+  {
+    "paper_info": {
+      "title": "Empirical validation of object-oriented metrics for predicting fault proneness models",
+      "year": 2010,
+      "doi": "10.1007/s11219-009-9079-6"
+    },
+    "dataset": {
+      "name": ["KC1"],
+      "size": [145],
+      "source": ["public domain NASA data set"],
+      "language": ["C++"]
+    },
+    "source_locations": {
+      "paper_info": "Page 1",
+      "dataset": "Page 4, Page 9"
+    },
+    "research": 29
+  },
+  {
+    "paper_info": {
+      "title": "Software defect prediction using Bayesian networks",
+      "year": 2014,
+      "doi": "10.1007/s10664-012-9218-8"
+    },
+    "dataset": {
+      "name": [
+        "Ant",
+        "Jedit",
+        "Velocity",
+        "Synapse",
+        "Poi",
+        "Lucene",
+        "Xalan",
+        "Ivy"
+      ],
+      "size": [745, 858, 492, 229, 256, 442, 340, 741, 352],
+      "source": [
+        "Promise data repository",
+        "Promise data repository",
+        "Promise data repository",
+        "Promise data repository",
+        "Promise data repository",
+        "Promise data repository",
+        "Promise data repository",
+        "Promise data repository",
+        "Promise data repository"
+      ],
+      "language": [
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java",
+        "Java"
+      ]
+    },
+    "source_locations": {
+      "paper_info": "Page 154",
+      "dataset": "Page 166, Table 2"
+    },
+    "research": 30
+  }
+]

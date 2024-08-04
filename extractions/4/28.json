@@ -1,0 +1,42 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "AUC",
+      "mean",
+      "standard deviation"
+    ],
+    "baseline_models": [
+      "OneR",
+      "JRip",
+      "J48",
+      "NBTree",
+      "RLR",
+      "SVM",
+      "MLP",
+      "NBc",
+      "NBd",
+      "TAN",
+      "AODE",
+      "HNB",
+      "AdaBst",
+      "RF",
+      "NBd2",
+      "NBE",
+      "SNB",
+      "TAN2",
+      "NBE2",
+      "SNB2"
+    ],
+    "best_model": {
+      "name": "RF",
+      "performance": {
+        "AUC": 0.788,
+        "mean": 0.788,
+        "standard deviation": 0.013
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Section 5.1, Table 6, Table 7, Figure 7"
+  }
+}

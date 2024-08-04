@@ -1,0 +1,19 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "Matthews correlation coefficient (MCC)"
+    ],
+    "baseline_models": [
+      "Traditional learning methods without imbalanced learning"
+    ],
+    "best_model": {
+      "name": "UBag (UnderBagging)",
+      "performance": {
+        "MCC": 0.096
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Section 4, pages 1253-1269"
+  }
+}

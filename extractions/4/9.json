@@ -1,0 +1,34 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "accuracy",
+      "f-measure",
+      "precision",
+      "recall",
+      "Area Under ROC Curve (AUC)"
+    ],
+    "baseline_models": [
+      "Decision Tree",
+      "K-Nearest Neighbour",
+      "Na\u00efve Bayes",
+      "Support Vector Machine (SVM)",
+      "Artificial Neural Network (ANN)",
+      "Cascade Correlation Network (CCN)",
+      "GMDH (Group Method of Data Handling) polynomial network",
+      "Adaboost"
+    ],
+    "best_model": {
+      "name": "Random Forest",
+      "performance": {
+        "accuracy": 93.71,
+        "f-measure": 0.97,
+        "precision": 0.95,
+        "recall": 0.99,
+        "AUC": 0.93
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Section IV, Pages 40-45"
+  }
+}

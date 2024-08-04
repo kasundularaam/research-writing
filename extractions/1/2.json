@@ -1,0 +1,29 @@
+{
+  "paper_info": {
+    "title": "An evolutionary programming based asymmetric weighted least squares support vector machine ensemble learning methodology for software repository mining",
+    "year": 2012,
+    "doi": "10.1016/j.ins.2011.09.034"
+  },
+  "dataset": {
+    "name": [
+      "KC1",
+      "PC4"
+    ],
+    "size": [
+      1571,
+      1347
+    ],
+    "source": [
+      "NASA MDP repository",
+      "NASA MDP repository"
+    ],
+    "language": [
+      "C++",
+      "C"
+    ]
+  },
+  "source_locations": {
+    "paper_info": "Page 31",
+    "dataset": "Page 39, Page 42"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "paper_info": {
+    "title": "Software fault prediction based on change metrics using hybrid algorithms: An empirical study",
+    "year": 2020,
+    "doi": "https://doi.org/10.1016/j.jksuci.2019.03.006"
+  },
+  "dataset": {
+    "name": [
+      "android-4.0.1_r1 \u2013 android-5.0.0_r1",
+      "android-2.0.1_r1 \u2013 android-5.0.0_r1"
+    ],
+    "size": [
+      170,
+      324
+    ],
+    "source": [
+      "Git repository",
+      "Git repository"
+    ],
+    "language": [
+      "Java",
+      "Java"
+    ]
+  },
+  "source_locations": {
+    "paper_info": "Page 419",
+    "dataset": "Page 421"
+  }
+}

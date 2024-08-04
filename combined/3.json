@@ -1,0 +1,3256 @@
+[
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "WMC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "DIT",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NOC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CBO",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "RFC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LCOM",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Size",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Tie",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Pairs",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Density",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "WeakComp",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "nWeakComp",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "TwoStepReach",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "ReachEf\ufb01cency",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Brokerage",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "nBrokerage",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "EgoBetween",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "nEgoBetween",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "EffSize",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Ef\ufb01ciency",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Constraint",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Hierarchy",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Degree",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "nDegree",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Closeness",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Reachability",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Eigenvector",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "nEigenvector",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Information",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Betweenness",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "nBetweenness",
+        "category": "network metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "REVISIONS",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "AUTHORS",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC_ADDED",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "MAX_LOC_ADDED",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "AVE_LOC_ADDED",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC_DELETED",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "MAX_LOC_DELETED",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "AVE_LOC_DELETED",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CODECHURN",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "MAX_CODECHURN",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "AVE_CODECHURN",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Appendix A"
+    },
+    "research": 1
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "LOC total",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead Error Est",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead volume",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead length",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead level",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Num operands",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Condition count",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Modified condition count",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Multiple condition count",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Cyclomatic complexity",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Normalized cyclomatic complex",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Call pairs",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead prog time",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead effort",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Num operators",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Num unique operands",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Section 4.1 (Table 1), Section 4.2"
+    },
+    "research": 2
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "CBO (Coupling Between Object classes)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "WMC (Weighted Methods per Class)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "RFC (Response For a Class)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NOC (Number Of Children)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LCOM (Lack of Cohesion on Methods)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "DIT (Depth of Inheritance Tree)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Section 3 (Data Collection), Page 2"
+    },
+    "research": 3
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "WMC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "DIT",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NOC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CBO",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "RFC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LCOM",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CA",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CE",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NPM",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LCOM3",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "DAM",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "MOA",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "MFA",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CAM",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "IC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CBM",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "AMC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "MAX_CC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "AVG_CC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "BUG",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC_BLANK",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "BRANCH_COUNT",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CALL_PAIRS",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC_CODE_AND_COMMENT",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC_COMMENTS",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CONDITION_COUNT",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CYCLOMATIC_COMPLEXITY",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CYCLOMATIC_DENSITY",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "DECISION_COUNT",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "DECISION_DENSITY",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "DESIGN_COMPLEXITY",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "DESIGN_DENSITY",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "EDGE_COUNT",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "ESSENTIAL_COMPLEXITY",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "ESSENTIAL_DENSITY",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC_EXECUTABLE",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "PARAMETER_COUNT",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "HALSTEAD_CONTENT",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "HALSTEAD_DIFFICULTY",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "HALSTEAD_EFFORT",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "HALSTEAD_ERROR_EST",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "HALSTEAD_LENGTH",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "HALSTEAD_LEVEL",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "HALSTEAD_PROG_TIME",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "HALSTEAD_VOLUME",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "MAINTENANCE_SEVERITY",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "MODIFIED_CONDITION_COUNT",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "MULTIPLE_CONDITION_COUNT",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NODE_COUNT",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NORMALIZED_CYCLOMATIC_COMPLEXITY",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NUM_OPERANDS",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NUM_OPERATORS",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NUM_UNIQUE_OPERANDS",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NUM_UNIQUE_OPERATORS",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NUMBER_OF_LINES",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "PERCENT_COMMENTS",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC_TOTAL",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Section 2.1, Table 5, Table 6"
+    },
+    "research": 4
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "Halstead features",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "McCabe features",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CK features",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "MOOD features",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "code change features",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "AST-based features",
+        "category": "code complexity",
+        "is_novel": true,
+        "description": "Features extracted from abstract syntax trees (ASTs) to capture both syntax and semantics of source code."
+      },
+      {
+        "name": "hyperparameter instability",
+        "category": "process metric",
+        "is_novel": true,
+        "description": "A measure of how different hyperparameter settings of a CNN model could generate similar average results for all projects but markedly different results for individual projects or versions."
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Pages 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28"
+    },
+    "research": 6
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "Cyclomatic Complexity (CC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Lines of Code (LOC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Lines of Comments",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Condition Count",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Parameter Count",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead Operators",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of Developers (NOD)",
+        "category": "developer metric",
+        "is_novel": true,
+        "description": "Positive correlation between the number of developers and defect probability."
+      },
+      {
+        "name": "Lack of Coding Quality (LOCQ)",
+        "category": "code complexity",
+        "is_novel": true,
+        "description": "Metric indicating the quality of coding practices."
+      },
+      {
+        "name": "Response for Class (RFC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Weighted Method per Class (WMC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Lack of Cohesion of Methods (LCOM)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Coupling Between Objects (CBO)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Lines of Blank Lines",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead Difficulty",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead Volume",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead Length",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead Effort",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead Error Estimate",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead Programming Time",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Branch Count (BC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Section 2.5, Section 5.1, Section 5.5, Table 2, Table 7, Table 8"
+    },
+    "research": 7
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "WMC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "DIT",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LCOM",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "RFC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CBO",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NOC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CA",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CE",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "DAM",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NPM",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "MFA",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CAM",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "MOA",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "IC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CBM",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "AMC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LCOM3",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "MAX_CC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "AVG_CC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Bug",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Diffused Bayes (DB) Classifier",
+        "category": "novel metric",
+        "is_novel": true,
+        "description": "A novel classifier that improves the Na\u00efve Bayes classifier using a diffusion function based on the vibration of string (VSDF) to handle non-normal distributed data and small sample sizes."
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Pages 5-9, 11-12"
+    },
+    "research": 8
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "Chidamber and Kemerer (CK) metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Object-Oriented (OO) metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Process metrics",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "McCabe metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC (Line of Code) metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Miscellaneous metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Page 40, Section I; Page 41, Section II; Page 42, Section IV"
+    },
+    "research": 9
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "FOUT",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "MLOC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NBD",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "PAR",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "VG",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NOF",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NOM",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NSF",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NSM",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "ACD",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NOI",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NOT",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "TLOC",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NOCU",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Table 1, Section 3.1, Page 3"
+    },
+    "research": 10
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "Halstead complexity",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "McCabe complexity",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "ACTION",
+        "category": "requirement metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CONDITIONAL",
+        "category": "requirement metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CONTINUANCE",
+        "category": "requirement metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "IMPERATIVE",
+        "category": "requirement metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "INCOMPLETE",
+        "category": "requirement metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "OPTION",
+        "category": "requirement metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "RISK_LEVEL",
+        "category": "requirement metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "WEAK_PHRASE",
+        "category": "requirement metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "SOURCE",
+        "category": "requirement metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC_BLANK",
+        "category": "code metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "BRANCH_COUNT",
+        "category": "code metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC_CODE_AND_COMMENT",
+        "category": "code metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC_COMMENTS",
+        "category": "code metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CYCLOMATIC_COMPLEXITY",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "DESIGN_COMPLEXITY",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "ESSENTIAL_COMPLEXITY",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC_EXECUTABLE",
+        "category": "code metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "HALSTEAD_CONTENT",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "HALSTEAD_DIFFICULTY",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "HALSTEAD_EFFORT",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "HALSTEAD_ERROR_EST",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "HALSTEAD_LENGTH",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "HALSTEAD_LEVEL",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "HALSTEAD_PROG_TIME",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "HALSTEAD_VOLUME",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NUM_OPERANDS",
+        "category": "code metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NUM_OPERATORS",
+        "category": "code metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NUM_UNIQUE_OPERANDS",
+        "category": "code metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NUM_UNIQUE_OPERATORS",
+        "category": "code metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NUMBER_OF_LINES",
+        "category": "code metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC_TOTAL",
+        "category": "code metric",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Pages 281-284"
+    },
+    "research": 11
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "Lines of Code (LOC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead Metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "McCabe Complexity Metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Chidamber-Kemerer (CK) Metrics Suite",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Conceptual Cohesion of Classes (C3)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "File and Component-Based Metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Requirement Metrics",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Class Level Metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Method Level Attributes",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Normalized Cyclomatic Complexity",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of Commentary Lines (CLOC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead Content (I)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of Unique Operands",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Section 2, pages 238-239; Section 4.1, pages 245-246; Section 5.1.2, page 253"
+    },
+    "research": 12
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "Method-level metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Change information metrics",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Package modularization metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Lines of comment metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Code size and complexity metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Deep representations metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Similarity feature learning",
+        "category": "novel metric",
+        "is_novel": true,
+        "description": "Captures the highest-level similarity features between sample pairs."
+      },
+      {
+        "name": "Distance metric learning",
+        "category": "novel metric",
+        "is_novel": true,
+        "description": "Learns the distance metrics between the highest-level similarity features."
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Section II.A, Page 7663; Section III.C.1, Page 7665; Section III.C.2, Page 7666"
+    },
+    "research": 13
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "Lines of Code (LOC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Chidamber-Kemerer (CK) metrics suite",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "McCabe\u2019s metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead\u2019s metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Size",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Coupling",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Cohesion",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Inheritance",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Complexity",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Pre-release defects",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Post-release defects",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Structure of abstract syntax tree(s)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Section IV, Page 2-3"
+    },
+    "research": 14
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "Logistic Regression",
+        "category": "Machine Learning Algorithm",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Random Forest",
+        "category": "Machine Learning Algorithm",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Decision Stump",
+        "category": "Machine Learning Algorithm",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Support Vector Machine",
+        "category": "Machine Learning Algorithm",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Bayes Net",
+        "category": "Machine Learning Algorithm",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Multilayer Perceptron (MLP)",
+        "category": "Machine Learning Algorithm",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "J48",
+        "category": "Machine Learning Algorithm",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Lazy IBK",
+        "category": "Machine Learning Algorithm",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Ruler Zero-R",
+        "category": "Machine Learning Algorithm",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Pages 48-53"
+    },
+    "research": 15
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "McCabe",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Line Count",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Operator",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Branch Count",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Bagging",
+        "category": "ensemble learning",
+        "is_novel": true,
+        "description": "Combines multiple classifiers to improve accuracy, achieving 95.1% accuracy with Mozilla dataset."
+      },
+      {
+        "name": "Voting",
+        "category": "ensemble learning",
+        "is_novel": true,
+        "description": "Combines multiple classifiers to improve accuracy, achieving 93.79% accuracy with kc1 dataset."
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Pages 185-191"
+    },
+    "research": 16
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "Lines of Code (LOC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Cyclomatic Complexity Number (CCN)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Depth of Inheritance Tree (DIT)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Coupling Between Objects (CBO)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of Children (NOC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Response for Class (RFC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead Volume (V)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead Program Length (L)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead Difficulty (D)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead Intelligence (I)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead Effort (E)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead Effort Estimate (B)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead Time Estimator (T)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of Lines of Code (Locoed)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of Comments (Locomment)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of Blank Lines (Loblank)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of Codes and Comments (Locodeandcomment)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Unique Operators (uniq_op)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Unique Operands (uniq_opnd)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Total Operators (total_op)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Total Operands (total_opnd)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Branch Count",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Section VI, Pages 728-730"
+    },
+    "research": 17
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "McCabe number of code line (loc)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Cyclomatic complexity (v(g))",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Essential complexity (ev(g))",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Design complexity (iv(g))",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Section 3, Metrics and data"
+    },
+    "research": 18
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "loc",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "v(g)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "ev(g)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "iv(g)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "lOCode",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "lOComment",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "lOBlank",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "lOCodeAndComment",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "uniqOp",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "uniqOpnd",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "totalOp",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "totalOpnd",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "branchCount",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "n",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "v",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "l",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "d",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "i",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "e",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "b",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "t",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Page 265-266, Table 2"
+    },
+    "research": 19
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "LCOM",
+        "category": "cohesion",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CBO",
+        "category": "coupling",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "RFC",
+        "category": "coupling",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "DIT",
+        "category": "inheritance",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NOC",
+        "category": "inheritance",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "WMC",
+        "category": "size",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "SLOC",
+        "category": "size",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Section 3.1, Table 1, Page 213"
+    },
+    "research": 21
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "Chidamber-Kemerer metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Process metrics",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "McCabe metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Object-oriented metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead metrics",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC (Lines of Code)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Error density",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Self-organized map",
+        "category": "novel metric",
+        "is_novel": true,
+        "description": "A method that uses AR3, AR4, AR5 datasets from the promise repository for fault prediction."
+      },
+      {
+        "name": "Fuzzy inference system (FIS)",
+        "category": "novel metric",
+        "is_novel": true,
+        "description": "First used by Ertuk and Sezer applying promise dataset repository for software fault prediction."
+      },
+      {
+        "name": "Relational association rule",
+        "category": "novel metric",
+        "is_novel": true,
+        "description": "Proposed by Czibula et al. using promise dataset for software fault prediction."
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Pages 1413-1414, 1416-1417"
+    },
+    "research": 22
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "LOC-ADDED",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC-DELETED",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC-CHANGED",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "MAX-LOC-ADDED",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "MAX_LOC-CHANGED",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "MAX_LOC_DELETED",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "CODE CHURN",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "MAX CODE CHURN",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "AVERAGE CODE CHURN",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Section 3.1, Page 421"
+    },
+    "research": 23
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "Weighted methods for class (Wmc)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Depth of inheritance tree (Dit)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of children (Noc)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Coupling between objects (Cbo)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Response for classes (Rfc)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Lack of cohesion of methods (Lcom)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "After coupling (Ca)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Efferent coupling (Ce)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of public methods (Npm)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Lack of cohesion in methods (lcom3)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Lines of code (Loc)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Data access metric (Dam)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Measure of aggregation (Moa)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Measure of functional Abstraction (Mfa)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Cohesion among methods of class (Cam)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Inheritance coupling (Ic)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Coupling between methods (Cbm)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Average method complexity (Amc)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Cyclomatic complexity (Max_cc)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Cyclomatic complexity (Avg_cc)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Line count of code",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Count of blank lines",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Count of code and comments",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Count of comments",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Line count of executable code",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of operators",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of operands",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of unique operators",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of unique operands",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead_Length",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead_Volume",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead_Level",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead_Difficulty",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead_Content",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead_Effort",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead_Error_Estimate",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Halstead_Programming_Time",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Cyclomatic_Complexity",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Design_Complexity",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Essential_Complexity",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Adaptive Artificial Jelly Optimization (A2JO)",
+        "category": "novel metric",
+        "is_novel": true,
+        "description": "A combination of the traditional AJO algorithm and chaotic opposition-based learning (COBL) to increase the searching ability and convergence speed."
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Pages 1976-1998"
+    },
+    "research": 24
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "Lines of Code (LOC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of Defects",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Probability of Detection (pd)",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Probability of False Alarms (pf)",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Precision (prec)",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Balance (bal)",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Voting Feature Intervals (VFI)",
+        "category": "code complexity",
+        "is_novel": true,
+        "description": "Places minimum and maximum values of each attribute for each module and forms an interval for each attribute."
+      },
+      {
+        "name": "Naive Bayes",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Artificial Neural Network (ANN)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Sections 3.2, 3.3, 3.4, 4.1, 4.2, 4.3"
+    },
+    "research": 25
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "Coupling between Objects (CBO)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Lack of Cohesion (LCOM)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of Children (NOC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Depth of Inheritance (DIT)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Weighted Methods per Class (WMC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Response for a Class (RFC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Source Lines Of Code (SLOC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Section 3.1, Table 1, Page 272"
+    },
+    "research": 26
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "Weighted methods per class (WMC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Depth of Inheritance Tree (DIT)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of Children (NOC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Coupling between object classes (CBO)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Response for a Class (RFC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Lack of cohesion in methods (LCOM)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Lack of cohesion in methods, different from LCOM (LCOM3)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of Public Methods (NPM)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Data Access Metric (DAM)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Measure of Aggregation (MOA)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Measure of Functional Abstraction (MFA)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Cohesion Among Methods of Class (CAM)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Inheritance Coupling (IC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Coupling Between Methods (CBM)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Average Method Complexity (AMC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Afferent couplings (Ca)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Efferent couplings (Ce)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "McCabe\u2019s cyclomatic complexity (CC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Maximum value of CC methods of the investigated class (Max(CC))",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Arithmetic mean of the CC value in the investigated class (Avg(CC))",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Lines of Code (LOC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of detected bugs in the class (Bug)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of changed rows (Codechurn)",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Additional number of rows (LOCAdded)",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Deleted rows (LOCDeleted)",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Revision number (Revisions)",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Last number of days since it was revised (Age)",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of corrected faults (BugFixes)",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of refactoring (Refactorings)",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of lines of code in a module (LOC)",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Indicate the defect proneness of a module (Bugginess)",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Section 4.2.1, Table 1"
+    },
+    "research": 27
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "LOC_total",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC_blank",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC_code_and_comment",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC_comments",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LOC_executable",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number_of_lines",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "content",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "difficulty",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "effort",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "error_est",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "length",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "level",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "prog_time",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "volume",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "num_operands",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "num_operators",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "num_unique_operands",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "num_unique_operators",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "cyclomatic_complexity",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "cyclomatic_density",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "design_complexity",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "essential_complexity",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "branch_count",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "call_pairs",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "condition_count",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "decision_count",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "decision_density",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "design_density",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "edge_count",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "essential_density",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "global_data_complexity",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "global_data_density",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "maintenance_severity",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "modified_condition_count",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "multiple_condition_count",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "node_count",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "normalized_cyclomatic_compl.",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "parameter_count",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "percent_comments",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NS",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "ND",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NF",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Entropy",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LAn",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LDn",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "LTn",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "FIX",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NDEV",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "AGE",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "NUCn",
+        "category": "process metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "EXP",
+        "category": "developer metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "REXP",
+        "category": "developer metric",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "SEXP",
+        "category": "developer metric",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Tables 2, 3, 10-15"
+    },
+    "research": 28
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "Coupling between objects (CBO)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Response for a class (RFC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Lack of cohesion (LCOM)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of children (NOC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Depth of inheritance (DIT)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Weighted methods per class (WMC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Source lines of code (SLOC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Section 3.1, Table 1, Pages 7-8"
+    },
+    "research": 29
+  },
+  {
+    "bug_prediction_metrics": [
+      {
+        "name": "Response for Class (RFC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Lines of Code (LOC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Lack of Coding Quality (LOCQ)",
+        "category": "code quality",
+        "is_novel": true,
+        "description": "Measures the quality of the source code by counting potential problems like bugs, dead code, suboptimal code, overcomplicated expressions, and duplicate code."
+      },
+      {
+        "name": "Coupling Between Objects (CBO)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Weighted Method per Class (WMC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Lack of Cohesion of Methods (LCOM)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of Children (NOC)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Depth of Inheritance Tree (DIT)",
+        "category": "code complexity",
+        "is_novel": false,
+        "description": "N/A"
+      },
+      {
+        "name": "Number of Developers (NOD)",
+        "category": "developer metric",
+        "is_novel": true,
+        "description": "Shows the number of distinct developers per each class in the software system."
+      }
+    ],
+    "source_locations": {
+      "bug_prediction_metrics": "Pages 154-181"
+    },
+    "research": 30
+  }
+]

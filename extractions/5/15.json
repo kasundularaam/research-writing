@@ -1,0 +1,18 @@
+{
+  "additional_info": {
+    "software_domain": "software defect prediction",
+    "limitations": [
+      "No single technique or approach can be used for all types of datasets.",
+      "Deciding which method should be used for fault prediction is a challenging activity.",
+      "Irrelevant features or partially relevant features can negatively affect prediction model performance."
+    ],
+    "future_directions": [
+      "Integrate the performance of different ML classifiers to further improve the proposed approach.",
+      "Include the verification process of the proposed method on various datasets.",
+      "Fully automate the proposed model and weight standard rules for measurement."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Section 1 (Introduction), Section 2 (Literature Review), Section 5 (Conclusion)"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "Type I Accuracy",
+      "Type II Accuracy",
+      "Total Accuracy",
+      "AUC"
+    ],
+    "baseline_models": [
+      "Logistic Regression (LogR)",
+      "k-Nearest Neighbor (KNN)",
+      "C4.5",
+      "Standard Support Vector Machine (SVM)",
+      "Standard Least Squares SVM (LSSVM)",
+      "Asymmetric Weighted LSSVM (AW-LSSVM)",
+      "Majority Voting",
+      "TA-based Weighted Averaging"
+    ],
+    "best_model": {
+      "name": "EP-based AW-LSSVM Ensemble Learning",
+      "performance": {
+        "Type I Accuracy": 54.72,
+        "Type II Accuracy": 96.87,
+        "Total Accuracy": 91.34,
+        "AUC": 0.9101
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Section 4, Pages 39-46"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "paper_info": {
+    "title": "An industrial case study of classifier ensembles for locating software defects",
+    "year": 2011,
+    "doi": "10.1007/s11219-010-9128-1"
+  },
+  "dataset": {
+    "name": [
+      "CM1",
+      "PC1",
+      "PC3",
+      "PC4",
+      "AR3",
+      "AR4",
+      "AR5",
+      "AR6"
+    ],
+    "size": [
+      498,
+      1109,
+      1563,
+      1458,
+      63,
+      107,
+      36,
+      101
+    ],
+    "source": [
+      "NASA",
+      "NASA",
+      "NASA",
+      "NASA",
+      "Industry Partner",
+      "Industry Partner",
+      "Industry Partner",
+      "Industry Partner"
+    ],
+    "language": [
+      "N/A",
+      "N/A",
+      "N/A",
+      "N/A",
+      "N/A",
+      "N/A",
+      "N/A",
+      "N/A"
+    ]
+  },
+  "source_locations": {
+    "paper_info": "Page 515",
+    "dataset": "Pages 523-524"
+  }
+}

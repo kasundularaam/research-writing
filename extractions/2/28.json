@@ -1,0 +1,35 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "OneR",
+      "JRip",
+      "J48",
+      "NBTree",
+      "Ridge logistic regression (RLR)",
+      "Support vector machine (SVM)",
+      "Multilayer perceptron (MLP)",
+      "Gaussian naive Bayes (NBc)",
+      "Discrete naive Bayes (NBd)",
+      "Tree-augmented naive Bayes (TAN)",
+      "Averaged one-dependence estimators (AODE)",
+      "Hidden naive Bayes (HNB)",
+      "AdaBoost (AdaBst)",
+      "Random forest (RF)",
+      "Discrete naive Bayes (NBd2)",
+      "Naive Bayes ensemble (NBE)",
+      "Superposed naive Bayes (SNB)",
+      "Tree-augmented naive Bayes (TAN2)",
+      "Naive Bayes ensemble + TAN (NBE2)",
+      "Superposed naive Bayes + TAN (SNB2)"
+    ],
+    "novel_approaches": "The proposed method, called superposed naive Bayes (SNB), uses a two-step approach: firstly builds a naive Bayes ensemble via stochastic boosting, and then transforms it into a simple naive Bayes model by linear approximation.",
+    "preprocessing": [
+      "Discretization of continuous variables using methods such as equal width discretization (EWD), equal frequency discretization (EFD), minimum description length criterion (MDL), Akaike\u2019s information criterion (AIC), and Bayesian information criterion (BIC)",
+      "Handling of missing values by ignoring them in probability estimates",
+      "Laplace correction for zero-frequency problem"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Sections 1, 2, 3, 4, 5"
+  }
+}

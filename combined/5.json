@@ -1,0 +1,544 @@
+[
+  {
+    "additional_info": {
+      "software_domain": "software defect prediction",
+      "limitations": [
+        "Inconsistent results due to varying levels of data imbalance",
+        "Negative impact of imbalanced learning on some datasets",
+        "High variability in performance improvement across different classifiers and imbalanced learning methods",
+        "Potential negative effects of imbalanced learning on challenging datasets with issues like class separability and within-class sub-concepts"
+      ],
+      "future_directions": [
+        "Investigate software defect data not drawn from the open software community",
+        "Explore other classi\ufb01er learning methods such as neural networks and evolutionary algorithms",
+        "Extend the study to include more diverse datasets with different characteristics",
+        "Further research on the impact of different performance measures on the evaluation of defect prediction models"
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Sections 1, 4, 5, 6"
+    },
+    "research": 1
+  },
+  {
+    "additional_info": {
+      "software_domain": "software repository mining",
+      "limitations": [
+        "The AW-LSSVM classifier requires that the number of positive samples be equal to the number of negative samples in the training phase.",
+        "When the number of positive samples is seriously unequal to the number of negative samples, performance of the AW-LSSVM classifier is affected adversely."
+      ],
+      "future_directions": [
+        "Further improve the EP algorithm for ensemble weight determination.",
+        "Investigate the application of the proposed EP-based AW-LSSVM ensemble learning model to other classification problems."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Section 4.3, Page 43-44"
+    },
+    "research": 2
+  },
+  {
+    "additional_info": {
+      "software_domain": "object-oriented software systems",
+      "limitations": [
+        "The study only presents Bayesian Inference graphs for two out of six metrics (CBO and NOC).",
+        "The likelihood function may contain small information if it is largely distributed.",
+        "The process requires familiarity with statistical models or machine learning methods."
+      ],
+      "future_directions": [
+        "Identify threshold values of software metrics using receiver operating characteristic curves.",
+        "Conduct more studies on open-source systems to find out threshold values in identifying the faulty classes."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Sections 6 and 7"
+    },
+    "research": 3
+  },
+  {
+    "additional_info": {
+      "software_domain": "software defect prediction",
+      "limitations": [
+        "The proposed method may not perform well if the distributions of feature values follow a normal distribution.",
+        "The method may be less effective for data sets with a large quantity of software modules.",
+        "The construction of a more complex SDP model may cause overfitting, affecting the effectiveness of the new method."
+      ],
+      "future_directions": [
+        "Examine more feature-weighting techniques to further improve the potential of NB in SDP.",
+        "Optimize information diffusion models to enhance the performance of NB in SDP.",
+        "Apply the proposed method to cross-project defect prediction, which is a current research hotspot in the field of SDP."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Section 6 (Threats to validity), Section 7 (Discussion), Section 8 (Conclusion)"
+    },
+    "research": 4
+  },
+  {
+    "additional_info": {
+      "software_domain": "within-project defect prediction (WPDP)",
+      "limitations": [
+        "Limited dataset size in the CNN study",
+        "Insufficiently repeated experiments in the CNN study",
+        "Outdated baseline selection in the CNN study",
+        "Hyperparameter instability in deep learning models",
+        "Deletion of files when parsing source code due to limited syntax support of the Java programming language"
+      ],
+      "future_directions": [
+        "Collect more C/C++ open source projects and build new datasets for deep-feature-based defect prediction",
+        "Use other kinds of deep models such as RNN to generate features for predicting defects automatically",
+        "Determine what types of defects could be predicted in deep learning-based defect prediction",
+        "Explore ensemble methods of deep learning models for defect prediction"
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Abstract, Introduction, Section 1, Section 5.4, Section 6, Section 8"
+    },
+    "research": 6
+  },
+  {
+    "additional_info": {
+      "software_domain": "General software defect prediction across various domains including Java and C/C++ projects",
+      "limitations": [
+        "The quality of the NASA datasets used is questionable.",
+        "The study does not address the potential overfitting issue in ensemble learning models.",
+        "The proposed model's performance is not evaluated against varying degrees of data skewness."
+      ],
+      "future_directions": [
+        "Apply other feature selection techniques to further verify the claim that many features in publicly-available software defect datasets are irrelevant and/or redundant.",
+        "Explore other ensemble learners to compare with the proposed method.",
+        "Investigate the decision boundaries of W-SVMs and the nature of the PC2 dataset to understand the drastic drop in classification performance."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Sections 5.1, 5.2, 5.4, 5.5, 6, and 7"
+    },
+    "research": 7
+  },
+  {
+    "additional_info": {
+      "software_domain": "software defect prediction",
+      "limitations": [
+        "Insufficient historical data available for within- or cross-project prediction",
+        "Software metrics are not normally distributed",
+        "Heterogeneous distribution of software metric values between training and target projects",
+        "Data could be too sparse to meet the requirements for sample size using traditional methods"
+      ],
+      "future_directions": [
+        "Evolve the diffusion function to improve generality",
+        "Simplify the metric attribute sets to further enhance the predictive performance of the approach"
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Abstract, Introduction (pages 2-4), Discussion and Conclusion (pages 18-19)"
+    },
+    "research": 8
+  },
+  {
+    "additional_info": {
+      "software_domain": "software fault prediction using source code metrics",
+      "limitations": [
+        "The effect of feature selection techniques has increased the performance in few cases, however, in the maximum cases it is negligible or even the worse.",
+        "Na\u00efve Bayes performed the worst accuracy among the machine learning techniques.",
+        "SVM could not perform well with multidimensional reduction in this case."
+      ],
+      "future_directions": [
+        "Similar nature of studies with large scale software could be performed to generalize and validate the results that is obtained by this study."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Abstract, Section IV, Section V"
+    },
+    "research": 9
+  },
+  {
+    "additional_info": {
+      "software_domain": "open-source projects",
+      "limitations": [
+        "Predictions are far from being perfect.",
+        "Low recall values for defect-prone files.",
+        "Only up to 41% of variance explained by complexity metrics for files.",
+        "Finding a single indicator or predictor for the number of defects is extremely unlikely."
+      ],
+      "future_directions": [
+        "Are there better indicators for defects than complexity metrics?",
+        "How applicable are models across projects and over time?",
+        "How do we integrate prediction models into the development process?"
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Section 5: Conclusions, Page 6"
+    },
+    "research": 10
+  },
+  {
+    "additional_info": {
+      "software_domain": "real-time systems and spacecraft software",
+      "limitations": [
+        "Limited fault-proneness data available for analysis",
+        "Only three projects in the NASA MDP data repository include requirement metrics",
+        "The study is based on a single dataset (CM1) for empirical validation"
+      ],
+      "future_directions": [
+        "Explore the use of other clustering techniques for fault prediction",
+        "Investigate the applicability of the proposed model to other datasets and software domains",
+        "Enhance the model by incorporating additional metrics and data sources"
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Introduction, Methodology, Conclusion"
+    },
+    "research": 11
+  },
+  {
+    "additional_info": {
+      "software_domain": "general software development, including both procedural and object-oriented programming",
+      "limitations": [
+        "The Naive Bayes classifier, while simple and often effective, assumes conditional independence between attributes, which is often not met in practice.",
+        "General Bayesian Network classifiers can result in overly complex network structures, making them less comprehensible.",
+        "The Markov blanket feature selection procedure, while reducing the number of features, did not always improve performance and sometimes resulted in worse performance.",
+        "The study found that the best attributes for defect prediction vary from dataset to dataset, indicating that a single best set of features does not exist."
+      ],
+      "future_directions": [
+        "Investigate the inclusion of information other than static code features into fault prediction models, such as information on intermodule relations and requirement metrics.",
+        "Explore how other techniques such as support vector machines or neural networks perform under different development contexts.",
+        "Further research on feature selection techniques that can select a smaller set of highly predictive features without negatively impacting performance."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Sections 1, 2, 3, 4, 5, and 6; Pages 237-257"
+    },
+    "research": 12
+  },
+  {
+    "additional_info": {
+      "software_domain": "software defect prediction",
+      "limitations": [
+        "Limited effectiveness of previous methods in handling small data",
+        "Potential redundancy in training data when using cross-company data",
+        "Challenges in achieving high prediction accuracy with limited defect data"
+      ],
+      "future_directions": [
+        "Extending the SDNN approach to multi-category defect prediction",
+        "Conducting more empirical research on additional defect datasets",
+        "Exploring parallel computing techniques to speed up the training process"
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Sections: Introduction, Related Work, Methodology, Conclusion; Pages: 1-3, 5-6, 8-9"
+    },
+    "research": 13
+  },
+  {
+    "additional_info": {
+      "software_domain": "software fault prediction",
+      "limitations": [
+        "The study did not seem to have problems of overfitting and losing generalization capabilities.",
+        "The results are based on specific datasets (Eclipse and NASA KC1), which may limit the generalizability of the findings."
+      ],
+      "future_directions": [
+        "Replicate the study to predict the models based on other machine learning algorithms such as ensemble using neural networks and genetic algorithms."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Section VI: Conclusions, Page 6"
+    },
+    "research": 14
+  },
+  {
+    "additional_info": {
+      "software_domain": "software defect prediction",
+      "limitations": [
+        "No single technique or approach can be used for all types of datasets.",
+        "Deciding which method should be used for fault prediction is a challenging activity.",
+        "Irrelevant features or partially relevant features can negatively affect prediction model performance."
+      ],
+      "future_directions": [
+        "Integrate the performance of different ML classifiers to further improve the proposed approach.",
+        "Include the verification process of the proposed method on various datasets.",
+        "Fully automate the proposed model and weight standard rules for measurement."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Section 1 (Introduction), Section 2 (Literature Review), Section 5 (Conclusion)"
+    },
+    "research": 15
+  },
+  {
+    "additional_info": {
+      "software_domain": "software defect prediction using supervised learning techniques",
+      "limitations": [
+        "Using PCA did not have a noticeable impact on prediction systems performance",
+        "The 'pc1' dataset is highly overlapped with other datasets, leading to poor results",
+        "The proposed method has some limitations such as negative effects on the number of changes between the two versions, missing scalability in generating large numbers of classes, and changing the class name which will lead to dealing with it as a new different approach"
+      ],
+      "future_directions": [
+        "Utilize feature selection method to resolve the problem of extracted a fully large number of metrics used as features",
+        "Apply other existing machine learning algorithms to improve the quality of the software defect prediction model",
+        "Increase the size of the software defect prediction datasets since a larger pattern size will produce more accurate results"
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Sections 1, 2, 3, 4, 5, 6"
+    },
+    "research": 16
+  },
+  {
+    "additional_info": {
+      "software_domain": "software bug prediction",
+      "limitations": [
+        "Numerous false positives and false negatives results in static code analysis tools",
+        "Small dataset size affecting the performance of Naive Bayes model"
+      ],
+      "future_directions": [
+        "Introduce other machine learning techniques with data balancing techniques to improve the accuracy for predicting software bugs"
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Section 10, Page 733"
+    },
+    "research": 17
+  },
+  {
+    "additional_info": {
+      "software_domain": "general software systems",
+      "limitations": [
+        "The study does not address the impact of different software domains on the fault prediction models.",
+        "The dataset used is limited to projects available in the PROMISE repository, which may not represent all types of software projects.",
+        "The study does not consider the effect of external libraries and dependencies on software fault prediction.",
+        "The models may lose performance dramatically when the data changes, such as changes in project size, domain, or software architecture."
+      ],
+      "future_directions": [
+        "Conduct more experiments on different datasets to generalize the results.",
+        "Investigate the impact of external libraries and dependencies on software fault prediction.",
+        "Develop models that can be used in the early stages of the software development lifecycle.",
+        "Explore the use of other software metrics and their combinations for fault prediction."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Sections 1, 2, 5, and 6"
+    },
+    "research": 18
+  },
+  {
+    "additional_info": {
+      "software_domain": "software defect prediction",
+      "limitations": [
+        "The performance difference between the proposed classifier and other algorithms is not significant.",
+        "The proposed model performs better when using the CFS technique instead of all 21 metrics as input.",
+        "The effect of MCN on performance is very little after a specific value.",
+        "The performance is degraded when applying the same approach to software defect prediction datasets as used for UCI Machine Learning datasets."
+      ],
+      "future_directions": [
+        "There should be more focus on data preprocessing, feature selection, or other data mining techniques instead of finding a better classifier."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Sections 5.3.1, 5.3.2, and 6"
+    },
+    "research": 19
+  },
+  {
+    "additional_info": {
+      "software_domain": "open source software",
+      "limitations": [
+        "The study did not take into account the type of change (corrective, adaptive, perfective, or preventive) a class may go through.",
+        "The study did not aim to determine the causal effect of OO metrics on change proneness.",
+        "The results cannot be generalized universally as only two open source datasets were considered."
+      ],
+      "future_directions": [
+        "Replicate the study across various datasets to give generalized results across different organizations.",
+        "Take into account the confounding effect of size on the relationship between change proneness and the metrics.",
+        "Conduct cost-benefit analysis of the models to understand their economic viability."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Section 9 (Threats to validity), Section 10 (Conclusion)"
+    },
+    "research": 21
+  },
+  {
+    "additional_info": {
+      "software_domain": "software bug prediction",
+      "limitations": [
+        "The Naive Bayes model applies the assumption of conditional interdependency, which restricts network architecture.",
+        "The performance of Naive Bayes can be improved by relaxing conditional independence, but this makes the model more complex.",
+        "Handling continuous features is challenging for many Bayesian learners, requiring conversion into discrete values.",
+        "Misclassification of faulty instances as non-faulty is a significant issue."
+      ],
+      "future_directions": [
+        "Exploring the performance of Support Vector Machine and Neural Network under similar conditions.",
+        "Incorporating additional information besides static code in fault prediction models, such as inter-module relations and metrics requirements.",
+        "Developing more discriminative models that consider the cost associated with misclassifying faulty instances."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Pages 1412-1421"
+    },
+    "research": 22
+  },
+  {
+    "additional_info": {
+      "software_domain": "Android software",
+      "limitations": [
+        "The study is limited to Android projects, which may not generalize to other programming languages like C or C++.",
+        "Software size may affect the probability of a class being faulty, which is not fully addressed.",
+        "The metrics used are well-established, but there is a potential threat to construct validity."
+      ],
+      "future_directions": [
+        "There is a need to perform experiments on different types of large datasets to generalize the results."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Sections 7 and 8"
+    },
+    "research": 23
+  },
+  {
+    "additional_info": {
+      "software_domain": "software bug prediction",
+      "limitations": [
+        "Imperfect expectation selections and benchmarking results using AI classifiers.",
+        "No major presentation anomalies can be recognized.",
+        "No specific classifiers perform best on every dataset.",
+        "Large-scale software architecture requires an accurate defect prediction model.",
+        "Class inequity and noise characteristics of information collections.",
+        "Inconsistency can induce a non-practical model in software defect prediction.",
+        "Deriving from unbalanced datasets is problematic.",
+        "Impaired data related to minority groups prevents a clear understanding of the inherent design of the dataset.",
+        "The dataset has noisy qualities, reducing the implementation of software defect prediction."
+      ],
+      "future_directions": [
+        "Use a hybrid deep learning technique to achieve better results.",
+        "Solve the problem of class imbalance.",
+        "Implement optimization methods, vectorization, and broadcast approaches for improved and faster results.",
+        "Try other deep learning frameworks for error prediction.",
+        "Apply the technique to many faults, such as software reliability."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Pages 1976-1998"
+    },
+    "research": 24
+  },
+  {
+    "additional_info": {
+      "software_domain": "embedded systems",
+      "limitations": [
+        "Mis-classifying a safe code as defective increases the cost of projects.",
+        "High false alarm rates can lead to wasted inspection costs.",
+        "The quality of data and noise are always issues in software datasets.",
+        "The proposed model may not be generalizable to all software systems."
+      ],
+      "future_directions": [
+        "Conduct a replication study to investigate the relationship between the size and defect-proneness of software modules in the embedded systems domain.",
+        "Combine the ensemble with multiple algorithms other than NB, ANN, and VFI.",
+        "Change the voting strategy of the ensemble to a weighted voting mechanism.",
+        "Collect requirement metrics and construct a defect prediction model for both implementation and requirement defects."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Abstract, Introduction, Section 2, Section 3.3, Section 4.1, Section 5, Section 6"
+    },
+    "research": 25
+  },
+  {
+    "additional_info": {
+      "software_domain": "object-oriented systems",
+      "limitations": [
+        "The fault severity ratings in the KC1 data set are subjective and may be inaccurate.",
+        "The usefulness of OO metrics for predicting fault proneness models depends on the programming language being used.",
+        "The conclusions are pertinent only to the dependent variable fault proneness and may not be valid for other dependent variables like maintainability or effort."
+      ],
+      "future_directions": [
+        "Replicate the study on different data sets to generalize the findings.",
+        "Predict models based on other machine learning algorithms such as genetic algorithms.",
+        "Focus on cost-benefit analysis of the models to determine their economic viability."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Sections 8 and 9"
+    },
+    "research": 26
+  },
+  {
+    "additional_info": {
+      "software_domain": "software defect prediction",
+      "limitations": [
+        "Resampling methods could not improve the AUC values across all prediction models.",
+        "Resampling methods can help in defect classification but not defect prioritization.",
+        "Performance of resampling methods are dependent on the imbalance ratio, evaluation measure, and to some extent the prediction model.",
+        "High false alarm rates (pf) when using resampling methods."
+      ],
+      "future_directions": [
+        "Newer oversampling methods should aim at generating relevant and informative data samples and not just increasing the minority samples.",
+        "Consider noise detection and elimination techniques to ensure only relevant and important minority instances remain or are added to the training data."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Abstract, Section 1, Section 5, Section 6"
+    },
+    "research": 27
+  },
+  {
+    "additional_info": {
+      "software_domain": "software defect prediction",
+      "limitations": [
+        "The randomness involved in the experiments could introduce some bias.",
+        "The tuning of the configuration parameters of predictors may influence the results.",
+        "The study is based on only 13 real-world public datasets, which could be a potential threat to external validity.",
+        "The selection of classification techniques could be another source of threat."
+      ],
+      "future_directions": [
+        "Further studies are needed to clarify the mechanism of how SNB improves the performance of a simple naive Bayes model during iterations.",
+        "A more accurate and objective way to measure interpretability, such as a highly-controlled user-based experiment, will be required.",
+        "Additional studies are needed to further explore the potential of the proposed method in various domains where both predictive accuracy and interpretability are required."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Section 6 (Threats to Validity), Section 7 (Conclusion)"
+    },
+    "research": 28
+  },
+  {
+    "additional_info": {
+      "software_domain": "object-oriented, large-sized systems",
+      "limitations": [
+        "The fault severity ratings in the KC1 data set are subjective and may be inaccurate.",
+        "The generalizability of the results is possibly limited due to the specific data set used.",
+        "The usefulness of OO metrics for predicting fault proneness models also depends on the programming language being used.",
+        "The conclusions are pertinent only to the dependent variable fault proneness and may not be valid for other dependent variables like maintainability or effort.",
+        "Further validations are needed with different systems to draw stronger conclusions."
+      ],
+      "future_directions": [
+        "Replicate the study on different data sets to generalize the findings.",
+        "Predict models based on machine learning algorithms such as genetic algorithms.",
+        "Carry out cost-benefit analysis of the models to determine their economic viability."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Section 7 (Threats to validity), Section 8 (Conclusions and future work)"
+    },
+    "research": 29
+  },
+  {
+    "additional_info": {
+      "software_domain": "software defect prediction",
+      "limitations": [
+        "The results are based on a limited number of datasets from the Promise data repository.",
+        "The study's findings may not generalize to all types of software projects.",
+        "The number of developers (NOD) metric could not be extracted for all datasets due to lack of developer information in some source code repositories.",
+        "The study assumes that the extracted metrics are accurate and representative of the software's defectiveness."
+      ],
+      "future_directions": [
+        "Refine the research to include other software and process metrics in the model to reveal the relationships among them and to determine the most useful ones in defect prediction.",
+        "Conduct more experiments on additional datasets to justify the findings.",
+        "Explore the cost-benefit curve of the number of developers (NOD) versus defectiveness level to provide more detailed recommendations for project managers."
+      ]
+    },
+    "source_locations": {
+      "additional_info": "Pages 154-181"
+    },
+    "research": 30
+  }
+]

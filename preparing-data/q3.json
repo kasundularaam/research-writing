@@ -1,0 +1,313 @@
+[
+  {
+    "research": 1,
+    "dataset_sizes": {
+      "min": 125,
+      "max": 1862,
+      "unit": "modules",
+      "note": "Range provided, see Table 8 in the paper for details"
+    }
+  },
+  {
+    "research": 2,
+    "datasets": [
+      {
+        "name": "KC1",
+        "total": 1571,
+        "faulty": 319,
+        "non_faulty": 1252
+      },
+      {
+        "name": "PC4",
+        "total": 1347,
+        "faulty": 178,
+        "non_faulty": 1169
+      }
+    ]
+  },
+  {
+    "research": 3,
+    "dataset_sizes": {
+      "note": "Not mentioned in the paper"
+    }
+  },
+  {
+    "research": 4,
+    "datasets": [
+      {"name": "Ivy-1.1", "instances": 111},
+      {"name": "Lucene-2.2", "instances": 247},
+      {"name": "Lucene-2.4", "instances": 340},
+      {"name": "Poi-1.5", "instances": 237},
+      {"name": "Poi-2.5", "instances": 385},
+      {"name": "Velocity-1.6", "instances": 214},
+      {"name": "Xalan-2.6", "instances": 885},
+      {"name": "CM1", "instances": 498},
+      {"name": "MW1", "instances": 253},
+      {"name": "PC4", "instances": 1458}
+    ]
+  },
+  {
+    "research": 5,
+    "dataset_sizes": {
+      "note": "Varies, see Table 4 in the paper"
+    }
+  },
+  {
+    "research": 6,
+    "datasets": [
+      {"name": "SPSC", "instances": 6538},
+      {"name": "PSC", "instances": 14066}
+    ]
+  },
+  {
+    "research": 7,
+    "datasets": [
+      {"name": "Ant-1.7", "instances": 745},
+      {"name": "Camel-1.6", "instances": 965},
+      {"name": "KC3", "instances": 200},
+      {"name": "MC1", "instances": 1988},
+      {"name": "PC2", "instances": 1585},
+      {"name": "PC4", "instances": 1287}
+    ]
+  },
+  {
+    "research": 8,
+    "dataset_sizes": {
+      "note": "Not provided in the excerpt"
+    }
+  },
+  {
+    "research": 9,
+    "datasets": [
+      {"name": "KC1", "instances": 10878},
+      {"name": "Eclipse", "note": "Not explicitly mentioned"}
+    ]
+  },
+  {
+    "research": 10,
+    "datasets": [
+      {"name": "JM1", "instances": 10885},
+      {"name": "KC1", "instances": 2109},
+      {"name": "PC1", "instances": 1109},
+      {"name": "jEdit 4.2-4.3", "instances": 369}
+    ]
+  },
+  {
+    "research": 11,
+    "datasets": [
+      {"name": "CM1", "instances": 266, "note": "After data preprocessing"}
+    ]
+  },
+  {
+    "research": 12,
+    "datasets": [
+      {"name": "AR1", "instances": 114},
+      {"name": "AR4", "instances": 94},
+      {"name": "AR6", "instances": 87},
+      {"name": "CM1", "instances": 446},
+      {"name": "KC1", "instances": 2032},
+      {"name": "KC2", "instances": 513},
+      {"name": "MW1", "instances": 366},
+      {"name": "PC1", "instances": 1024},
+      {"name": "PC3", "instances": 1475},
+      {"name": "PC4", "instances": 1380}
+    ]
+  },
+  {
+    "research": 13,
+    "datasets": [
+      {"name": "JM1", "instances": 10878, "type": "NASA"},
+      {"name": "KC1", "instances": 2107, "type": "NASA"},
+      {"name": "MC1", "instances": 4625, "type": "NASA"},
+      {"name": "PC1", "instances": 1059, "type": "NASA"},
+      {"name": "PC2", "instances": 4505, "type": "NASA"},
+      {"name": "PC3", "instances": 1511, "type": "NASA"},
+      {"name": "PC4", "instances": 1347, "type": "NASA"},
+      {"name": "PC5", "instances": 15414, "type": "NASA"},
+      {"name": "Ecl2.0a", "instances": 6729, "type": "Eclipse"},
+      {"name": "Ecl2.1a", "instances": 7888, "type": "Eclipse"},
+      {"name": "Ecl3.0a", "instances": 10593, "type": "Eclipse"}
+    ]
+  },
+  {
+    "research": 14,
+    "datasets": [
+      {"name": "Release 2.0", "files": 6740, "packages": 376},
+      {"name": "Release 2.1", "files": 7900, "packages": 433},
+      {"name": "Release 3.0", "files": 6614, "packages": 429}
+    ]
+  },
+  {
+    "research": 15,
+    "datasets": [
+      {"name": "CM1", "instances": 498},
+      {"name": "JM1", "instances": 10885},
+      {"name": "KC1", "instances": 2109},
+      {"name": "KC2", "instances": 522},
+      {"name": "PC1", "instances": 1109}
+    ]
+  },
+  {
+    "research": 16,
+    "datasets": [
+      {"name": "JM1", "instances": 10885},
+      {"name": "PC1", "instances": 1107},
+      {"name": "KC1", "instances": 2107},
+      {"name": "KC2", "instances": 523}
+    ]
+  },
+  {
+    "research": 17,
+    "datasets": [
+      {"name": "mozilla4", "instances": 15544},
+      {"name": "kc1", "instances": 2108},
+      {"name": "ar1", "instances": 121},
+      {"name": "ar4", "instances": 121},
+      {"name": "pc1", "instances": 1107}
+    ]
+  },
+  {
+    "research": 18,
+    "datasets": [
+      {"name": "Rave", "instances": 685},
+      {"name": "Commons Math", "instances": 756}
+    ]
+  },
+  {
+    "research": 19,
+    "datasets": [
+      {
+        "name": "PROMISE",
+        "min_instances": 229,
+        "max_instances": 965,
+        "min_project": "Velocity-1.6",
+        "max_project": "Camel-1.6",
+        "note": "See Table 1 in the paper"
+      },
+      {
+        "name": "RELINK",
+        "min_instances": 56,
+        "max_instances": 399,
+        "min_project": "Safe",
+        "max_project": "ZXing",
+        "note": "See Table 2 in the paper"
+      }
+    ]
+  },
+  {
+    "research": 20,
+    "dataset_sizes": {
+      "total": 15123,
+      "training": {
+        "total": 12123,
+        "faulty": 2115,
+        "faulty_percentage": 17.45
+      },
+      "testing": {
+        "total": 3000,
+        "faulty": 550,
+        "faulty_percentage": 18.33
+      }
+    }
+  },
+  {
+    "research": 21,
+    "datasets": [
+      {"name": "KC1", "instances": 2109},
+      {"name": "KC2", "instances": 522},
+      {"name": "CM1", "instances": 505},
+      {"name": "PC1", "instances": 1109},
+      {"name": "JM1", "instances": 10885}
+    ]
+  },
+  {
+    "research": 22,
+    "datasets": [
+      {"name": "PC1", "instances": 1059, "type": "NASA"},
+      {"name": "PC2", "instances": 4500, "type": "NASA"},
+      {"name": "PC3", "instances": 1510, "type": "NASA"},
+      {"name": "PC4", "instances": 1340, "type": "NASA"},
+      {"name": "PC5", "instances": 15400, "type": "NASA"},
+      {"name": "KC1", "instances": 2108, "type": "NASA"},
+      {"name": "MC1", "instances": 4625, "type": "NASA"},
+      {"name": "JM1", "instances": 10878, "type": "NASA"},
+      {"name": "ECL-2.0", "instances": 6730, "type": "Eclipse"},
+      {"name": "PC2", "instances": 7890, "type": "Eclipse"},
+      {"name": "PC3", "instances": 10595, "type": "Eclipse"}
+    ]
+  },
+  {
+    "research": 23,
+    "datasets": [
+      {"name": "v4-v5", "instances": 170},
+      {"name": "v2-v5", "instances": 324}
+    ]
+  },
+  {
+    "research": 24,
+    "datasets": [
+      {"name": "CM1", "instances": 498},
+      {"name": "PC1", "instances": 1109},
+      {"name": "PC3", "instances": 1563},
+      {"name": "PC4", "instances": 1458},
+      {"name": "AR3", "instances": 63},
+      {"name": "AR4", "instances": 107},
+      {"name": "AR5", "instances": 36},
+      {"name": "AR6", "instances": 101}
+    ]
+  },
+  {
+    "research": 25,
+    "dataset_sizes": {
+      "min": 29,
+      "max": 10960,
+      "min_project": "Forrest",
+      "max_project": "NetBSD version B",
+      "note": "Refer to Table 2 in the paper for details"
+    }
+  },
+  {
+    "research": 26,
+    "dataset_sizes": {
+      "note": "See Table 2 for MDP datasets and Table 3 for JIT datasets in the paper"
+    }
+  },
+  {
+    "research": 27,
+    "datasets": [
+      {"name": "Ant", "instances": 745},
+      {"name": "Tomcat", "instances": 858},
+      {"name": "Jedit", "instances": 492},
+      {"name": "Velocity", "instances": 229},
+      {"name": "Synapse", "instances": 256},
+      {"name": "Poi", "instances": 442},
+      {"name": "Lucene", "instances": 340},
+      {"name": "Xalan", "instances": 741},
+      {"name": "Ivy", "instances": 352}
+    ]
+  },
+  {
+    "research": 28,
+    "datasets": [
+      {
+        "name": "KC1",
+        "classes": 145,
+        "initial_faults": 669,
+        "preprocessed_faults": 642
+      }
+    ]
+  },
+  {
+    "research": 29,
+    "datasets": [
+      {"name": "PROMISE", "instances": 2775},
+      {"name": "NASA", "instances": 11262}
+    ]
+  },
+  {
+    "research": 30,
+    "datasets": [
+      {"name": "KC1", "classes": 145}
+    ]
+  }
+]

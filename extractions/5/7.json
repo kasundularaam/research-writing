@@ -1,0 +1,18 @@
+{
+  "additional_info": {
+    "software_domain": "General software defect prediction across various domains including Java and C/C++ projects",
+    "limitations": [
+      "The quality of the NASA datasets used is questionable.",
+      "The study does not address the potential overfitting issue in ensemble learning models.",
+      "The proposed model's performance is not evaluated against varying degrees of data skewness."
+    ],
+    "future_directions": [
+      "Apply other feature selection techniques to further verify the claim that many features in publicly-available software defect datasets are irrelevant and/or redundant.",
+      "Explore other ensemble learners to compare with the proposed method.",
+      "Investigate the decision boundaries of W-SVMs and the nature of the PC2 dataset to understand the drastic drop in classification performance."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Sections 5.1, 5.2, 5.4, 5.5, 6, and 7"
+  }
+}

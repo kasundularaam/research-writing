@@ -1,0 +1,41 @@
+{
+  "paper_info": {
+    "title": "Dynamic Detection of Software Defects Using Supervised Learning Techniques",
+    "year": 2019,
+    "doi": "N/A"
+  },
+  "dataset": {
+    "name": [
+      "mozilla4",
+      "kc1",
+      "ar1",
+      "ar4",
+      "pc1"
+    ],
+    "size": [
+      15544,
+      2108,
+      121,
+      121,
+      1107
+    ],
+    "source": [
+      "NASA repository",
+      "NASA repository",
+      "NASA repository",
+      "NASA repository",
+      "NASA repository"
+    ],
+    "language": [
+      "C++",
+      "C++",
+      "C",
+      "C",
+      "C"
+    ]
+  },
+  "source_locations": {
+    "paper_info": "Page 185, Page 186",
+    "dataset": "Page 187, Table 1"
+  }
+}

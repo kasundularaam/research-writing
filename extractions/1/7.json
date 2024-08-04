@@ -1,0 +1,45 @@
+{
+  "paper_info": {
+    "title": "Software defect prediction using ensemble learning on selected features",
+    "year": 2015,
+    "doi": "10.1016/j.infsof.2014.07.005"
+  },
+  "dataset": {
+    "name": [
+      "Ant-1.7",
+      "Camel-1.6",
+      "KC3",
+      "MC1",
+      "PC2",
+      "PC4"
+    ],
+    "size": [
+      745,
+      965,
+      200,
+      1988,
+      1585,
+      1287
+    ],
+    "source": [
+      "open-source project",
+      "open-source project",
+      "open-source project",
+      "NASA",
+      "NASA",
+      "NASA"
+    ],
+    "language": [
+      "Java",
+      "Java",
+      "Java",
+      "C++",
+      "C",
+      "C"
+    ]
+  },
+  "source_locations": {
+    "paper_info": "Title: Page 1, DOI: Page 3, Year: Page 3",
+    "dataset": "Section 4.2: Page 10, Table 1: Page 10"
+  }
+}

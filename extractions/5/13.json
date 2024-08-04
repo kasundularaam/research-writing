@@ -1,0 +1,18 @@
+{
+  "additional_info": {
+    "software_domain": "software defect prediction",
+    "limitations": [
+      "Limited effectiveness of previous methods in handling small data",
+      "Potential redundancy in training data when using cross-company data",
+      "Challenges in achieving high prediction accuracy with limited defect data"
+    ],
+    "future_directions": [
+      "Extending the SDNN approach to multi-category defect prediction",
+      "Conducting more empirical research on additional defect datasets",
+      "Exploring parallel computing techniques to speed up the training process"
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Sections: Introduction, Related Work, Methodology, Conclusion; Pages: 1-3, 5-6, 8-9"
+  }
+}

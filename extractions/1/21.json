@@ -1,0 +1,29 @@
+{
+  "paper_info": {
+    "title": "Empirical analysis of search based algorithms to identify change prone classes of open source software",
+    "year": 2017,
+    "doi": "http://dx.doi.org/10.1016/j.cl.2016.10.001"
+  },
+  "dataset": {
+    "name": [
+      "Apache Rave",
+      "Apache Commons Math"
+    ],
+    "size": [
+      685,
+      756
+    ],
+    "source": [
+      "open-source project",
+      "open-source project"
+    ],
+    "language": [
+      "Java",
+      "Java"
+    ]
+  },
+  "source_locations": {
+    "paper_info": "Page 211",
+    "dataset": "Page 213"
+  }
+}

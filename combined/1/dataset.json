@@ -1,0 +1,188 @@
+[
+  {
+    "research": 1,
+    "dataset": [
+      "Ant",
+      "Camel",
+      "Ivy",
+      "Jedit",
+      "Log4j",
+      "Poi",
+      "Synapse",
+      "Velocity",
+      "Xerces",
+      "Eclipse JDT Core",
+      "Eclipse PDE UI",
+      "Equinox Framework",
+      "Lucene",
+      "Mylyn"
+    ]
+  },
+  {
+    "research": 2,
+    "dataset": ["KC1", "PC4"]
+  },
+  {
+    "research": 3,
+    "dataset": ["Eclipse"]
+  },
+  {
+    "research": 4,
+    "dataset": [
+      "Ivy",
+      "Lucene",
+      "Poi",
+      "Velocity",
+      "Xalan",
+      "CM1",
+      "MW1",
+      "PC4"
+    ]
+  },
+  {
+    "research": 6,
+    "dataset": ["PROMISE"]
+  },
+  {
+    "research": 7,
+    "dataset": ["Ant", "Camel", "KC3", "MC1", "PC2", "PC4"]
+  },
+  {
+    "research": 8,
+    "dataset": ["PROMISE", "Apache", "Eclipse"]
+  },
+  {
+    "research": 9,
+    "dataset": ["JM1", "KC1", "PC1", "Jedit"]
+  },
+  {
+    "research": 10,
+    "dataset": ["Eclipse"]
+  },
+  {
+    "research": 11,
+    "dataset": ["CM1", "JM1", "PC1"]
+  },
+  {
+    "research": 12,
+    "dataset": ["NASA", "Eclipse"]
+  },
+  {
+    "research": 13,
+    "dataset": [
+      "AR1",
+      "AR4",
+      "AR6",
+      "CM1",
+      "KC1",
+      "KC2",
+      "MW1",
+      "PC1",
+      "PC3",
+      "PC4"
+    ]
+  },
+  {
+    "research": 14,
+    "dataset": ["KC1", "Eclipse"]
+  },
+  {
+    "research": 15,
+    "dataset": ["JM1", "CM1", "KC1", "KC2", "PC1"]
+  },
+  {
+    "research": 16,
+    "dataset": ["Mozilla", "KC1", "AR1", "AR4", "PC1"]
+  },
+  {
+    "research": 17,
+    "dataset": ["PROMISE"]
+  },
+  {
+    "research": 18,
+    "dataset": ["PROMISE"]
+  },
+  {
+    "research": 19,
+    "dataset": ["KC1", "KC2", "CM1", "PC1", "JM1"]
+  },
+  {
+    "research": 21,
+    "dataset": ["Apache Rave", "Apache Commons Math"]
+  },
+  {
+    "research": 23,
+    "dataset": ["Android"]
+  },
+  {
+    "research": 24,
+    "dataset": ["PROMISE", "NASA"]
+  },
+  {
+    "research": 25,
+    "dataset": ["CM1", "PC1", "PC3", "PC4", "AR3", "AR4", "AR5", "AR6"]
+  },
+  {
+    "research": 26,
+    "dataset": ["KC1"]
+  },
+  {
+    "research": 27,
+    "dataset": [
+      "Ant",
+      "Camel",
+      "Forrest",
+      "Ivy",
+      "Jedit",
+      "Synapse",
+      "Xalan",
+      "Xerces",
+      "Clam Antivirus",
+      "ECos",
+      "Helma",
+      "NetBSD",
+      "OpenBSD",
+      "OpenCMS",
+      "OpenNMS",
+      "Scilab",
+      "Spring Security",
+      "XORP"
+    ]
+  },
+  {
+    "research": 28,
+    "dataset": [
+      "MC2",
+      "KC3",
+      "MW1",
+      "CM1",
+      "PC1",
+      "PC2",
+      "PC3",
+      "PC4",
+      "PC5",
+      "MC1",
+      "JM1",
+      "Bugzilla",
+      "Columba"
+    ]
+  },
+  {
+    "research": 29,
+    "dataset": ["KC1"]
+  },
+  {
+    "research": 30,
+    "dataset": [
+      "Ant",
+      "Tomcat",
+      "Jedit",
+      "Velocity",
+      "Synapse",
+      "Poi",
+      "Lucene",
+      "Xalan",
+      "Ivy"
+    ]
+  }
+]

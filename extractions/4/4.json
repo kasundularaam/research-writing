@@ -1,0 +1,34 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "Recall",
+      "Precision",
+      "F-measure"
+    ],
+    "baseline_models": [
+      "NB",
+      "SVM",
+      "LR",
+      "RT",
+      "STSE"
+    ],
+    "best_model": {
+      "name": "WNB-ID",
+      "performance": {
+        "Ivy-1.1": 0.7907,
+        "Lucene-2.2": 0.7412,
+        "Lucene-2.4": 0.7872,
+        "Poi-1.5": 0.8406,
+        "Poi-2.5": 0.8669,
+        "Velocity-1.6": 0.8684,
+        "Xalan-2.6": 0.7651,
+        "CM1": 0.3901,
+        "MW1": 0.4641,
+        "PC4": 0.5243
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Pages 24-33"
+  }
+}

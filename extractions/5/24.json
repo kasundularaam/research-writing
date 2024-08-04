@@ -1,0 +1,26 @@
+{
+  "additional_info": {
+    "software_domain": "software bug prediction",
+    "limitations": [
+      "Imperfect expectation selections and benchmarking results using AI classifiers.",
+      "No major presentation anomalies can be recognized.",
+      "No specific classifiers perform best on every dataset.",
+      "Large-scale software architecture requires an accurate defect prediction model.",
+      "Class inequity and noise characteristics of information collections.",
+      "Inconsistency can induce a non-practical model in software defect prediction.",
+      "Deriving from unbalanced datasets is problematic.",
+      "Impaired data related to minority groups prevents a clear understanding of the inherent design of the dataset.",
+      "The dataset has noisy qualities, reducing the implementation of software defect prediction."
+    ],
+    "future_directions": [
+      "Use a hybrid deep learning technique to achieve better results.",
+      "Solve the problem of class imbalance.",
+      "Implement optimization methods, vectorization, and broadcast approaches for improved and faster results.",
+      "Try other deep learning frameworks for error prediction.",
+      "Apply the technique to many faults, such as software reliability."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Pages 1976-1998"
+  }
+}

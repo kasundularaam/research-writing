@@ -1,0 +1,18 @@
+{
+  "additional_info": {
+    "software_domain": "object-oriented systems",
+    "limitations": [
+      "The fault severity ratings in the KC1 data set are subjective and may be inaccurate.",
+      "The usefulness of OO metrics for predicting fault proneness models depends on the programming language being used.",
+      "The conclusions are pertinent only to the dependent variable fault proneness and may not be valid for other dependent variables like maintainability or effort."
+    ],
+    "future_directions": [
+      "Replicate the study on different data sets to generalize the findings.",
+      "Predict models based on other machine learning algorithms such as genetic algorithms.",
+      "Focus on cost-benefit analysis of the models to determine their economic viability."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Sections 8 and 9"
+  }
+}

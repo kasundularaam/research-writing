@@ -1,0 +1,18 @@
+{
+  "additional_info": {
+    "software_domain": "software defect prediction using supervised learning techniques",
+    "limitations": [
+      "Using PCA did not have a noticeable impact on prediction systems performance",
+      "The 'pc1' dataset is highly overlapped with other datasets, leading to poor results",
+      "The proposed method has some limitations such as negative effects on the number of changes between the two versions, missing scalability in generating large numbers of classes, and changing the class name which will lead to dealing with it as a new different approach"
+    ],
+    "future_directions": [
+      "Utilize feature selection method to resolve the problem of extracted a fully large number of metrics used as features",
+      "Apply other existing machine learning algorithms to improve the quality of the software defect prediction model",
+      "Increase the size of the software defect prediction datasets since a larger pattern size will produce more accurate results"
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Sections 1, 2, 3, 4, 5, 6"
+  }
+}

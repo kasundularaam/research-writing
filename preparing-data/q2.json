@@ -1,0 +1,145 @@
+[
+  {
+    "research": 1,
+    "datasets": [
+      "ant", "camel", "ivy-2.0", "jedit", "log4j-1.0", "poi-2.0", "synapse",
+      "velocity-1.6", "xerces", "Eclipse JDT Core", "Eclipse PDE UI",
+      "Equinox Framework", "Lucene", "Mylyn"
+    ]
+  },
+  {
+    "research": 2,
+    "datasets": ["KC1", "PC4"]
+  },
+  {
+    "research": 3,
+    "datasets": ["Eclipse 3.4"]
+  },
+  {
+    "research": 4,
+    "datasets": [
+      "Ivy-1.1", "Lucene-2.2", "Lucene-2.4", "Poi-1.5", "Poi-2.5",
+      "Velocity-1.6", "Xalan-2.6", "CM1", "MW1", "PC4"
+    ]
+  },
+  {
+    "research": 5,
+    "datasets": ["30 open-source Java projects from PROMISE and NASA data repository"]
+  },
+  {
+    "research": 6,
+    "datasets": ["Simplified PROMISE Source Code (SPSC)", "PROMISE Source Code (PSC)"]
+  },
+  {
+    "research": 7,
+    "datasets": ["Ant-1.7", "Camel-1.6", "KC3", "MC1", "PC2", "PC4"]
+  },
+  {
+    "research": 8,
+    "datasets": ["Ant", "Camel", "Ivy", "Jedit", "Lucene", "Poi", "Synapse", "Xalan", "Xerces"]
+  },
+  {
+    "research": 9,
+    "datasets": ["NASA KC1", "Eclipse 3.0"]
+  },
+  {
+    "research": 10,
+    "datasets": ["JM1", "KC1", "PC1", "jEdit 4.2-4.3"]
+  },
+  {
+    "research": 11,
+    "datasets": ["CM1"]
+  },
+  {
+    "research": 12,
+    "datasets": ["AR1", "AR4", "AR6", "CM1", "KC1", "KC2", "MW1", "PC1", "PC3", "PC4"]
+  },
+  {
+    "research": 13,
+    "datasets": [
+      "JM1", "KC1", "MC1", "PC1", "PC2", "PC3", "PC4", "PC5",
+      "Ecl2.0a", "Ecl2.1a", "Ecl3.0a"
+    ]
+  },
+  {
+    "research": 14,
+    "datasets": ["Eclipse 2.0", "Eclipse 2.1", "Eclipse 3.0"]
+  },
+  {
+    "research": 15,
+    "datasets": ["JM1", "CM1", "KC1", "KC2", "PC1"]
+  },
+  {
+    "research": 16,
+    "datasets": ["JM1", "PC1", "KC1", "KC2"]
+  },
+  {
+    "research": 17,
+    "datasets": ["mozilla4", "kc1", "ar1", "ar4", "pc1"]
+  },
+  {
+    "research": 18,
+    "datasets": [
+      "Apache Rave 0.22", "Apache Rave 0.23",
+      "Apache Commons Math 2.2", "Apache Commons Math 3.0"
+    ]
+  },
+  {
+    "research": 19,
+    "datasets": ["RELINK", "PROMISE"]
+  },
+  {
+    "research": 20,
+    "datasets": ["CM1", "JM1", "KC1", "KC2", "PC1"]
+  },
+  {
+    "research": 21,
+    "datasets": ["KC1", "KC2", "CM1", "PC1", "JM1"]
+  },
+  {
+    "research": 22,
+    "datasets": ["NASA datasets", "Eclipse datasets"]
+  },
+  {
+    "research": 23,
+    "datasets": ["android-4.0.1_r1", "android-5.0.0_r1", "android-2.0.1_r1"]
+  },
+  {
+    "research": 24,
+    "datasets": ["CM1", "PC1", "PC3", "PC4", "AR3", "AR4", "AR5", "AR6"]
+  },
+  {
+    "research": 25,
+    "datasets": [
+      "Ant1", "Ant2", "Camel1", "Camel2", "Forrest", "Ivy", "Jedit", "Synapse",
+      "Xalan", "Xerces", "Clam Antivirus", "eCos", "Helma", "NetBSD", "OpenBSD",
+      "OpenCMS", "openNMS", "Scilab", "Spring Security", "XORP"
+    ]
+  },
+  {
+    "research": 26,
+    "datasets": [
+      "MC2", "KC3", "MW1", "CM1", "PC1", "PC2", "PC3", "PC4", "PC5",
+      "MC1", "JM1", "Bugzilla", "Columba"
+    ]
+  },
+  {
+    "research": 27,
+    "datasets": [
+      "Ant 1.7", "Tomcat 6.0", "Jedit 4.3", "Velocity 1.6", "Synapse 1.2",
+      "Poi 3", "Lucene 2.4", "Xalan 2.5", "Ivy 2.0"
+    ]
+  },
+  {
+    "research": 28,
+    "datasets": ["KC1"]
+  },
+  {
+    "research": 29,
+    "datasets": ["PROMISE", "NASA"]
+  },
+  {
+    "research": 30,
+    "datasets": ["KC1"]
+  }
+]

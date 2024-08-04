@@ -1,0 +1,25 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "Probability of Detection (PD)",
+      "Probability of False Alarms (PF)",
+      "Class Precision",
+      "Class Recall"
+    ],
+    "baseline_models": [
+      "N/A"
+    ],
+    "best_model": {
+      "name": "Hybrid Model (K-means Clustering + Decision Tree C4.5)",
+      "performance": {
+        "Probability of Detection (PD)": 1.0,
+        "Probability of False Alarms (PF)": 0.0,
+        "Class Precision": 100.0,
+        "Class Recall": 100.0
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Pages 282-285"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "AUC",
+      "g-mean",
+      "balance",
+      "pd (recall)",
+      "pf (probability of false alarms)"
+    ],
+    "baseline_models": [
+      "NONE (no sampling)"
+    ],
+    "best_model": {
+      "name": "RUS (Random Under Sampling)",
+      "performance": {
+        "AUC": 0.63,
+        "g-mean": 0.61,
+        "balance": 0.63,
+        "pd (recall)": 0.143,
+        "pf (probability of false alarms)": 0.1
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Section 5, Pages 20-30"
+  }
+}

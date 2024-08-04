@@ -1,0 +1,19 @@
+{
+  "additional_info": {
+    "software_domain": "open-source projects",
+    "limitations": [
+      "Predictions are far from being perfect.",
+      "Low recall values for defect-prone files.",
+      "Only up to 41% of variance explained by complexity metrics for files.",
+      "Finding a single indicator or predictor for the number of defects is extremely unlikely."
+    ],
+    "future_directions": [
+      "Are there better indicators for defects than complexity metrics?",
+      "How applicable are models across projects and over time?",
+      "How do we integrate prediction models into the development process?"
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Section 5: Conclusions, Page 6"
+  }
+}

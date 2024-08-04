@@ -1,0 +1,45 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "sensitivity",
+      "specificity",
+      "precision",
+      "completeness",
+      "Receiver Operating Characteristic (ROC) analysis",
+      "Area Under the Curve (AUC)"
+    ],
+    "baseline_models": [
+      "Logistic Regression (LR)",
+      "Decision Tree (DT)",
+      "Artificial Neural Network (ANN)"
+    ],
+    "best_model": {
+      "name": "Decision Tree (DT)",
+      "performance": {
+        "HSF_sensitivity": 69.5,
+        "HSF_specificity": 90.0,
+        "HSF_precision": 84.68,
+        "HSF_completeness": 70.8,
+        "HSF_AUC": 0.766,
+        "MSF_sensitivity": 89.7,
+        "MSF_specificity": 71.3,
+        "MSF_precision": 78.64,
+        "MSF_completeness": 97.5,
+        "MSF_AUC": 0.888,
+        "LSF_sensitivity": 90.3,
+        "LSF_specificity": 81.1,
+        "LSF_precision": 83.4,
+        "LSF_completeness": 94.3,
+        "LSF_AUC": 0.875,
+        "USF_sensitivity": 91.5,
+        "USF_specificity": 87.2,
+        "USF_precision": 88.9,
+        "USF_completeness": 94.0,
+        "USF_AUC": 0.835
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Sections 5, 6, and 7"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "bug_prediction_metrics": [
+    {
+      "name": "Halstead features",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "McCabe features",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "CK features",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "MOOD features",
+      "category": "code complexity",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "code change features",
+      "category": "process metric",
+      "is_novel": false,
+      "description": "N/A"
+    },
+    {
+      "name": "AST-based features",
+      "category": "code complexity",
+      "is_novel": true,
+      "description": "Features extracted from abstract syntax trees (ASTs) to capture both syntax and semantics of source code."
+    },
+    {
+      "name": "hyperparameter instability",
+      "category": "process metric",
+      "is_novel": true,
+      "description": "A measure of how different hyperparameter settings of a CNN model could generate similar average results for all projects but markedly different results for individual projects or versions."
+    }
+  ],
+  "source_locations": {
+    "bug_prediction_metrics": "Pages 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Random Forest",
+      "Na\u00efve Bayes",
+      "RPart",
+      "SVM",
+      "Support Vector Machine (SVM)",
+      "Decision Stumps",
+      "Bagging",
+      "Boosting",
+      "Rotation Forest",
+      "Neural Network",
+      "PNN with SVM",
+      "Bayesian Logistic Regression",
+      "Hidden Na\u00efve Bayes",
+      "Radial Basis Function (RBF) Network",
+      "Voted Perceptron",
+      "Lazy Bayesian Rule",
+      "Logit Boost",
+      "NNge",
+      "Logistic Model Tree",
+      "REP Tree",
+      "Multilayer Perceptron",
+      "Random Tree",
+      "J48",
+      "C4.5 Decision Trees",
+      "Bayesian Networks",
+      "Logistic Regression",
+      "kNN",
+      "Decision Tree",
+      "BayesNet",
+      "Artificial Neural Network (ANN)",
+      "REPTree",
+      "Voting"
+    ],
+    "novel_approaches": "The paper proposes a new model based on using different preprocessing and feature selection algorithms to obtain a highly effective and efficient model. Additionally, an Ensemble Learning method combining classifiers such as Bagging with REPTree and Voting with REPTree and Ibk is proposed.",
+    "preprocessing": [
+      "Feature Selection (FS)",
+      "Principal Component Analysis (PCA)",
+      "Dimensionality Reduction",
+      "Handling Missing Values",
+      "Normalization"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Sections 1, 2, 3, 4, and 5"
+  }
+}

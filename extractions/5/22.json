@@ -1,0 +1,19 @@
+{
+  "additional_info": {
+    "software_domain": "software bug prediction",
+    "limitations": [
+      "The Naive Bayes model applies the assumption of conditional interdependency, which restricts network architecture.",
+      "The performance of Naive Bayes can be improved by relaxing conditional independence, but this makes the model more complex.",
+      "Handling continuous features is challenging for many Bayesian learners, requiring conversion into discrete values.",
+      "Misclassification of faulty instances as non-faulty is a significant issue."
+    ],
+    "future_directions": [
+      "Exploring the performance of Support Vector Machine and Neural Network under similar conditions.",
+      "Incorporating additional information besides static code in fault prediction models, such as inter-module relations and metrics requirements.",
+      "Developing more discriminative models that consider the cost associated with misclassifying faulty instances."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Pages 1412-1421"
+  }
+}

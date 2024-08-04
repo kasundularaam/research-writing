@@ -1,0 +1,18 @@
+{
+  "additional_info": {
+    "software_domain": "open source software",
+    "limitations": [
+      "The study did not take into account the type of change (corrective, adaptive, perfective, or preventive) a class may go through.",
+      "The study did not aim to determine the causal effect of OO metrics on change proneness.",
+      "The results cannot be generalized universally as only two open source datasets were considered."
+    ],
+    "future_directions": [
+      "Replicate the study across various datasets to give generalized results across different organizations.",
+      "Take into account the confounding effect of size on the relationship between change proneness and the metrics.",
+      "Conduct cost-benefit analysis of the models to understand their economic viability."
+    ]
+  },
+  "source_locations": {
+    "additional_info": "Section 9 (Threats to validity), Section 10 (Conclusion)"
+  }
+}

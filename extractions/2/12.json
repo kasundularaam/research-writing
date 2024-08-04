@@ -1,0 +1,30 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Naive Bayes",
+      "Augmented Naive Bayes",
+      "Tree Augmented Naive Bayes (TAN)",
+      "Forest Augmented Naive Bayes (FAN)",
+      "Selective Tree Augmented Naive Bayes (STAN)",
+      "Selective Tree Augmented Naive Bayes with Discarding (STAND)",
+      "Selective Forest Augmented Naive Bayes (SFAN)",
+      "Selective Forest Augmented Naive Bayes with Discarding (SFAND)",
+      "General Bayesian Network (GBN)",
+      "K2",
+      "MMHC",
+      "Logistic Regression",
+      "Random Forests"
+    ],
+    "novel_approaches": "The study proposes the use of 15 different Bayesian Network (BN) classifiers, including various Augmented Naive Bayes classifiers and General Bayesian Network classifiers, which are compared to other popular machine learning techniques. The Markov blanket principle for feature selection is also investigated.",
+    "preprocessing": [
+      "Discretization of continuous features using the algorithm of Fayyad and Irani",
+      "Removal of attributes exhibiting zero variance",
+      "Removal of observations with logically incorrect values (e.g., total line count of zero)",
+      "Discretization of error count into a Boolean value",
+      "Stratified sampling to partition datasets into training and test sets"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Sections 3.1 to 3.6, Section 4.2, and Section 5.1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "ml_techniques": {
+    "algorithms": [
+      "Decision Tree (DT)",
+      "Artificial Neural Network (ANN)",
+      "Logistic Regression"
+    ],
+    "novel_approaches": "N/A",
+    "preprocessing": [
+      "Min-max normalization",
+      "Outlier analysis using Mahalanobis Jackknife distance"
+    ]
+  },
+  "source_locations": {
+    "ml_techniques": "Sections 5.2, 5.3, 5.4, 6"
+  }
+}

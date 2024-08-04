@@ -1,0 +1,28 @@
+{
+  "performance_evaluation": {
+    "metrics": [
+      "AUC",
+      "G-mean",
+      "sensitivity",
+      "specificity"
+    ],
+    "baseline_models": [
+      "W-SVMs",
+      "random forests"
+    ],
+    "best_model": {
+      "name": "Enhanced APE",
+      "performance": {
+        "ant-1.7": 0.86,
+        "camel-1.6": 0.8,
+        "KC3": 0.86,
+        "MC1": 0.98,
+        "PC2": 0.95,
+        "PC4": 0.96
+      }
+    }
+  },
+  "source_locations": {
+    "performance_evaluation": "Sections 5.1, 5.2, 5.4, Tables 3, 4, 5, 6"
+  }
+}
